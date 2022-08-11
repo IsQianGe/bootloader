@@ -1,0 +1,7 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "stm32wlxx.h": "c",
+        "stm32wlxx_hal.h": "c"
+    }
+}

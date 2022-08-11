@@ -1,0 +1,95 @@
+ARM GAS  /tmp/ccDkJPrS.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.arch armv7e-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 4
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"main.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.jump_app,"ax",%progbits
+  18              		.align	1
+  19              		.global	jump_app
+  20              		.syntax unified
+  21              		.thumb
+  22              		.thumb_func
+  24              	jump_app:
+  25              	.LFB0:
+  26              		.file 1 "app/src/main.c"
+   1:app/src/main.c **** 
+   2:app/src/main.c **** 
+   3:app/src/main.c **** void jump_app(void)
+   4:app/src/main.c **** {
+  27              		.loc 1 4 1 view -0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 0
+  30              		@ frame_needed = 0, uses_anonymous_args = 0
+  31              		@ link register save eliminated.
+   5:app/src/main.c **** 
+   6:app/src/main.c **** }
+  32              		.loc 1 6 1 view .LVU1
+  33 0000 7047     		bx	lr
+  34              		.cfi_endproc
+  35              	.LFE0:
+  37              		.section	.text.startup.main,"ax",%progbits
+  38              		.align	1
+  39              		.global	main
+  40              		.syntax unified
+  41              		.thumb
+  42              		.thumb_func
+  44              	main:
+  45              	.LFB1:
+   7:app/src/main.c **** int main(void)
+   8:app/src/main.c **** {
+  46              		.loc 1 8 1 view -0
+  47              		.cfi_startproc
+  48              		@ Volatile: function does not return.
+  49              		@ args = 0, pretend = 0, frame = 0
+  50              		@ frame_needed = 0, uses_anonymous_args = 0
+  51              		@ link register save eliminated.
+  52              	.L3:
+ARM GAS  /tmp/ccDkJPrS.s 			page 2
+
+
+   9:app/src/main.c **** // HAL_Init();
+  10:app/src/main.c **** // SystemClock_Config();
+  11:app/src/main.c **** //   MX_GPIO_Init();
+  12:app/src/main.c **** //   MX_SPI1_Init();
+  13:app/src/main.c **** 
+  14:app/src/main.c **** //   LFS_Init();
+  15:app/src/main.c ****   while (1)
+  53              		.loc 1 15 3 discriminator 1 view .LVU3
+  16:app/src/main.c ****   {
+  17:app/src/main.c ****     /* USER CODE END WHILE */
+  18:app/src/main.c **** 
+  19:app/src/main.c ****     /* USER CODE BEGIN 3 */
+  20:app/src/main.c ****   }
+  54              		.loc 1 20 3 discriminator 1 view .LVU4
+  15:app/src/main.c ****   {
+  55              		.loc 1 15 9 discriminator 1 view .LVU5
+  56 0000 FEE7     		b	.L3
+  57              		.cfi_endproc
+  58              	.LFE1:
+  60              		.text
+  61              	.Letext0:
+ARM GAS  /tmp/ccDkJPrS.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 main.c
+     /tmp/ccDkJPrS.s:18     .text.jump_app:0000000000000000 $t
+     /tmp/ccDkJPrS.s:24     .text.jump_app:0000000000000000 jump_app
+     /tmp/ccDkJPrS.s:38     .text.startup.main:0000000000000000 $t
+     /tmp/ccDkJPrS.s:44     .text.startup.main:0000000000000000 main
+
+NO UNDEFINED SYMBOLS
