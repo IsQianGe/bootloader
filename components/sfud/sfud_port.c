@@ -31,8 +31,9 @@
 #include <stdio.h>
 #include <stm32f10x_conf.h>
 
-typedef struct {
-    SPI_TypeDef *spix;
+typedef struct
+{
+    SPI_HandleTypeDef *spix;
     GPIO_TypeDef *cs_gpiox;
     uint16_t cs_gpio_pin;
 } spi_user_data, *spi_user_data_t;
@@ -41,33 +42,13 @@ static char log_buf[256];
 
 void sfud_log_debug(const char *file, const long line, const char *format, ...);
 
-
-static void spi_configuration(spi_user_data_t spi) {
-    SPI_InitTypeDef SPI_InitStructure;
-
-    SPI_InitStructure.SPI_Direction = SPI_Direction_2Lines_FullDuplex; //SPI 设置为双线双向全双工
-    SPI_InitStructure.SPI_Mode = SPI_Mode_Master;                      //设置为主 SPI
-    SPI_InitStructure.SPI_DataSize = SPI_DataSize_8b;                  //SPI 发送接收 8 位帧结构
-    SPI_InitStructure.SPI_CPOL = SPI_CPOL_Low;                         //时钟悬空低
-    SPI_InitStructure.SPI_CPHA = SPI_CPHA_1Edge;                       //数据捕获于第一个时钟沿
-    //TODO 以后可以尝试硬件 CS
-    SPI_InitStructure.SPI_NSS = SPI_NSS_Soft;                          //内部  NSS 信号由 SSI 位控制
-    SPI_InitStructure.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_2; //波特率预分频值为 2
-    SPI_InitStructure.SPI_FirstBit = SPI_FirstBit_MSB;                 //数据传输从 MSB 位开始
-    SPI_InitStructure.SPI_CRCPolynomial = 7;                           // CRC 值计算的多项式
-
-    SPI_I2S_DeInit(spi->spix);
-    SPI_Init(spi->spix, &SPI_InitStructure);
-
-    SPI_CalculateCRC(spi->spix, DISABLE);
-    SPI_Cmd(spi->spix, ENABLE);
-}
-
-static void spi_lock(const sfud_spi *spi) {
+static void spi_lock(const sfud_spi *spi)
+{
     __disable_irq();
 }
 
-static void spi_unlock(const sfud_spi *spi) {
+static void spi_unlock(const sfud_spi *spi)
+{
     __enable_irq();
 }
 
@@ -75,71 +56,57 @@ static void spi_unlock(const sfud_spi *spi) {
  * SPI write data then read data
  */
 static sfud_err spi_write_read(const sfud_spi *spi, const uint8_t *write_buf, size_t write_size, uint8_t *read_buf,
-        size_t read_size) {
+                               size_t read_size)
+{
     sfud_err result = SFUD_SUCCESS;
     uint8_t send_data, read_data;
-    spi_user_data_t spi_dev = (spi_user_data_t) spi->user_data;
+    spi_user_data_t spi_dev = (spi_user_data_t)spi->user_data;
 
-    if (write_size) {
+    if (write_size)
+    {
         SFUD_ASSERT(write_buf);
     }
-    if (read_size) {
+    if (read_size)
+    {
         SFUD_ASSERT(read_buf);
     }
 
-    GPIO_ResetBits(spi_dev->cs_gpiox, spi_dev->cs_gpio_pin);
+    HAL_GPIO_WritePin(spi_dev->cs_gpiox, spi_dev->cs_gpio_pin, GPIO_PIN_RESET);
     /* 开始读写数据 */
-    for (size_t i = 0, retry_times; i < write_size + read_size; i++) {
-        /* 先写缓冲区中的数据到 SPI 总线，数据写完后，再写 dummy(0xFF) 到 SPI 总线 */
-        if (i < write_size) {
-            send_data = *write_buf++;
-        } else {
-            send_data = SFUD_DUMMY_DATA;
-        }
-        /* 发送数据 */
-        retry_times = 1000;
-        while (SPI_I2S_GetFlagStatus(spi_dev->spix, SPI_I2S_FLAG_TXE) == RESET) {
-            SFUD_RETRY_PROCESS(NULL, retry_times, result);
-        }
-        if (result != SFUD_SUCCESS) {
-            goto exit;
-        }
-        SPI_I2S_SendData(spi_dev->spix, send_data);
-        /* 接收数据 */
-        retry_times = 1000;
-        while (SPI_I2S_GetFlagStatus(spi_dev->spix, SPI_I2S_FLAG_RXNE) == RESET) {
-            SFUD_RETRY_PROCESS(NULL, retry_times, result);
-        }
-        if (result != SFUD_SUCCESS) {
-            goto exit;
-        }
-        read_data = SPI_I2S_ReceiveData(spi_dev->spix);
-        /* 写缓冲区中的数据发完后，再读取 SPI 总线中的数据到读缓冲区 */
-        if (i >= write_size) {
-            *read_buf++ = read_data;
-        }
+    if (HAL_OK != HAL_SPI_Transmit(spi_dev->spix, write_buf, write_size))
+    {
+        result = SFUD_ERR_WRITE;
+        goto exit;
+    }
+    if (HAL_OK != HAL_SPI_Receive(spi_dev->spix, read_buf, read_size))
+    {
+        result = SFUD_ERR_READ;
+        goto exit;
     }
 
 exit:
-    GPIO_SetBits(spi_dev->cs_gpiox, spi_dev->cs_gpio_pin);
+    HAL_GPIO_WritePin(spi_dev->cs_gpiox, spi_dev->cs_gpio_pin, GPIO_PIN_SET);
 
     return result;
 }
 
 /* about 100 microsecond delay */
-static void retry_delay_100us(void) {
+static void retry_delay_100us(void)
+{
     uint32_t delay = 120;
-    while(delay--);
+    while (delay--)
+        ;
 }
 
-static spi_user_data spi1 = { .spix = SPI1, .cs_gpiox = GPIOC, .cs_gpio_pin = GPIO_Pin_4 };
-sfud_err sfud_spi_port_init(sfud_flash *flash) {
+static spi_user_data spi1 = {.spix = &SPI1, .cs_gpiox = GPIOC, .cs_gpio_pin = GPIO_Pin_4};
+sfud_err sfud_spi_port_init(sfud_flash *flash)
+{
     sfud_err result = SFUD_SUCCESS;
 
-    switch (flash->index) {
-    case SFUD_W25Q16_DEVICE_INDEX: {
-        /* SPI 外设初始化 */
-        spi_configuration(&spi1);
+    switch (flash->index)
+    {
+    case SFUD_W25Q16_DEVICE_INDEX:
+    {
         /* 同步 Flash 移植所需的接口及数据 */
         flash->spi.wr = spi_write_read;
         flash->spi.lock = spi_lock;
@@ -165,7 +132,8 @@ sfud_err sfud_spi_port_init(sfud_flash *flash) {
  * @param format output format
  * @param ... args
  */
-void sfud_log_debug(const char *file, const long line, const char *format, ...) {
+void sfud_log_debug(const char *file, const long line, const char *format, ...)
+{
     va_list args;
 
     /* args point to the first variable parameter */
@@ -183,7 +151,8 @@ void sfud_log_debug(const char *file, const long line, const char *format, ...) 
  * @param format output format
  * @param ... args
  */
-void sfud_log_info(const char *format, ...) {
+void sfud_log_info(const char *format, ...)
+{
     va_list args;
 
     /* args point to the first variable parameter */
