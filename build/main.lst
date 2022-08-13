@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccDkJPrS.s 			page 1
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -24,23 +24,24 @@ ARM GAS  /tmp/ccDkJPrS.s 			page 1
   21              		.thumb
   22              		.thumb_func
   24              	jump_app:
-  25              	.LFB0:
+  25              	.LFB738:
   26              		.file 1 "app/src/main.c"
-   1:app/src/main.c **** 
-   2:app/src/main.c **** 
-   3:app/src/main.c **** void jump_app(void)
-   4:app/src/main.c **** {
-  27              		.loc 1 4 1 view -0
+   1:app/src/main.c **** #include "stm32wlxx_hal.h"
+   2:app/src/main.c **** #include "lfs_port.h"
+   3:app/src/main.c **** 
+   4:app/src/main.c **** void jump_app(void)
+   5:app/src/main.c **** {
+  27              		.loc 1 5 1 view -0
   28              		.cfi_startproc
   29              		@ args = 0, pretend = 0, frame = 0
   30              		@ frame_needed = 0, uses_anonymous_args = 0
   31              		@ link register save eliminated.
-   5:app/src/main.c **** 
-   6:app/src/main.c **** }
-  32              		.loc 1 6 1 view .LVU1
+   6:app/src/main.c **** 
+   7:app/src/main.c **** }
+  32              		.loc 1 7 1 view .LVU1
   33 0000 7047     		bx	lr
   34              		.cfi_endproc
-  35              	.LFE0:
+  35              	.LFE738:
   37              		.section	.text.startup.main,"ax",%progbits
   38              		.align	1
   39              		.global	main
@@ -48,48 +49,63 @@ ARM GAS  /tmp/ccDkJPrS.s 			page 1
   41              		.thumb
   42              		.thumb_func
   44              	main:
-  45              	.LFB1:
-   7:app/src/main.c **** int main(void)
-   8:app/src/main.c **** {
-  46              		.loc 1 8 1 view -0
+  45              	.LFB739:
+   8:app/src/main.c **** int main(void)
+   9:app/src/main.c **** {
+  46              		.loc 1 9 1 view -0
   47              		.cfi_startproc
   48              		@ Volatile: function does not return.
   49              		@ args = 0, pretend = 0, frame = 0
   50              		@ frame_needed = 0, uses_anonymous_args = 0
-  51              		@ link register save eliminated.
-  52              	.L3:
-ARM GAS  /tmp/ccDkJPrS.s 			page 2
+  10:app/src/main.c **** // HAL_Init();
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s 			page 2
 
 
+  11:app/src/main.c **** // SystemClock_Config();
+  12:app/src/main.c **** //   MX_GPIO_Init();
+  13:app/src/main.c **** //   MX_SPI1_Init();
+  14:app/src/main.c **** 
+  15:app/src/main.c **** LFS_Init();
+  51              		.loc 1 15 1 view .LVU3
    9:app/src/main.c **** // HAL_Init();
-  10:app/src/main.c **** // SystemClock_Config();
-  11:app/src/main.c **** //   MX_GPIO_Init();
-  12:app/src/main.c **** //   MX_SPI1_Init();
-  13:app/src/main.c **** 
-  14:app/src/main.c **** //   LFS_Init();
-  15:app/src/main.c ****   while (1)
-  53              		.loc 1 15 3 discriminator 1 view .LVU3
-  16:app/src/main.c ****   {
-  17:app/src/main.c ****     /* USER CODE END WHILE */
-  18:app/src/main.c **** 
-  19:app/src/main.c ****     /* USER CODE BEGIN 3 */
-  20:app/src/main.c ****   }
-  54              		.loc 1 20 3 discriminator 1 view .LVU4
-  15:app/src/main.c ****   {
-  55              		.loc 1 15 9 discriminator 1 view .LVU5
-  56 0000 FEE7     		b	.L3
-  57              		.cfi_endproc
-  58              	.LFE1:
-  60              		.text
-  61              	.Letext0:
-ARM GAS  /tmp/ccDkJPrS.s 			page 3
+  52              		.loc 1 9 1 is_stmt 0 view .LVU4
+  53 0000 08B5     		push	{r3, lr}
+  54              	.LCFI0:
+  55              		.cfi_def_cfa_offset 8
+  56              		.cfi_offset 3, -8
+  57              		.cfi_offset 14, -4
+  58              		.loc 1 15 1 view .LVU5
+  59 0002 FFF7FEFF 		bl	LFS_Init
+  60              	.LVL0:
+  61              	.L3:
+  16:app/src/main.c ****   while (1)
+  62              		.loc 1 16 3 is_stmt 1 discriminator 1 view .LVU6
+  17:app/src/main.c ****   {
+  18:app/src/main.c ****     /* USER CODE END WHILE */
+  19:app/src/main.c **** 
+  20:app/src/main.c ****     /* USER CODE BEGIN 3 */
+  21:app/src/main.c ****   }
+  63              		.loc 1 21 3 discriminator 1 view .LVU7
+  16:app/src/main.c ****   while (1)
+  64              		.loc 1 16 9 discriminator 1 view .LVU8
+  65 0006 FEE7     		b	.L3
+  66              		.cfi_endproc
+  67              	.LFE739:
+  69              		.text
+  70              	.Letext0:
+  71              		.file 2 "/Applications/ARM/arm-none-eabi/include/machine/_default_types.h"
+  72              		.file 3 "/Applications/ARM/arm-none-eabi/include/sys/_stdint.h"
+  73              		.file 4 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_ll_dma.h"
+  74              		.file 5 "components/littlefs/lfs_port.h"
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s 			page 3
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-     /tmp/ccDkJPrS.s:18     .text.jump_app:0000000000000000 $t
-     /tmp/ccDkJPrS.s:24     .text.jump_app:0000000000000000 jump_app
-     /tmp/ccDkJPrS.s:38     .text.startup.main:0000000000000000 $t
-     /tmp/ccDkJPrS.s:44     .text.startup.main:0000000000000000 main
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s:18     .text.jump_app:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s:24     .text.jump_app:0000000000000000 jump_app
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s:38     .text.startup.main:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s:44     .text.startup.main:0000000000000000 main
 
-NO UNDEFINED SYMBOLS
+UNDEFINED SYMBOLS
+LFS_Init

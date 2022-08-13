@@ -1,4 +1,5 @@
-
+#include "stm32wlxx_hal.h"
+#include "lfs_port.h"
 
 void jump_app(void)
 {
@@ -11,7 +12,7 @@ int main(void)
 //   MX_GPIO_Init();
 //   MX_SPI1_Init();
 
-//   LFS_Init();
+LFS_Init();
   while (1)
   {
     /* USER CODE END WHILE */

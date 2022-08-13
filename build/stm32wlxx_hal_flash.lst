@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccTZuQ8V.s 			page 1
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
   30:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****       (+) Option bytes programming
   31:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****       (+) Prefetch on CPU1 I-Code and CPU2 S-bus
   32:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****       (+) 32 instruction cache lines of 4*64 bits on I-Code for CPU1
-ARM GAS  /tmp/ccTZuQ8V.s 			page 2
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 2
 
 
   33:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****       (+) 8 data cache lines of 4*64 bits on D-Code for CPU1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
   87:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   *                       opensource.org/licenses/BSD-3-Clause
   88:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   *
   89:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   ******************************************************************************
-ARM GAS  /tmp/ccTZuQ8V.s 			page 3
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 3
 
 
   90:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  144:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
  145:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** /* Exported functions --------------------------------------------------------*/
  146:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** /** @defgroup FLASH_Exported_Functions FLASH Exported Functions
-ARM GAS  /tmp/ccTZuQ8V.s 			page 4
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 4
 
 
  147:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   * @{
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  201:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****       assert_param(IS_FLASH_PROGRAM_ADDRESS(Address));
  202:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
  203:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****       /* Program double-word (64-bit) at a specified address */
-ARM GAS  /tmp/ccTZuQ8V.s 			page 5
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 5
 
 
  204:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****       FLASH_Program_DoubleWord(Address, Data);
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  258:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   /* Reset error code */
  259:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   pFlash.ErrorCode = HAL_FLASH_ERROR_NONE;
  260:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
-ARM GAS  /tmp/ccTZuQ8V.s 			page 6
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 6
 
 
  261:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   /* Verify that next operation can be proceed */
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  315:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   CLEAR_BIT(FLASH->C2CR, pFlash.ProcedureOnGoing);
  316:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** #else
  317:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   error = (FLASH->SR & FLASH_FLAG_SR_ERRORS);
-ARM GAS  /tmp/ccTZuQ8V.s 			page 7
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 7
 
 
  318:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  372:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****         pFlash.Page++;
  373:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****         FLASH_PageErase(pFlash.Page);
  374:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****       }
-ARM GAS  /tmp/ccTZuQ8V.s 			page 8
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 8
 
 
  375:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****       else
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  429:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   /* Prevent unused argument(s) compilation warning */
  430:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   UNUSED(ReturnValue);
  431:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
-ARM GAS  /tmp/ccTZuQ8V.s 			page 9
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 9
 
 
  432:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   /* NOTE : This function should not be modified, when the callback is needed,
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  486:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   HAL_StatusTypeDef status = HAL_OK;
  487:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
  488:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   /* Set the LOCK Bit to lock the FLASH Registers access */
-ARM GAS  /tmp/ccTZuQ8V.s 			page 10
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 10
 
 
  489:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   /* @Note  The lock and unlock procedure is done only using CR registers even from CPU2 */
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  543:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
  544:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   return status;
  545:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** }
-ARM GAS  /tmp/ccTZuQ8V.s 			page 11
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 11
 
 
  546:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  600:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** /**
  601:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   * @}
  602:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   */
-ARM GAS  /tmp/ccTZuQ8V.s 			page 12
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 12
 
 
  603:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  657:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   {
  658:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****     /*Save the error code*/
  659:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****     pFlash.ErrorCode = error;
-ARM GAS  /tmp/ccTZuQ8V.s 			page 13
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 13
 
 
  660:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  714:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** {
   27              		.loc 1 714 1 view -0
   28              		.cfi_startproc
-ARM GAS  /tmp/ccTZuQ8V.s 			page 14
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 14
 
 
   29              		@ args = 0, pretend = 0, frame = 0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
   17:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****  *
   18:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****  * Unless required by applicable law or agreed to in writing, software
   19:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****  * distributed under the License is distributed on an AS IS BASIS, WITHOUT
-ARM GAS  /tmp/ccTZuQ8V.s 			page 15
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 15
 
 
   20:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
   74:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   struct __attribute__((packed)) T_UINT32 { uint32_t v; };
   75:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
   76:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT32(x)                  (((struct T_UINT32 *)(x))->v)
-ARM GAS  /tmp/ccTZuQ8V.s 			page 16
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 16
 
 
   77:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** #endif
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  131:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE __NO_RETURN void __cmsis_start(void)
  132:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** {
  133:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   extern void _start(void) __NO_RETURN;
-ARM GAS  /tmp/ccTZuQ8V.s 			page 17
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 17
 
 
  134:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  188:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** #endif
  189:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
  190:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** #ifndef __TZ_STACK_SEAL_SIZE
-ARM GAS  /tmp/ccTZuQ8V.s 			page 18
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 18
 
 
  191:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** #define __TZ_STACK_SEAL_SIZE      8U
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  245:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** /**
  246:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \brief   Send Event
  247:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \details Send Event is a hint instruction. It causes an event to be signaled to the CPU.
-ARM GAS  /tmp/ccTZuQ8V.s 			page 19
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 19
 
 
  248:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****  */
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  302:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** }
  303:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
  304:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccTZuQ8V.s 			page 20
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 20
 
 
  305:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** /**
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  359:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \details Causes the processor to enter Debug state.
  360:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****            Debug tools can use this to investigate system state when the instruction at a particula
  361:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \param [in]    value  is ignored by the processor.
-ARM GAS  /tmp/ccTZuQ8V.s 			page 21
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 21
 
 
  362:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****                  If required, a debugger can use it to store additional information about the break
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  416:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****     return 32U;
  417:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   }
  418:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   return __builtin_clz(value);
-ARM GAS  /tmp/ccTZuQ8V.s 			page 22
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 22
 
 
  419:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** }
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  473:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \param [in]    ptr  Pointer to data
  474:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \return        value of type uint32_t at (*ptr)
  475:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****  */
-ARM GAS  /tmp/ccTZuQ8V.s 			page 23
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 23
 
 
  476:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __LDREXW(volatile uint32_t *addr)
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  530:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
  531:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****    __ASM volatile ("strex %0, %2, %1" : "=&r" (result), "=Q" (*addr) : "r" (value) );
  532:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****    return(result);
-ARM GAS  /tmp/ccTZuQ8V.s 			page 24
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 24
 
 
  533:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** }
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  587:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \brief   Rotate Right with Extend (32 bit)
  588:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \details Moves each bit of a bitstring right by one bit.
  589:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****            The carry input is shifted in at the left end of the bitstring.
-ARM GAS  /tmp/ccTZuQ8V.s 			page 25
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 25
 
 
  590:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \param [in]    value  Value to rotate
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  644:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
  645:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
  646:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** /**
-ARM GAS  /tmp/ccTZuQ8V.s 			page 26
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 26
 
 
  647:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \brief   LDRT Unprivileged (32 bit)
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  701:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \brief   Signed Saturate
  702:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \details Saturates a signed value.
  703:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \param [in]  value  Value to be saturated
-ARM GAS  /tmp/ccTZuQ8V.s 			page 27
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 27
 
 
  704:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \param [in]    sat  Bit position to saturate to (1..32)
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  758:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \details Executes a LDAB instruction for 8 bit value.
  759:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \param [in]    ptr  Pointer to data
  760:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \return             value of type uint8_t at (*ptr)
-ARM GAS  /tmp/ccTZuQ8V.s 			page 28
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 28
 
 
  761:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****  */
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  815:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \details Executes a STLH instruction for 16 bit values.
  816:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \param [in]  value  Value to store
  817:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   \param [in]    ptr  Pointer to location
-ARM GAS  /tmp/ccTZuQ8V.s 			page 29
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 29
 
 
  818:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****  */
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  872:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****  */
  873:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __LDAEX(volatile uint32_t *ptr)
  874:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** {
-ARM GAS  /tmp/ccTZuQ8V.s 			page 30
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 30
 
 
  875:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****     uint32_t result;
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  929:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****    return(result);
  930:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** }
  931:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccTZuQ8V.s 			page 31
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 31
 
 
  932:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** #endif /* ((defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) || \
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  986:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_CONTROL_NS(void)
  987:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** {
  988:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   uint32_t result;
-ARM GAS  /tmp/ccTZuQ8V.s 			page 32
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 32
 
 
  989:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
 1043:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   uint32_t result;
 1044:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
 1045:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, apsr" : "=r" (result) );
-ARM GAS  /tmp/ccTZuQ8V.s 			page 33
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 33
 
 
 1046:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   return(result);
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
 1100:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** {
 1101:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   __ASM volatile ("MSR psp, %0" : : "r" (topOfProcStack) : );
 1102:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** }
-ARM GAS  /tmp/ccTZuQ8V.s 			page 34
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 34
 
 
 1103:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
 1157:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
 1158:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** 
 1159:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
-ARM GAS  /tmp/ccTZuQ8V.s 			page 35
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 35
 
 
 1160:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** /**
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
   57              	@ 1208 "hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h" 1
   58 000c EFF31084 		MRS r4, primask
   59              	@ 0 "" 2
-ARM GAS  /tmp/ccTZuQ8V.s 			page 36
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 36
 
 
   60              	.LVL1:
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
   98 0018 0433     		adds	r3, r3, #4
   99              	.LVL4:
  100              		.loc 1 739 3 discriminator 1 view .LVU28
-ARM GAS  /tmp/ccTZuQ8V.s 			page 37
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 37
 
 
  101 001a B3F5807F 		cmp	r3, #256
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  117              	.LBB15:
 1235:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** {
 1236:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h ****   __ASM volatile ("MSR primask, %0" : : "r" (priMask) : "memory");
-ARM GAS  /tmp/ccTZuQ8V.s 			page 38
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 38
 
 
  118              		.loc 2 1236 3 view .LVU35
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  172              		@ frame_needed = 0, uses_anonymous_args = 0
  173              		@ link register save eliminated.
  174 0000 7047     		bx	lr
-ARM GAS  /tmp/ccTZuQ8V.s 			page 39
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 39
 
 
  175              		.cfi_endproc
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  317:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
  219              		.loc 1 317 9 view .LVU54
  220 0018 23F00503 		bic	r3, r3, #5
-ARM GAS  /tmp/ccTZuQ8V.s 			page 40
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 40
 
 
  221 001c 1B04     		lsls	r3, r3, #16
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  351:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
  256              		.loc 1 351 5 view .LVU74
  351:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
-ARM GAS  /tmp/ccTZuQ8V.s 			page 41
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 41
 
 
  257              		.loc 1 351 29 is_stmt 0 view .LVU75
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  293              		.loc 1 369 7 is_stmt 1 view .LVU93
  369:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****       {
  294              		.loc 1 369 10 is_stmt 0 view .LVU94
-ARM GAS  /tmp/ccTZuQ8V.s 			page 42
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 42
 
 
  295 0056 DBB1     		cbz	r3, .L15
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  333 0080 38BD     		pop	{r3, r4, r5, pc}
  334              	.LVL17:
  335              	.L11:
-ARM GAS  /tmp/ccTZuQ8V.s 			page 43
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 43
 
 
  330:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   {
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  381              		.loc 1 464 3 view .LVU121
  464:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   {
  382              		.loc 1 464 7 is_stmt 0 view .LVU122
-ARM GAS  /tmp/ccTZuQ8V.s 			page 44
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 44
 
 
  383 0000 064B     		ldr	r3, .L33
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  490:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
  429              		.loc 1 490 3 view .LVU133
  430 0000 044B     		ldr	r3, .L36
-ARM GAS  /tmp/ccTZuQ8V.s 			page 45
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 45
 
 
  431 0002 5A69     		ldr	r2, [r3, #20]
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  513:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****     WRITE_REG(FLASH->OPTKEYR, FLASH_OPTKEY2);
  476              		.loc 1 513 5 is_stmt 1 view .LVU145
  477 0006 41BF     		itttt	mi
-ARM GAS  /tmp/ccTZuQ8V.s 			page 46
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 46
 
 
  478 0008 064A     		ldrmi	r2, .L41+4
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  539:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   {
  524              		.loc 1 539 7 is_stmt 0 view .LVU156
  525 000a 5869     		ldr	r0, [r3, #20]
-ARM GAS  /tmp/ccTZuQ8V.s 			page 47
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 47
 
 
  526              	.LVL30:
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  575              		.global	HAL_FLASH_GetError
  576              		.syntax unified
  577              		.thumb
-ARM GAS  /tmp/ccTZuQ8V.s 			page 48
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 48
 
 
  578              		.thumb_func
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  626 0004 FFF7FEFF 		bl	HAL_GetTick
  627              	.LVL34:
  627:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   {
-ARM GAS  /tmp/ccTZuQ8V.s 			page 49
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 49
 
 
  628              		.loc 1 627 10 view .LVU174
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  663 0020 1340     		ands	r3, r3, r2
  664              	.LVL38:
  654:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
-ARM GAS  /tmp/ccTZuQ8V.s 			page 50
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 50
 
 
  665              		.loc 1 654 3 is_stmt 0 view .LVU194
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  654:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
  705              		.loc 1 654 3 is_stmt 1 discriminator 4 view .LVU209
  706 0048 024A     		ldr	r2, .L66
-ARM GAS  /tmp/ccTZuQ8V.s 			page 51
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 51
 
 
  707 004a 1361     		str	r3, [r2, #16]
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  752              		.loc 1 188 3 view .LVU220
  753 0004 184D     		ldr	r5, .L74
  179:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   HAL_StatusTypeDef status;
-ARM GAS  /tmp/ccTZuQ8V.s 			page 52
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 52
 
 
  754              		.loc 1 179 1 view .LVU221
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  789 0024 A0B9     		cbnz	r0, .L70
  198:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****     {
  790              		.loc 1 198 5 is_stmt 1 view .LVU241
-ARM GAS  /tmp/ccTZuQ8V.s 			page 53
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 53
 
 
  198:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****     {
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  831              		.loc 1 216 5 is_stmt 1 view .LVU255
  216:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
  832              		.loc 1 216 14 is_stmt 0 view .LVU256
-ARM GAS  /tmp/ccTZuQ8V.s 			page 54
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 54
 
 
  833 003e 4FF47A70 		mov	r0, #1000
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  875 0068 00000000 		.word	.LANCHOR0
  876 006c 00400058 		.word	1476411392
  877              		.cfi_endproc
-ARM GAS  /tmp/ccTZuQ8V.s 			page 55
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 55
 
 
  878              	.LFE721:
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  247:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c ****   HAL_StatusTypeDef status;
  922              		.loc 1 247 1 is_stmt 0 view .LVU281
  923 0010 1746     		mov	r7, r2
-ARM GAS  /tmp/ccTZuQ8V.s 			page 56
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 56
 
 
  256:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  960 0036 C5E90284 		strd	r8, r4, [r5, #8]
  276:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
  961              		.loc 1 276 5 is_stmt 1 view .LVU300
-ARM GAS  /tmp/ccTZuQ8V.s 			page 57
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 57
 
 
  276:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_flash.c **** 
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  260:hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h **** }
  999              		.loc 2 260 3 view .LVU318
  1000              		.syntax unified
-ARM GAS  /tmp/ccTZuQ8V.s 			page 58
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 58
 
 
  1001              	@ 260 "hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h" 1
@@ -3478,62 +3478,62 @@ ARM GAS  /tmp/ccTZuQ8V.s 			page 1
  1047      00000000 
  1047      00000000 
  1048              		.text
-ARM GAS  /tmp/ccTZuQ8V.s 			page 59
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 59
 
 
  1049              	.Letext0:
- 1050              		.file 3 "/opt/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h"
- 1051              		.file 4 "/opt/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h"
+ 1050              		.file 3 "/Applications/ARM/arm-none-eabi/include/machine/_default_types.h"
+ 1051              		.file 4 "/Applications/ARM/arm-none-eabi/include/sys/_stdint.h"
  1052              		.file 5 "hardware/mcu/st/cmsis_device_wl/Include/stm32wle5xx.h"
  1053              		.file 6 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_hal_def.h"
  1054              		.file 7 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_hal_flash.h"
  1055              		.file 8 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_hal.h"
  1056              		.file 9 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_hal_flash_ex.h"
  1057              		.file 10 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_ll_dma.h"
-ARM GAS  /tmp/ccTZuQ8V.s 			page 60
+ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s 			page 60
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32wlxx_hal_flash.c
-     /tmp/ccTZuQ8V.s:18     .text.FLASH_Program_Fast:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:23     .text.FLASH_Program_Fast:0000000000000000 FLASH_Program_Fast
-     /tmp/ccTZuQ8V.s:136    .text.FLASH_Program_Fast:000000000000002c $d
-     /tmp/ccTZuQ8V.s:141    .text.HAL_FLASH_EndOfOperationCallback:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:147    .text.HAL_FLASH_EndOfOperationCallback:0000000000000000 HAL_FLASH_EndOfOperationCallback
-     /tmp/ccTZuQ8V.s:162    .text.HAL_FLASH_OperationErrorCallback:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:168    .text.HAL_FLASH_OperationErrorCallback:0000000000000000 HAL_FLASH_OperationErrorCallback
-     /tmp/ccTZuQ8V.s:179    .text.HAL_FLASH_IRQHandler:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:185    .text.HAL_FLASH_IRQHandler:0000000000000000 HAL_FLASH_IRQHandler
-     /tmp/ccTZuQ8V.s:359    .text.HAL_FLASH_IRQHandler:0000000000000098 $d
-     /tmp/ccTZuQ8V.s:366    .text.HAL_FLASH_Unlock:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:372    .text.HAL_FLASH_Unlock:0000000000000000 HAL_FLASH_Unlock
-     /tmp/ccTZuQ8V.s:408    .text.HAL_FLASH_Unlock:000000000000001c $d
-     /tmp/ccTZuQ8V.s:414    .text.HAL_FLASH_Lock:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:420    .text.HAL_FLASH_Lock:0000000000000000 HAL_FLASH_Lock
-     /tmp/ccTZuQ8V.s:450    .text.HAL_FLASH_Lock:0000000000000014 $d
-     /tmp/ccTZuQ8V.s:455    .text.HAL_FLASH_OB_Unlock:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:461    .text.HAL_FLASH_OB_Unlock:0000000000000000 HAL_FLASH_OB_Unlock
-     /tmp/ccTZuQ8V.s:497    .text.HAL_FLASH_OB_Unlock:0000000000000020 $d
-     /tmp/ccTZuQ8V.s:503    .text.HAL_FLASH_OB_Lock:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:509    .text.HAL_FLASH_OB_Lock:0000000000000000 HAL_FLASH_OB_Lock
-     /tmp/ccTZuQ8V.s:539    .text.HAL_FLASH_OB_Lock:0000000000000018 $d
-     /tmp/ccTZuQ8V.s:544    .text.HAL_FLASH_OB_Launch:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:550    .text.HAL_FLASH_OB_Launch:0000000000000000 HAL_FLASH_OB_Launch
-     /tmp/ccTZuQ8V.s:569    .text.HAL_FLASH_OB_Launch:0000000000000010 $d
-     /tmp/ccTZuQ8V.s:574    .text.HAL_FLASH_GetError:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:580    .text.HAL_FLASH_GetError:0000000000000000 HAL_FLASH_GetError
-     /tmp/ccTZuQ8V.s:595    .text.HAL_FLASH_GetError:0000000000000008 $d
-     /tmp/ccTZuQ8V.s:600    .text.FLASH_WaitForLastOperation:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:606    .text.FLASH_WaitForLastOperation:0000000000000000 FLASH_WaitForLastOperation
-     /tmp/ccTZuQ8V.s:723    .text.FLASH_WaitForLastOperation:0000000000000054 $d
-     /tmp/ccTZuQ8V.s:729    .text.HAL_FLASH_Program:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:735    .text.HAL_FLASH_Program:0000000000000000 HAL_FLASH_Program
-     /tmp/ccTZuQ8V.s:875    .text.HAL_FLASH_Program:0000000000000068 $d
-     /tmp/ccTZuQ8V.s:881    .text.HAL_FLASH_Program_IT:0000000000000000 $t
-     /tmp/ccTZuQ8V.s:887    .text.HAL_FLASH_Program_IT:0000000000000000 HAL_FLASH_Program_IT
-     /tmp/ccTZuQ8V.s:1035   .text.HAL_FLASH_Program_IT:0000000000000074 $d
-     /tmp/ccTZuQ8V.s:1046   .bss.pFlash:0000000000000000 pFlash
-     /tmp/ccTZuQ8V.s:1042   .bss.pFlash:0000000000000000 $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:18     .text.FLASH_Program_Fast:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:23     .text.FLASH_Program_Fast:0000000000000000 FLASH_Program_Fast
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:136    .text.FLASH_Program_Fast:000000000000002c $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:141    .text.HAL_FLASH_EndOfOperationCallback:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:147    .text.HAL_FLASH_EndOfOperationCallback:0000000000000000 HAL_FLASH_EndOfOperationCallback
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:162    .text.HAL_FLASH_OperationErrorCallback:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:168    .text.HAL_FLASH_OperationErrorCallback:0000000000000000 HAL_FLASH_OperationErrorCallback
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:179    .text.HAL_FLASH_IRQHandler:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:185    .text.HAL_FLASH_IRQHandler:0000000000000000 HAL_FLASH_IRQHandler
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:359    .text.HAL_FLASH_IRQHandler:0000000000000098 $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:366    .text.HAL_FLASH_Unlock:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:372    .text.HAL_FLASH_Unlock:0000000000000000 HAL_FLASH_Unlock
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:408    .text.HAL_FLASH_Unlock:000000000000001c $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:414    .text.HAL_FLASH_Lock:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:420    .text.HAL_FLASH_Lock:0000000000000000 HAL_FLASH_Lock
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:450    .text.HAL_FLASH_Lock:0000000000000014 $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:455    .text.HAL_FLASH_OB_Unlock:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:461    .text.HAL_FLASH_OB_Unlock:0000000000000000 HAL_FLASH_OB_Unlock
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:497    .text.HAL_FLASH_OB_Unlock:0000000000000020 $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:503    .text.HAL_FLASH_OB_Lock:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:509    .text.HAL_FLASH_OB_Lock:0000000000000000 HAL_FLASH_OB_Lock
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:539    .text.HAL_FLASH_OB_Lock:0000000000000018 $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:544    .text.HAL_FLASH_OB_Launch:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:550    .text.HAL_FLASH_OB_Launch:0000000000000000 HAL_FLASH_OB_Launch
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:569    .text.HAL_FLASH_OB_Launch:0000000000000010 $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:574    .text.HAL_FLASH_GetError:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:580    .text.HAL_FLASH_GetError:0000000000000000 HAL_FLASH_GetError
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:595    .text.HAL_FLASH_GetError:0000000000000008 $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:600    .text.FLASH_WaitForLastOperation:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:606    .text.FLASH_WaitForLastOperation:0000000000000000 FLASH_WaitForLastOperation
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:723    .text.FLASH_WaitForLastOperation:0000000000000054 $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:729    .text.HAL_FLASH_Program:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:735    .text.HAL_FLASH_Program:0000000000000000 HAL_FLASH_Program
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:875    .text.HAL_FLASH_Program:0000000000000068 $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:881    .text.HAL_FLASH_Program_IT:0000000000000000 $t
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:887    .text.HAL_FLASH_Program_IT:0000000000000000 HAL_FLASH_Program_IT
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:1035   .text.HAL_FLASH_Program_IT:0000000000000074 $d
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:1046   .bss.pFlash:0000000000000000 pFlash
+/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccpPntHs.s:1042   .bss.pFlash:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 FLASH_PageErase

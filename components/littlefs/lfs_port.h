@@ -14,7 +14,7 @@
 
 extern lfs_t lfs;
 
-HAL_StatusTypeDef LFS_Init(void);
+void LFS_Init(void);
 extern void app_init(void);
 
 #endif /*  __LFS_PORT_H__ */

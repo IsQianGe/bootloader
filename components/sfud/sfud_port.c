@@ -29,7 +29,9 @@
 #include <sfud.h>
 #include <stdarg.h>
 #include <stdio.h>
-#include <stm32f10x_conf.h>
+#include "stm32wlxx_hal.h"
+
+#define SPI_TIME_OUT  100
 
 typedef struct
 {
@@ -73,12 +75,12 @@ static sfud_err spi_write_read(const sfud_spi *spi, const uint8_t *write_buf, si
 
     HAL_GPIO_WritePin(spi_dev->cs_gpiox, spi_dev->cs_gpio_pin, GPIO_PIN_RESET);
     /* 开始读写数据 */
-    if (HAL_OK != HAL_SPI_Transmit(spi_dev->spix, write_buf, write_size))
+    if (HAL_OK != HAL_SPI_Transmit(spi_dev->spix, write_buf, write_size, SPI_TIME_OUT))
     {
         result = SFUD_ERR_WRITE;
         goto exit;
     }
-    if (HAL_OK != HAL_SPI_Receive(spi_dev->spix, read_buf, read_size))
+    if (HAL_OK != HAL_SPI_Receive(spi_dev->spix, read_buf, read_size, SPI_TIME_OUT))
     {
         result = SFUD_ERR_READ;
         goto exit;
@@ -98,14 +100,14 @@ static void retry_delay_100us(void)
         ;
 }
 
-static spi_user_data spi1 = {.spix = &SPI1, .cs_gpiox = GPIOC, .cs_gpio_pin = GPIO_Pin_4};
+static spi_user_data spi1 = {.spix = SPI1, .cs_gpiox = GPIOC, .cs_gpio_pin = GPIO_PIN_4};
 sfud_err sfud_spi_port_init(sfud_flash *flash)
 {
     sfud_err result = SFUD_SUCCESS;
 
     switch (flash->index)
     {
-    case SFUD_W25Q16_DEVICE_INDEX:
+    case SFUD_XXXX_DEVICE_INDEX:
     {
         /* 同步 Flash 移植所需的接口及数据 */
         flash->spi.wr = spi_write_read;
