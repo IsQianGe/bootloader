@@ -99,15 +99,14 @@ static void retry_delay_100us(void)
     while (delay--)
         ;
 }
-
-static spi_user_data spi1 = {.spix = SPI1, .cs_gpiox = GPIOC, .cs_gpio_pin = GPIO_PIN_4};
+static spi_user_data spi1 = { .spix = SPI1, .cs_gpiox = GPIOC, .cs_gpio_pin = GPIO_PIN_4 };
 sfud_err sfud_spi_port_init(sfud_flash *flash)
 {
     sfud_err result = SFUD_SUCCESS;
 
     switch (flash->index)
     {
-    case SFUD_XXXX_DEVICE_INDEX:
+    case SFUD_ZD25_DEVICE_INDEX:
     {
         /* 同步 Flash 移植所需的接口及数据 */
         flash->spi.wr = spi_write_read;

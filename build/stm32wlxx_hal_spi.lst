@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
+ARM GAS  /tmp/ccxHOabk.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
   30:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****               (+++) Enable the NVIC SPI IRQ handle
   31:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           (##) DMA Configuration if you need to use DMA process
   32:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****               (+++) Declare a DMA_HandleTypeDef handle structure for the transmit or receive Stream
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 2
+ARM GAS  /tmp/ccxHOabk.s 			page 2
 
 
   33:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****               (+++) Enable the DMAx clock
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
   87:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****             (++) TxCpltCallback        : SPI Tx Completed callback
   88:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****             (++) RxCpltCallback        : SPI Rx Completed callback
   89:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****             (++) TxRxCpltCallback      : SPI TxRx Completed callback
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 3
+ARM GAS  /tmp/ccxHOabk.s 			page 3
 
 
   90:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****             (++) TxHalfCpltCallback    : SPI Tx Half Completed callback
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  144:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****        |         |----------------|----------|----------|-----------|----------|-----------|-------
  145:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****        |    R    |     Interrupt  | Fpclk/8  | Fpclk/16 | Fpclk/8   | Fpclk/8  | Fpclk/8   | Fpclk/
  146:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****        |    X    |----------------|----------|----------|-----------|----------|-----------|-------
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 4
+ARM GAS  /tmp/ccxHOabk.s 			page 4
 
 
  147:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****        |         |       DMA      | Fpclk/4  | Fpclk/2  | Fpclk/2   | Fpclk/16 | Fpclk/2   | Fpclk/
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  201:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /* Includes ------------------------------------------------------------------*/
  202:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #include "stm32wlxx_hal.h"
  203:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 5
+ARM GAS  /tmp/ccxHOabk.s 			page 5
 
 
  204:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /** @addtogroup STM32WLxx_HAL_Driver
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  258:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** static void SPI_AbortRx_ISR(SPI_HandleTypeDef *hspi);
  259:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** static void SPI_AbortTx_ISR(SPI_HandleTypeDef *hspi);
  260:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** static void SPI_CloseRxTx_ISR(SPI_HandleTypeDef *hspi);
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 6
+ARM GAS  /tmp/ccxHOabk.s 			page 6
 
 
  261:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** static void SPI_CloseRx_ISR(SPI_HandleTypeDef *hspi);
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  315:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   */
  316:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** HAL_StatusTypeDef HAL_SPI_Init(SPI_HandleTypeDef *hspi)
  317:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 7
+ARM GAS  /tmp/ccxHOabk.s 			page 7
 
 
  318:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   uint32_t frxth;
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  372:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     /* Allocate lock resource and initialize it */
  373:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     hspi->Lock = HAL_UNLOCKED;
  374:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 8
+ARM GAS  /tmp/ccxHOabk.s 			page 8
 
 
  375:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  429:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****                                   (hspi->Init.BaudRatePrescaler & SPI_CR1_BR_Msk) |
  430:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****                                   (hspi->Init.FirstBit  & SPI_CR1_LSBFIRST) |
  431:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****                                   (hspi->Init.CRCCalculation & SPI_CR1_CRCEN)));
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 9
+ARM GAS  /tmp/ccxHOabk.s 			page 9
 
 
  432:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  486:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @brief  De-Initialize the SPI peripheral.
  487:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
  488:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *               the configuration information for SPI module.
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 10
+ARM GAS  /tmp/ccxHOabk.s 			page 10
 
 
  489:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @retval HAL status
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  543:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
  544:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  545:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /**
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 11
+ARM GAS  /tmp/ccxHOabk.s 			page 11
 
 
  546:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @brief  De-Initialize the SPI MSP.
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  600:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         break;
  601:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  602:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       case HAL_SPI_TX_HALF_COMPLETE_CB_ID :
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 12
+ARM GAS  /tmp/ccxHOabk.s 			page 12
 
 
  603:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         hspi->TxHalfCpltCallback = pCallback;
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  657:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         break;
  658:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
  659:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 13
+ARM GAS  /tmp/ccxHOabk.s 			page 13
 
 
  660:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   else
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  714:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         hspi->TxRxHalfCpltCallback = HAL_SPI_TxRxHalfCpltCallback; /* Legacy weak TxRxHalfCpltCallb
  715:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         break;
  716:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 14
+ARM GAS  /tmp/ccxHOabk.s 			page 14
 
 
  717:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       case HAL_SPI_ERROR_CB_ID :
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  771:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  772:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Release Lock */
  773:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   __HAL_UNLOCK(hspi);
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 15
+ARM GAS  /tmp/ccxHOabk.s 			page 15
 
 
  774:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   return status;
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  828:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  829:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Check Direction parameter */
  830:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   assert_param(IS_SPI_DIRECTION_2LINES_OR_1LINE(hspi->Init.Direction));
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 16
+ARM GAS  /tmp/ccxHOabk.s 			page 16
 
 
  831:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  885:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     __HAL_SPI_ENABLE(hspi);
  886:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
  887:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 17
+ARM GAS  /tmp/ccxHOabk.s 			page 17
 
 
  888:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Transmit data in 16 Bit mode */
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  942:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         if (hspi->TxXferCount > 1U)
  943:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         {
  944:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           /* write on the data register in packing mode */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 18
+ARM GAS  /tmp/ccxHOabk.s 			page 18
 
 
  945:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           hspi->Instance->DR = *((uint16_t *)hspi->pTxBuffPtr);
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  999:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /**
 1000:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @brief  Receive an amount of data in blocking mode.
 1001:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 19
+ARM GAS  /tmp/ccxHOabk.s 			page 19
 
 
 1002:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *               the configuration information for SPI module.
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1056:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 1057:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
 1058:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Reset CRC Calculation */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 20
+ARM GAS  /tmp/ccxHOabk.s 			page 20
 
 
 1059:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   if (hspi->Init.CRCCalculation == SPI_CRCCALCULATION_ENABLE)
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1113:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           errorcode = HAL_TIMEOUT;
 1114:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           goto error;
 1115:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 21
+ARM GAS  /tmp/ccxHOabk.s 			page 21
 
 
 1116:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1170:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     if (SPI_WaitFlagStateUntilTimeout(hspi, SPI_FLAG_RXNE, SET, Timeout, tickstart) != HAL_OK)
 1171:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
 1172:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_CRC);
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 22
+ARM GAS  /tmp/ccxHOabk.s 			page 22
 
 
 1173:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       errorcode = HAL_TIMEOUT;
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1227:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   if (hspi->ErrorCode != HAL_SPI_ERROR_NONE)
 1228:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
 1229:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     errorcode = HAL_ERROR;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 23
+ARM GAS  /tmp/ccxHOabk.s 			page 23
 
 
 1230:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1284:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   spi_cr2             = READ_REG(hspi->Instance->CR2);
 1285:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_SPI_CRC */
 1286:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 24
+ARM GAS  /tmp/ccxHOabk.s 			page 24
 
 
 1287:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   if (!((tmp_state == HAL_SPI_STATE_READY) || \
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1341:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
 1342:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     /* Enable SPI peripheral */
 1343:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     __HAL_SPI_ENABLE(hspi);
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 25
+ARM GAS  /tmp/ccxHOabk.s 			page 25
 
 
 1344:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1398:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
 1399:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     if ((hspi->Init.Mode == SPI_MODE_SLAVE) || (initial_TxXferCount == 0x01U))
 1400:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 26
+ARM GAS  /tmp/ccxHOabk.s 			page 26
 
 
 1401:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       if (hspi->TxXferCount > 1U)
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1455:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           hspi->RxXferCount -= 2U;
 1456:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           if (hspi->RxXferCount <= 1U)
 1457:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 27
+ARM GAS  /tmp/ccxHOabk.s 			page 27
 
 
 1458:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****             /* Set RX Fifo threshold before to switch on 8 bit data size */
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1512:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           /* Error on the CRC reception */
 1513:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_CRC);
 1514:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           errorcode = HAL_TIMEOUT;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 28
+ARM GAS  /tmp/ccxHOabk.s 			page 28
 
 
 1515:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           goto error;
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1569:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     errorcode = HAL_ERROR;
 1570:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     goto error;
 1571:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 29
+ARM GAS  /tmp/ccxHOabk.s 			page 29
 
 
 1572:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1626:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     __HAL_SPI_ENABLE(hspi);
 1627:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
 1628:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 30
+ARM GAS  /tmp/ccxHOabk.s 			page 30
 
 
 1629:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** error :
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1683:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
 1684:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     /* Set RX Fifo threshold according the reception data length: 16 bit */
 1685:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     CLEAR_BIT(hspi->Instance->CR2, SPI_RXFIFO_THRESHOLD);
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 31
+ARM GAS  /tmp/ccxHOabk.s 			page 31
 
 
 1686:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     hspi->RxISR = SPI_RxISR_16BIT;
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1740:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /**
 1741:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @brief  Transmit and Receive an amount of data in non-blocking mode with Interrupt.
 1742:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 32
+ARM GAS  /tmp/ccxHOabk.s 			page 32
 
 
 1743:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *               the configuration information for SPI module.
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1797:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     hspi->TxISR     = SPI_2linesTxISR_16BIT;
 1798:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
 1799:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   else
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 33
+ARM GAS  /tmp/ccxHOabk.s 			page 33
 
 
 1800:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1854:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  pData pointer to data buffer
 1855:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  Size amount of data to be sent
 1856:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @retval HAL status
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 34
+ARM GAS  /tmp/ccxHOabk.s 			page 34
 
 
 1857:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   */
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1911:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_SPI_CRC */
 1912:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 1913:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Set the SPI TxDMA Half transfer complete callback */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 35
+ARM GAS  /tmp/ccxHOabk.s 			page 35
 
 
 1914:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->hdmatx->XferHalfCpltCallback = SPI_DMAHalfTransmitCplt;
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1968:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Process Unlocked */
 1969:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   __HAL_UNLOCK(hspi);
 1970:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   return errorcode;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 36
+ARM GAS  /tmp/ccxHOabk.s 			page 36
 
 
 1971:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2025:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->TxISR       = NULL;
 2026:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->TxXferSize  = 0U;
 2027:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->TxXferCount = 0U;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 37
+ARM GAS  /tmp/ccxHOabk.s 			page 37
 
 
 2028:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2082:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->hdmarx->XferErrorCallback = SPI_DMAError;
 2083:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 2084:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Set the DMA AbortCpltCallback */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 38
+ARM GAS  /tmp/ccxHOabk.s 			page 38
 
 
 2085:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->hdmarx->XferAbortCallback = NULL;
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2139:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Check Direction parameter */
 2140:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   assert_param(IS_SPI_DIRECTION_2LINES(hspi->Init.Direction));
 2141:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 39
+ARM GAS  /tmp/ccxHOabk.s 			page 39
 
 
 2142:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Process locked */
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2196:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     CLEAR_BIT(hspi->Instance->CR2, SPI_RXFIFO_THRESHOLD);
 2197:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
 2198:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   else
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 40
+ARM GAS  /tmp/ccxHOabk.s 			page 40
 
 
 2199:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2253:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->hdmarx->XferAbortCallback = NULL;
 2254:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 2255:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Enable the Rx DMA Stream/Channel  */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 41
+ARM GAS  /tmp/ccxHOabk.s 			page 41
 
 
 2256:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   if (HAL_OK != HAL_DMA_Start_IT(hspi->hdmarx, (uint32_t)&hspi->Instance->DR, (uint32_t)hspi->pRxBu
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2310:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @note   This procedure could be used for aborting any ongoing transfer (Tx and Rx),
 2311:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *         started in Interrupt or DMA mode.
 2312:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *         This procedure performs following operations :
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 42
+ARM GAS  /tmp/ccxHOabk.s 			page 42
 
 
 2313:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *           - Disable SPI Interrupts (depending of transfer direction)
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2367:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
 2368:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 2369:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Disable the SPI DMA Tx request if enabled */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 43
+ARM GAS  /tmp/ccxHOabk.s 			page 43
 
 
 2370:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   if (HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_TXDMAEN))
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2424:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       if (SPI_WaitFlagStateUntilTimeout(hspi, SPI_FLAG_BSY, RESET, SPI_DEFAULT_TIMEOUT, HAL_GetTick
 2425:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       {
 2426:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         hspi->ErrorCode = HAL_SPI_ERROR_ABORT;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 44
+ARM GAS  /tmp/ccxHOabk.s 			page 44
 
 
 2427:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2481:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** {
 2482:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   HAL_StatusTypeDef errorcode;
 2483:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   uint32_t abortcplt ;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 45
+ARM GAS  /tmp/ccxHOabk.s 			page 45
 
 
 2484:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   __IO uint32_t count;
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2538:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     if (HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_TXDMAEN))
 2539:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
 2540:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       hspi->hdmatx->XferAbortCallback = SPI_DMATxAbortCallback;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 46
+ARM GAS  /tmp/ccxHOabk.s 			page 46
 
 
 2541:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2595:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
 2596:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
 2597:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 47
+ARM GAS  /tmp/ccxHOabk.s 			page 47
 
 
 2598:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2652:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   return HAL_OK;
 2653:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
 2654:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 48
+ARM GAS  /tmp/ccxHOabk.s 			page 48
 
 
 2655:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /**
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2709:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Disable the SPI DMA Tx & Rx requests */
 2710:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   CLEAR_BIT(hspi->Instance->CR2, SPI_CR2_TXDMAEN | SPI_CR2_RXDMAEN);
 2711:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->State = HAL_SPI_STATE_READY;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 49
+ARM GAS  /tmp/ccxHOabk.s 			page 49
 
 
 2712:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   return errorcode;
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2766:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 2767:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     /* SPI Frame error interrupt occurred ------------------------------------*/
 2768:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     if (SPI_CHECK_FLAG(itflag, SPI_FLAG_FRE) != RESET)
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 50
+ARM GAS  /tmp/ccxHOabk.s 			page 50
 
 
 2769:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2823:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @brief  Tx Transfer completed callback.
 2824:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
 2825:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *               the configuration information for SPI module.
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 51
+ARM GAS  /tmp/ccxHOabk.s 			page 51
 
 
 2826:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @retval None
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2880:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 2881:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* NOTE : This function should not be modified, when the callback is needed,
 2882:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****             the HAL_SPI_TxHalfCpltCallback should be implemented in the user file
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 52
+ARM GAS  /tmp/ccxHOabk.s 			page 52
 
 
 2883:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****    */
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2937:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /**
 2938:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @brief  SPI Abort Complete callback.
 2939:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hspi SPI handle.
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 53
+ARM GAS  /tmp/ccxHOabk.s 			page 53
 
 
 2940:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @retval None
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2994:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 2995:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /**
 2996:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @}
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 54
+ARM GAS  /tmp/ccxHOabk.s 			page 54
 
 
 2997:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   */
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3051:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #else
 3052:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       HAL_SPI_ErrorCallback(hspi);
 3053:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 55
+ARM GAS  /tmp/ccxHOabk.s 			page 55
 
 
 3054:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       return;
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3108:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       else
 3109:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       {
 3110:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         /* Initialize the 8bit temporary pointer */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 56
+ARM GAS  /tmp/ccxHOabk.s 			page 56
 
 
 3111:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         ptmpreg8 = (__IO uint8_t *)&hspi->Instance->DR;
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3165:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       /* Call user error callback */
 3166:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
 3167:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       hspi->ErrorCallback(hspi);
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 57
+ARM GAS  /tmp/ccxHOabk.s 			page 57
 
 
 3168:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #else
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3222:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         tmpreg8 = *ptmpreg8;
 3223:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         /* To avoid GCC warning */
 3224:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         UNUSED(tmpreg8);
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 58
+ARM GAS  /tmp/ccxHOabk.s 			page 58
 
 
 3225:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3279:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
 3280:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
 3281:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 59
+ARM GAS  /tmp/ccxHOabk.s 			page 59
 
 
 3282:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /**
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3336:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /**
 3337:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @brief  DMA SPI communication error callback.
 3338:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 60
+ARM GAS  /tmp/ccxHOabk.s 			page 60
 
 
 3339:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *               the configuration information for the specified DMA module.
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3393:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Disable Tx DMA Request */
 3394:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   CLEAR_BIT(hspi->Instance->CR2, SPI_CR2_TXDMAEN);
 3395:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 61
+ARM GAS  /tmp/ccxHOabk.s 			page 61
 
 
 3396:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   if (SPI_EndRxTxTransaction(hspi, SPI_DEFAULT_TIMEOUT, HAL_GetTick()) != HAL_OK)
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3450:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hdma DMA handle.
 3451:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @retval None
 3452:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 62
+ARM GAS  /tmp/ccxHOabk.s 			page 62
 
 
 3453:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** static void SPI_DMARxAbortCallback(DMA_HandleTypeDef *hdma)
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3507:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #else
 3508:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   HAL_SPI_AbortCpltCallback(hspi);
 3509:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 63
+ARM GAS  /tmp/ccxHOabk.s 			page 63
 
 
 3510:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3564:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @brief  Rx 8-bit handler for Transmit and Receive in Interrupt mode.
 3565:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
 3566:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *               the configuration information for SPI module.
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 64
+ARM GAS  /tmp/ccxHOabk.s 			page 64
 
 
 3567:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @retval None
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3621:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   if (hspi->TxXferCount == 0U)
 3622:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
 3623:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 65
+ARM GAS  /tmp/ccxHOabk.s 			page 65
 
 
 3624:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     if (hspi->Init.CRCCalculation == SPI_CRCCALCULATION_ENABLE)
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3678:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /**
 3679:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @brief  Manage the CRC 16-bit receive for Transmit and Receive in Interrupt mode.
 3680:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 66
+ARM GAS  /tmp/ccxHOabk.s 			page 66
 
 
 3681:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *               the configuration information for SPI module.
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3735:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
 3736:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 3737:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 67
+ARM GAS  /tmp/ccxHOabk.s 			page 67
 
 
 3738:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** /**
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3792:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
 3793:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_SPI_CRC */
 3794:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     SPI_CloseRx_ISR(hspi);
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 68
+ARM GAS  /tmp/ccxHOabk.s 			page 68
 
 
 3795:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3849:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_SPI_CRC */
 3850:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     SPI_CloseRx_ISR(hspi);
 3851:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 69
+ARM GAS  /tmp/ccxHOabk.s 			page 69
 
 
 3852:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3906:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @brief  Handle SPI Communication Timeout.
 3907:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
 3908:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *              the configuration information for SPI module.
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 70
+ARM GAS  /tmp/ccxHOabk.s 			page 70
 
 
 3909:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  Flag SPI flag to check
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
   63              	.LVL3:
 3925:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 3926:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Calculate Timeout based on a software loop to avoid blocking issue if Systick is disabled */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 71
+ARM GAS  /tmp/ccxHOabk.s 			page 71
 
 
 3927:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   count = tmp_timeout * ((SystemCoreClock * 32U) >> 20U);
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3949:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         /* Reset CRC Calculation */
 3950:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         if (hspi->Init.CRCCalculation == SPI_CRCCALCULATION_ENABLE)
 3951:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 72
+ARM GAS  /tmp/ccxHOabk.s 			page 72
 
 
 3952:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           SPI_RESET_CRC(hspi);
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  120 005a B2F5827F 		cmp	r2, #260
  121 005e 0AD1     		bne	.L5
 3942:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****                                                      || (hspi->Init.Direction == SPI_DIRECTION_2LIN
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 73
+ARM GAS  /tmp/ccxHOabk.s 			page 73
 
 
  122              		.loc 1 3942 65 discriminator 1 view .LVU33
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  161              		.loc 1 3960 9 discriminator 1 view .LVU48
 3960:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
  162              		.loc 1 3960 16 is_stmt 0 discriminator 1 view .LVU49
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 74
+ARM GAS  /tmp/ccxHOabk.s 			page 74
 
 
  163 009a 0320     		movs	r0, #3
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3976:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
 3977:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   *              the configuration information for SPI module.
 3978:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  Fifo Fifo to check
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 75
+ARM GAS  /tmp/ccxHOabk.s 			page 75
 
 
 3979:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   * @param  State Fifo state to check
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  243 0012 FFF7FEFF 		bl	HAL_GetTick
  244              	.LVL12:
  245              		.loc 1 3994 15 view .LVU71
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 76
+ARM GAS  /tmp/ccxHOabk.s 			page 76
 
 
  246 0016 0C9D     		ldr	r5, [sp, #48]
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 4004:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
 4005:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     if ((Fifo == SPI_SR_FRLVL) && (State == SPI_FRLVL_EMPTY))
 4006:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 77
+ARM GAS  /tmp/ccxHOabk.s 			page 77
 
 
 4007:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       /* Flush Data Register by a blank read */
@@ -4618,7 +4618,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  293              		.loc 1 4005 8 is_stmt 0 view .LVU91
  294 0044 B8F5C06F 		cmp	r8, #1536
  295 0048 07D1     		bne	.L20
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 78
+ARM GAS  /tmp/ccxHOabk.s 			page 78
 
 
 4005:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
@@ -4678,7 +4678,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  334 0084 02D0     		beq	.L24
 4025:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         {
  335              		.loc 1 4025 54 view .LVU108
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 79
+ARM GAS  /tmp/ccxHOabk.s 			page 79
 
 
  336 0086 B2F5806F 		cmp	r2, #1024
@@ -4738,7 +4738,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  375              	.LCFI4:
  376              		.cfi_remember_state
  377              		.cfi_def_cfa_offset 36
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 80
+ARM GAS  /tmp/ccxHOabk.s 			page 80
 
 
  378              		@ sp needed
@@ -4798,7 +4798,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  416              		.loc 1 4065 1 is_stmt 1 view -0
  417              		.cfi_startproc
  418              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 81
+ARM GAS  /tmp/ccxHOabk.s 			page 81
 
 
  419              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -4858,7 +4858,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  462              	.LVL23:
  463              		.loc 1 4074 7 view .LVU144
  464 0030 2046     		mov	r0, r4
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 82
+ARM GAS  /tmp/ccxHOabk.s 			page 82
 
 
  465              	.LVL24:
@@ -4918,7 +4918,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  499 005e 3346     		mov	r3, r6
  500 0060 0022     		movs	r2, #0
  501 0062 4FF4C061 		mov	r1, #1536
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 83
+ARM GAS  /tmp/ccxHOabk.s 			page 83
 
 
  502 0066 2046     		mov	r0, r4
@@ -4978,7 +4978,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 4116:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Control if the RX fifo is empty */
 4117:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   if (SPI_WaitFifoStateUntilTimeout(hspi, SPI_FLAG_FRLVL, SPI_FRLVL_EMPTY, Timeout, Tickstart) != H
 4118:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 84
+ARM GAS  /tmp/ccxHOabk.s 			page 84
 
 
 4119:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_FLAG);
@@ -5038,7 +5038,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 4173:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #else
 4174:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         HAL_SPI_RxCpltCallback(hspi);
 4175:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 85
+ARM GAS  /tmp/ccxHOabk.s 			page 85
 
 
 4176:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
@@ -5098,7 +5098,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 4230:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #else
 4231:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     HAL_SPI_ErrorCallback(hspi);
 4232:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 86
+ARM GAS  /tmp/ccxHOabk.s 			page 86
 
 
 4233:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
@@ -5158,7 +5158,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 4287:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
 4288:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->State = HAL_SPI_STATE_READY;
 4289:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   if (hspi->ErrorCode != HAL_SPI_ERROR_NONE)
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 87
+ARM GAS  /tmp/ccxHOabk.s 			page 87
 
 
 4290:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -5218,7 +5218,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  549 000e 45F6C051 		movw	r1, #24000
  550 0012 1268     		ldr	r2, [r2]
  551 0014 B2FBF1F2 		udiv	r2, r2, r1
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 88
+ARM GAS  /tmp/ccxHOabk.s 			page 88
 
 
  552              		.loc 1 4322 31 view .LVU167
@@ -5278,7 +5278,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  588              	.LVL29:
  589              		.loc 1 4339 6 view .LVU181
  590 0046 08B1     		cbz	r0, .L58
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 89
+ARM GAS  /tmp/ccxHOabk.s 			page 89
 
 
 4340:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -5338,7 +5338,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  631 0070 039A     		ldr	r2, [sp, #12]
  632 0072 013A     		subs	r2, r2, #1
  633 0074 0392     		str	r2, [sp, #12]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 90
+ARM GAS  /tmp/ccxHOabk.s 			page 90
 
 
 4336:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -5398,7 +5398,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  680 000e 0022     		movs	r2, #0
  681              	.LVL35:
 4101:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Control if the TX fifo is empty */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 91
+ARM GAS  /tmp/ccxHOabk.s 			page 91
 
 
  682              		.loc 1 4101 1 view .LVU204
@@ -5458,7 +5458,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  724 003c 4FF4C061 		mov	r1, #1536
  725 0040 2046     		mov	r0, r4
  726 0042 FFF7FEFF 		bl	SPI_WaitFifoStateUntilTimeout
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 92
+ARM GAS  /tmp/ccxHOabk.s 			page 92
 
 
  727              	.LVL39:
@@ -5518,7 +5518,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  766              		.cfi_offset 14, -4
  767              		.loc 1 4363 56 view .LVU225
  768 0002 364B     		ldr	r3, .L104
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 93
+ARM GAS  /tmp/ccxHOabk.s 			page 93
 
 
  769 0004 45F6C052 		movw	r2, #24000
@@ -5578,7 +5578,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  806 0036 2046     		mov	r0, r4
  807 0038 FFF7FEFF 		bl	SPI_EndRxTxTransaction
  808              	.LVL44:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 94
+ARM GAS  /tmp/ccxHOabk.s 			page 94
 
 
  809              		.loc 1 4379 6 view .LVU239
@@ -5638,7 +5638,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 4397:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     CLEAR_BIT(hspi->Instance->CR2, (SPI_CR2_RXNEIE));
  846              		.loc 1 4397 5 is_stmt 1 view .LVU251
  847 006e 5A68     		ldr	r2, [r3, #4]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 95
+ARM GAS  /tmp/ccxHOabk.s 			page 95
 
 
  848 0070 22F04002 		bic	r2, r2, #64
@@ -5698,7 +5698,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  882              		.loc 1 4417 9 is_stmt 0 view .LVU264
  883 009a FFF7FEFF 		bl	HAL_GetTick
  884              	.LVL49:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 96
+ARM GAS  /tmp/ccxHOabk.s 			page 96
 
 
  885 009e 6423     		movs	r3, #100
@@ -5758,7 +5758,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  927              		.loc 1 4407 7 is_stmt 1 view .LVU276
 4407:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     } while (HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_RXNEIE));
  928              		.loc 1 4407 12 is_stmt 0 view .LVU277
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 97
+ARM GAS  /tmp/ccxHOabk.s 			page 97
 
 
  929 00cc 039A     		ldr	r2, [sp, #12]
@@ -5818,7 +5818,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  980              		@ frame_needed = 0, uses_anonymous_args = 0
  318:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  981              		.loc 1 318 3 view .LVU285
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 98
+ARM GAS  /tmp/ccxHOabk.s 			page 98
 
 
  321:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -5878,7 +5878,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  348:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
  1018              		.loc 1 348 7 is_stmt 1 view .LVU304
  348:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 99
+ARM GAS  /tmp/ccxHOabk.s 			page 99
 
 
  1019              		.loc 1 348 36 is_stmt 0 view .LVU305
@@ -5938,7 +5938,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1055 003c 23F04003 		bic	r3, r3, #64
  1056 0040 1360     		str	r3, [r2]
  405:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 100
+ARM GAS  /tmp/ccxHOabk.s 			page 100
 
 
  1057              		.loc 1 405 3 is_stmt 1 view .LVU324
@@ -5998,7 +5998,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  424:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****                                   (hspi->Init.Direction & (SPI_CR1_RXONLY | SPI_CR1_BIDIMODE)) |
  1102              		.loc 1 424 3 view .LVU334
  1103 0092 1360     		str	r3, [r2]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 101
+ARM GAS  /tmp/ccxHOabk.s 			page 101
 
 
  434:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -6058,7 +6058,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1141 00b8 2363     		str	r3, [r4, #48]
  451:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
  1142              		.loc 1 451 5 is_stmt 1 view .LVU352
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 102
+ARM GAS  /tmp/ccxHOabk.s 			page 102
 
 
  1143              	.L114:
@@ -6118,7 +6118,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  483:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  1183              		.loc 1 483 1 is_stmt 0 view .LVU367
  1184 00fa F8BD     		pop	{r3, r4, r5, r6, r7, pc}
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 103
+ARM GAS  /tmp/ccxHOabk.s 			page 103
 
 
  1185              	.LVL62:
@@ -6178,7 +6178,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1236              	.LFB722:
  492:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* Check the SPI handle allocation */
  1237              		.loc 1 492 1 is_stmt 1 view -0
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 104
+ARM GAS  /tmp/ccxHOabk.s 			page 104
 
 
  1238              		.cfi_startproc
@@ -6238,7 +6238,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  524:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  1276              		.loc 1 524 3 view .LVU392
  526:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 105
+ARM GAS  /tmp/ccxHOabk.s 			page 105
 
 
  1277              		.loc 1 526 3 view .LVU393
@@ -6298,7 +6298,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  824:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   uint32_t tickstart;
  1322              		.loc 1 824 1 view .LVU405
  1323 0004 1F46     		mov	r7, r3
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 106
+ARM GAS  /tmp/ccxHOabk.s 			page 106
 
 
  833:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -6358,7 +6358,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  845:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  1361              		.loc 1 845 23 discriminator 1 view .LVU423
  1362 0032 B8F1000F 		cmp	r8, #0
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 107
+ARM GAS  /tmp/ccxHOabk.s 			page 107
 
 
  1363 0036 76D0     		beq	.L136
@@ -6418,7 +6418,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1397              		.loc 1 861 3 view .LVU443
  862:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->RxISR       = NULL;
  1398              		.loc 1 862 3 view .LVU444
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 108
+ARM GAS  /tmp/ccxHOabk.s 			page 108
 
 
  866:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -6478,7 +6478,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1438 009a 3360     		strpl	r3, [r6]
  889:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  1439              		.loc 1 889 3 discriminator 1 view .LVU460
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 109
+ARM GAS  /tmp/ccxHOabk.s 			page 109
 
 
  889:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -6538,7 +6538,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  898:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
  1477              		.loc 1 898 11 view .LVU478
  1478 00c0 F3B9     		cbnz	r3, .L148
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 110
+ARM GAS  /tmp/ccxHOabk.s 			page 110
 
 
  1479              	.L160:
@@ -6598,7 +6598,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1519 00f2 0193     		str	r3, [sp, #4]
  984:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
  1520              		.loc 1 984 5 view .LVU493
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 111
+ARM GAS  /tmp/ccxHOabk.s 			page 111
 
 
  1521 00f4 019B     		ldr	r3, [sp, #4]
@@ -6658,7 +6658,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  910:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         {
  1559              		.loc 1 910 12 view .LVU510
  1560 011c B842     		cmp	r0, r7
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 112
+ARM GAS  /tmp/ccxHOabk.s 			page 112
 
 
  1561 011e 0BD3     		bcc	.L145
@@ -6718,7 +6718,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1602              		.loc 1 921 45 discriminator 1 view .LVU523
  1603 0140 B8F1010F 		cmp	r8, #1
  1604 0144 13D1     		bne	.L158
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 113
+ARM GAS  /tmp/ccxHOabk.s 			page 113
 
 
  1605              	.L151:
@@ -6778,7 +6778,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1643 0164 A363     		str	r3, [r4, #56]
  934:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
  1644              		.loc 1 934 9 is_stmt 1 view .LVU540
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 114
+ARM GAS  /tmp/ccxHOabk.s 			page 114
 
 
  934:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
@@ -6838,7 +6838,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1682 018c D160     		str	r1, [r2, #12]
  946:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           hspi->TxXferCount -= 2U;
  1683              		.loc 1 946 11 is_stmt 1 view .LVU558
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 115
+ARM GAS  /tmp/ccxHOabk.s 			page 115
 
 
  946:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           hspi->TxXferCount -= 2U;
@@ -6898,7 +6898,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1724              		.loc 1 833 3 view .LVU572
  1725 01b6 BCE7     		b	.L135
  1726              		.cfi_endproc
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 116
+ARM GAS  /tmp/ccxHOabk.s 			page 116
 
 
  1727              	.LFE725:
@@ -6958,7 +6958,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1260:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   __IO uint8_t  tmpreg8 = 0;
  1770              		.loc 1 1260 3 view .LVU586
 1261:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_SPI_CRC */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 117
+ARM GAS  /tmp/ccxHOabk.s 			page 117
 
 
  1771              		.loc 1 1261 3 view .LVU587
@@ -7018,7 +7018,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1275:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  1807              		.loc 1 1275 15 discriminator 2 view .LVU606
  1808 0036 8046     		mov	r8, r0
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 118
+ARM GAS  /tmp/ccxHOabk.s 			page 118
 
 
  1809              	.LVL95:
@@ -7078,7 +7078,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1846              		.loc 1 1308 21 view .LVU623
  1847 0072 C4F840A0 		str	r10, [r4, #64]
 1301:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 119
+ARM GAS  /tmp/ccxHOabk.s 			page 119
 
 
  1848              		.loc 1 1301 6 view .LVU624
@@ -7138,7 +7138,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1882              		.loc 1 1321 3 view .LVU644
 1321:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  1883              		.loc 1 1321 6 is_stmt 0 view .LVU645
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 120
+ARM GAS  /tmp/ccxHOabk.s 			page 120
 
 
  1884 00a0 07D1     		bne	.L198
@@ -7198,7 +7198,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1923 00d2 43F04003 		orrpl	r3, r3, #64
  1924 00d6 2B60     		strpl	r3, [r5]
 1347:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 121
+ARM GAS  /tmp/ccxHOabk.s 			page 121
 
 
  1925              		.loc 1 1347 3 view .LVU661
@@ -7258,7 +7258,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  1963              		.loc 1 1355 11 is_stmt 1 view .LVU677
 1355:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
  1964              		.loc 1 1355 17 is_stmt 0 view .LVU678
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 122
+ARM GAS  /tmp/ccxHOabk.s 			page 122
 
 
  1965 0102 E38F     		ldrh	r3, [r4, #62]
@@ -7318,7 +7318,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2007              		.loc 1 1358 12 is_stmt 0 view .LVU690
  2008 0140 2368     		ldr	r3, [r4]
  2009 0142 9A68     		ldr	r2, [r3, #8]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 123
+ARM GAS  /tmp/ccxHOabk.s 			page 123
 
 
 1358:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       {
@@ -7378,7 +7378,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1385:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         /* Next Data is a Transmission (Tx). Tx is allowed */
  2048              		.loc 1 1385 13 is_stmt 0 view .LVU707
  2049 0172 B4F84630 		ldrh	r3, [r4, #70]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 124
+ARM GAS  /tmp/ccxHOabk.s 			page 124
 
 
 1385:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         /* Next Data is a Transmission (Tx). Tx is allowed */
@@ -7438,7 +7438,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2088              		.loc 1 1545 3 view .LVU723
 1546:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
  2089              		.loc 1 1546 3 view .LVU724
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 125
+ARM GAS  /tmp/ccxHOabk.s 			page 125
 
 
  2090              	.LVL115:
@@ -7498,7 +7498,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2130 01c0 A26A     		ldr	r2, [r4, #40]
  2131 01c2 B2F5005F 		cmp	r2, #8192
  2132 01c6 C5D1     		bne	.L298
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 126
+ARM GAS  /tmp/ccxHOabk.s 			page 126
 
 
 1371:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           {
@@ -7558,7 +7558,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2171              		.loc 1 1405 27 is_stmt 0 view .LVU754
  2172 01f4 E38F     		ldrh	r3, [r4, #62]
 1404:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         hspi->TxXferCount -= 2U;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 127
+ARM GAS  /tmp/ccxHOabk.s 			page 127
 
 
  2173              		.loc 1 1404 26 view .LVU755
@@ -7618,7 +7618,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2212              		.loc 1 1417 7 is_stmt 1 view .LVU770
 1417:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       {
  2213              		.loc 1 1417 12 is_stmt 0 view .LVU771
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 128
+ARM GAS  /tmp/ccxHOabk.s 			page 128
 
 
  2214 021a 2168     		ldr	r1, [r4]
@@ -7678,7 +7678,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2253 0248 0128     		cmp	r0, #1
  2254 024a 50D9     		bls	.L225
 1453:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           hspi->pRxBuffPtr += sizeof(uint16_t);
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 129
+ARM GAS  /tmp/ccxHOabk.s 			page 129
 
 
  2255              		.loc 1 1453 11 is_stmt 1 view .LVU787
@@ -7738,7 +7738,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1471:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       {
  2294              		.loc 1 1471 54 discriminator 1 view .LVU803
  2295 0280 7B1C     		adds	r3, r7, #1
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 130
+ARM GAS  /tmp/ccxHOabk.s 			page 130
 
 
  2296 0282 85D1     		bne	.L302
@@ -7798,7 +7798,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2333              		.loc 1 1423 29 is_stmt 0 view .LVU820
  2334 02aa E38F     		ldrh	r3, [r4, #62]
  2335 02ac 023B     		subs	r3, r3, #2
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 131
+ARM GAS  /tmp/ccxHOabk.s 			page 131
 
 
  2336              	.L299:
@@ -7858,7 +7858,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1427:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           hspi->pTxBuffPtr++;
  2376              		.loc 1 1427 48 view .LVU835
  2377 02e0 0B73     		strb	r3, [r1, #12]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 132
+ARM GAS  /tmp/ccxHOabk.s 			page 132
 
 
 1428:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           hspi->TxXferCount--;
@@ -7918,7 +7918,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2416              		.loc 1 1492 8 is_stmt 0 view .LVU851
  2417 030c E368     		ldr	r3, [r4, #12]
 1495:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       /* To avoid GCC warning */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 133
+ARM GAS  /tmp/ccxHOabk.s 			page 133
 
 
  2418              		.loc 1 1495 16 view .LVU852
@@ -7978,7 +7978,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1537:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  2458              		.loc 1 1537 6 view .LVU867
  2459 0340 0028     		cmp	r0, #0
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 134
+ARM GAS  /tmp/ccxHOabk.s 			page 134
 
 
  2460 0342 3FF426AF 		beq	.L196
@@ -8038,7 +8038,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2499              		.loc 1 1510 12 view .LVU882
  2500 0370 0028     		cmp	r0, #0
  2501 0372 7FF4DDAE 		bne	.L303
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 135
+ARM GAS  /tmp/ccxHOabk.s 			page 135
 
 
 1518:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         /* To avoid GCC warning */
@@ -8098,7 +8098,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1009:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
  2549              		.loc 1 1009 1 view .LVU892
  2550 0004 1E46     		mov	r6, r3
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 136
+ARM GAS  /tmp/ccxHOabk.s 			page 136
 
 
 1011:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   __IO uint8_t  * ptmpreg8;
@@ -8158,7 +8158,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2588              	.LVL146:
  2589              	.L306:
 1236:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 137
+ARM GAS  /tmp/ccxHOabk.s 			page 137
 
 
  2590              		.loc 1 1236 1 view .LVU910
@@ -8218,7 +8218,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2630 005c 00F09F80 		beq	.L307
 1037:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  2631              		.loc 1 1037 23 discriminator 1 view .LVU925
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 138
+ARM GAS  /tmp/ccxHOabk.s 			page 138
 
 
  2632 0060 002D     		cmp	r5, #0
@@ -8278,7 +8278,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2666              		.loc 1 1053 3 is_stmt 1 view .LVU945
 1053:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->RxISR       = NULL;
  2667              		.loc 1 1053 21 is_stmt 0 view .LVU946
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 139
+ARM GAS  /tmp/ccxHOabk.s 			page 139
 
 
  2668 008c E087     		strh	r0, [r4, #62]	@ movhi
@@ -8338,7 +8338,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1080:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  2705              		.loc 1 1080 6 is_stmt 0 view .LVU964
  2706 00c0 A368     		ldr	r3, [r4, #8]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 140
+ARM GAS  /tmp/ccxHOabk.s 			page 140
 
 
  2707 00c2 B3F5004F 		cmp	r3, #32768
@@ -8398,7 +8398,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2746              		.loc 1 1127 9 is_stmt 1 view .LVU979
 1127:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         hspi->pRxBuffPtr += sizeof(uint16_t);
  2747              		.loc 1 1127 67 is_stmt 0 view .LVU980
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 141
+ARM GAS  /tmp/ccxHOabk.s 			page 141
 
 
  2748 00fc DA68     		ldr	r2, [r3, #12]
@@ -8458,7 +8458,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2785 0128 B4F84630 		ldrh	r3, [r4, #70]
 1106:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
  2786              		.loc 1 1106 26 view .LVU998
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 142
+ARM GAS  /tmp/ccxHOabk.s 			page 142
 
 
  2787 012c 013B     		subs	r3, r3, #1
@@ -8518,7 +8518,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2827              		.loc 1 1159 8 view .LVU1012
  2828 0166 B1F5E06F 		cmp	r1, #1792
 1161:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 143
+ARM GAS  /tmp/ccxHOabk.s 			page 143
 
 
  2829              		.loc 1 1161 7 is_stmt 1 view .LVU1013
@@ -8578,7 +8578,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2869 019a CBD0     		beq	.L313
  2870              	.L361:
 1200:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****           goto error;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 144
+ARM GAS  /tmp/ccxHOabk.s 			page 144
 
 
  2871              		.loc 1 1200 11 is_stmt 1 view .LVU1028
@@ -8638,7 +8638,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2910              	.L324:
 1134:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         {
  2911              		.loc 1 1134 87 discriminator 3 view .LVU1044
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 145
+ARM GAS  /tmp/ccxHOabk.s 			page 145
 
 
  2912 01c2 002E     		cmp	r6, #0
@@ -8698,7 +8698,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  2950              		.loc 1 1220 6 view .LVU1060
  2951 01ec DB06     		lsls	r3, r3, #27
  2952 01ee 06D5     		bpl	.L334
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 146
+ARM GAS  /tmp/ccxHOabk.s 			page 146
 
 
 1222:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     __HAL_SPI_CLEAR_CRCERRFLAG(hspi);
@@ -8758,7 +8758,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1196:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         {
  2991              		.loc 1 1196 9 is_stmt 1 view .LVU1077
 1196:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 147
+ARM GAS  /tmp/ccxHOabk.s 			page 147
 
 
  2992              		.loc 1 1196 13 is_stmt 0 view .LVU1078
@@ -8818,7 +8818,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3038              		.loc 1 1558 1 is_stmt 1 view -0
  3039              		.cfi_startproc
  3040              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 148
+ARM GAS  /tmp/ccxHOabk.s 			page 148
 
 
  3041              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -8878,7 +8878,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1581:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->pTxBuffPtr  = (uint8_t *)pData;
  3077              		.loc 1 1581 21 is_stmt 0 view .LVU1107
  3078 0026 0020     		movs	r0, #0
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 149
+ARM GAS  /tmp/ccxHOabk.s 			page 149
 
 
  3079 0028 1866     		str	r0, [r3, #96]
@@ -8938,7 +8938,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3114 0048 0A46     		movls	r2, r1
 1603:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  3115              		.loc 1 1603 6 view .LVU1127
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 150
+ARM GAS  /tmp/ccxHOabk.s 			page 150
 
 
  3116 004a 9968     		ldr	r1, [r3, #8]
@@ -8998,7 +8998,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3155              		.loc 1 1623 22 is_stmt 0 discriminator 1 view .LVU1142
  3156 0086 1068     		ldr	r0, [r2]
 1623:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 151
+ARM GAS  /tmp/ccxHOabk.s 			page 151
 
 
  3157              		.loc 1 1623 6 discriminator 1 view .LVU1143
@@ -9058,7 +9058,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3202              		.thumb
  3203              		.thumb_func
  3205              	HAL_SPI_TransmitReceive_IT:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 152
+ARM GAS  /tmp/ccxHOabk.s 			page 152
 
 
  3206              	.LVL173:
@@ -9118,7 +9118,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3243 0018 C5B2     		uxtb	r5, r0
  3244              	.LVL175:
 1763:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 153
+ARM GAS  /tmp/ccxHOabk.s 			page 153
 
 
  3245              		.loc 1 1763 3 is_stmt 1 discriminator 2 view .LVU1171
@@ -9178,7 +9178,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3283 0044 2264     		str	r2, [r4, #64]
 1781:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
  3284              		.loc 1 1781 17 view .LVU1188
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 154
+ARM GAS  /tmp/ccxHOabk.s 			page 154
 
 
  3285 0046 1CBF     		itt	ne
@@ -9238,7 +9238,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3322 0072 E387     		strh	r3, [r4, #62]	@ movhi
 1789:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->RxXferSize  = Size;
  3323              		.loc 1 1789 3 is_stmt 1 view .LVU1206
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 155
+ARM GAS  /tmp/ccxHOabk.s 			page 155
 
 
 1790:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->RxXferCount = Size;
@@ -9298,7 +9298,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1814:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
  3357              		.loc 1 1814 5 view .LVU1228
  3358 0090 1068     		ldr	r0, [r2]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 156
+ARM GAS  /tmp/ccxHOabk.s 			page 156
 
 
  3359 0092 20F40050 		bic	r0, r0, #8192
@@ -9358,7 +9358,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1846:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   return errorcode;
  3400              		.loc 1 1846 3 view .LVU1242
 1846:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   return errorcode;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 157
+ARM GAS  /tmp/ccxHOabk.s 			page 157
 
 
  3401              		.loc 1 1846 3 view .LVU1243
@@ -9418,7 +9418,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3444              		.align	2
  3445              	.L405:
  3446 00f0 00000000 		.word	SPI_2linesRxISR_16BIT
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 158
+ARM GAS  /tmp/ccxHOabk.s 			page 158
 
 
  3447 00f4 00000000 		.word	SPI_2linesRxISR_8BIT
@@ -9478,7 +9478,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3492              		.loc 1 1648 17 is_stmt 0 view .LVU1265
  3493 0014 0422     		movs	r2, #4
  3494 0016 80F85D20 		strb	r2, [r0, #93]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 159
+ARM GAS  /tmp/ccxHOabk.s 			page 159
 
 
 1650:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
@@ -9538,7 +9538,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3534              		.loc 1 1662 23 discriminator 1 view .LVU1280
  3535 003e 002B     		cmp	r3, #0
  3536 0040 49D0     		beq	.L410
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 160
+ARM GAS  /tmp/ccxHOabk.s 			page 160
 
 
 1669:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->ErrorCode   = HAL_SPI_ERROR_NONE;
@@ -9598,7 +9598,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1676:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->TxXferSize  = 0U;
  3572              		.loc 1 1676 21 view .LVU1300
  3573 006c A063     		str	r0, [r4, #56]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 161
+ARM GAS  /tmp/ccxHOabk.s 			page 161
 
 
 1677:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->TxXferCount = 0U;
@@ -9658,7 +9658,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3609              		.loc 1 1705 6 is_stmt 0 view .LVU1319
  3610 0094 A26A     		ldr	r2, [r4, #40]
  3611 0096 B2F5005F 		cmp	r2, #8192
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 162
+ARM GAS  /tmp/ccxHOabk.s 			page 162
 
 
  3612 009a 21D1     		bne	.L414
@@ -9718,7 +9718,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3649              		.loc 1 1728 6 view .LVU1336
  3650 00c8 10F04000 		ands	r0, r0, #64
  3651 00cc 0DD1     		bne	.L419
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 163
+ARM GAS  /tmp/ccxHOabk.s 			page 163
 
 
 1731:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
@@ -9778,7 +9778,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3695 00ec F3E7     		b	.L410
  3696              	.LVL198:
  3697              	.L417:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 164
+ARM GAS  /tmp/ccxHOabk.s 			page 164
 
 
 1654:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -9838,7 +9838,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1869:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  3743              		.loc 1 1869 3 view .LVU1359
  3744 000a 00F08380 		beq	.L438
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 165
+ARM GAS  /tmp/ccxHOabk.s 			page 165
 
 
 1869:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -9898,7 +9898,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3780              		.loc 1 1894 21 view .LVU1378
  3781 0038 A0F84430 		strh	r3, [r0, #68]	@ movhi
 1895:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 166
+ARM GAS  /tmp/ccxHOabk.s 			page 166
 
 
  3782              		.loc 1 1895 21 view .LVU1379
@@ -9958,7 +9958,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3818              		.loc 1 1909 5 is_stmt 1 view .LVU1397
 1909:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
  3819              		.loc 1 1909 5 view .LVU1398
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 167
+ARM GAS  /tmp/ccxHOabk.s 			page 167
 
 
  3820 0066 1368     		ldr	r3, [r2]
@@ -10018,7 +10018,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3859 009a B3F5806F 		cmp	r3, #1024
  3860 009e 0BD1     		bne	.L434
 1930:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 168
+ARM GAS  /tmp/ccxHOabk.s 			page 168
 
 
  3861              		.loc 1 1930 5 is_stmt 1 view .LVU1414
@@ -10078,7 +10078,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 1950:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     goto error;
  3899              		.loc 1 1950 17 is_stmt 0 view .LVU1431
  3900 00cc 0123     		movs	r3, #1
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 169
+ARM GAS  /tmp/ccxHOabk.s 			page 169
 
 
  3901 00ce 84F85D30 		strb	r3, [r4, #93]
@@ -10138,7 +10138,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  3940 00f6 42F04002 		orrpl	r2, r2, #64
  3941 00fa 1A60     		strpl	r2, [r3]
 1962:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 170
+ARM GAS  /tmp/ccxHOabk.s 			page 170
 
 
  3942              		.loc 1 1962 3 view .LVU1447
@@ -10198,7 +10198,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2137:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  3989              		.loc 1 2137 3 view .LVU1457
 2140:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 171
+ARM GAS  /tmp/ccxHOabk.s 			page 171
 
 
  3990              		.loc 1 2140 3 view .LVU1458
@@ -10258,7 +10258,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4028 0024 40F0C180 		bne	.L468
 2150:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  4029              		.loc 1 2150 40 view .LVU1475
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 172
+ARM GAS  /tmp/ccxHOabk.s 			page 172
 
 
  4030 0028 A068     		ldr	r0, [r4, #8]
@@ -10318,7 +10318,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4067              		.loc 1 2183 6 view .LVU1492
  4068 0060 A06A     		ldr	r0, [r4, #40]
 2172:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->pRxBuffPtr  = (uint8_t *)pRxData;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 173
+ARM GAS  /tmp/ccxHOabk.s 			page 173
 
 
  4069              		.loc 1 2172 21 view .LVU1493
@@ -10378,7 +10378,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4105 008a 20F4C040 		bic	r0, r0, #24576
  4106 008e 4860     		str	r0, [r1, #4]
 2193:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 174
+ARM GAS  /tmp/ccxHOabk.s 			page 174
 
 
  4107              		.loc 1 2193 3 discriminator 1 view .LVU1512
@@ -10438,7 +10438,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2250:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  4145              		.loc 1 2250 3 is_stmt 1 view .LVU1529
 2250:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 175
+ARM GAS  /tmp/ccxHOabk.s 			page 175
 
 
  4146              		.loc 1 2250 35 is_stmt 0 view .LVU1530
@@ -10498,7 +10498,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2303:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   return errorcode;
  4185              		.loc 1 2303 3 view .LVU1546
 2304:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 176
+ARM GAS  /tmp/ccxHOabk.s 			page 176
 
 
  4186              		.loc 1 2304 3 view .LVU1547
@@ -10558,7 +10558,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4225              	.L457:
 2217:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
  4226              		.loc 1 2217 5 is_stmt 1 view .LVU1563
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 177
+ARM GAS  /tmp/ccxHOabk.s 			page 177
 
 
 2217:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
@@ -10618,7 +10618,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4265 014e 0133     		adds	r3, r3, #1
  4266 0150 DEE7     		b	.L478
  4267              	.L459:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 178
+ARM GAS  /tmp/ccxHOabk.s 			page 178
 
 
 2229:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         hspi->RxXferCount = (hspi->RxXferCount >> 1U) + 1U;
@@ -10678,7 +10678,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4306              		.loc 1 2290 3 is_stmt 1 view .LVU1595
 2290:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  4307              		.loc 1 2290 12 is_stmt 0 view .LVU1596
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 179
+ARM GAS  /tmp/ccxHOabk.s 			page 179
 
 
  4308 0188 2368     		ldr	r3, [r4]
@@ -10738,7 +10738,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4355              		.syntax unified
  4356              		.thumb
  4357              		.thumb_func
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 180
+ARM GAS  /tmp/ccxHOabk.s 			page 180
 
 
  4359              	HAL_SPI_Receive_DMA:
@@ -10798,7 +10798,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2116:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  4399              		.loc 1 2116 1 is_stmt 0 view .LVU1619
  4400 001c BDE8F041 		pop	{r4, r5, r6, r7, r8, lr}
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 181
+ARM GAS  /tmp/ccxHOabk.s 			page 181
 
 
  4401              	.LCFI36:
@@ -10858,7 +10858,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2017:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->ErrorCode   = HAL_SPI_ERROR_NONE;
  4442              		.loc 1 2017 3 is_stmt 1 view .LVU1633
 2017:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->ErrorCode   = HAL_SPI_ERROR_NONE;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 182
+ARM GAS  /tmp/ccxHOabk.s 			page 182
 
 
  4443              		.loc 1 2017 21 is_stmt 0 view .LVU1634
@@ -10918,7 +10918,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4478 0072 23F04003 		bic	r3, r3, #64
  4479 0076 0B60     		str	r3, [r1]
 2034:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 183
+ARM GAS  /tmp/ccxHOabk.s 			page 183
 
 
  4480              		.loc 1 2034 5 view .LVU1654
@@ -10978,7 +10978,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4520              	.L491:
 2076:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  4521              		.loc 1 2076 3 view .LVU1669
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 184
+ARM GAS  /tmp/ccxHOabk.s 			page 184
 
 
 2076:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -11038,7 +11038,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4560              	.L487:
 2114:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   return errorcode;
  4561              		.loc 1 2114 3 view .LVU1686
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 185
+ARM GAS  /tmp/ccxHOabk.s 			page 185
 
 
 2114:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   return errorcode;
@@ -11098,7 +11098,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4600 0114 B4F84630 		ldrh	r3, [r4, #70]
 2065:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
  4601              		.loc 1 2065 27 view .LVU1703
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 186
+ARM GAS  /tmp/ccxHOabk.s 			page 186
 
 
  4602 0118 C3F34E03 		ubfx	r3, r3, #1, #15
@@ -11158,7 +11158,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4643              	.L496:
 2006:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     goto error;
  4644              		.loc 1 2006 15 view .LVU1717
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 187
+ARM GAS  /tmp/ccxHOabk.s 			page 187
 
 
  4645 0158 0226     		movs	r6, #2
@@ -11218,7 +11218,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2328:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   count = resetcount;
  4691              		.loc 1 2328 61 view .LVU1728
  4692 0006 45F6C052 		movw	r2, #24000
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 188
+ARM GAS  /tmp/ccxHOabk.s 			page 188
 
 
  4693 000a 1B68     		ldr	r3, [r3]
@@ -11278,7 +11278,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2343:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         break;
  4731              		.loc 1 2343 9 is_stmt 1 view .LVU1745
  4732 0038 226E     		ldr	r2, [r4, #96]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 189
+ARM GAS  /tmp/ccxHOabk.s 			page 189
 
 
  4733 003a 42F04002 		orr	r2, r2, #64
@@ -11338,7 +11338,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2370:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  4771              		.loc 1 2370 3 is_stmt 1 view .LVU1762
 2370:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 190
+ARM GAS  /tmp/ccxHOabk.s 			page 190
 
 
  4772              		.loc 1 2370 7 is_stmt 0 view .LVU1763
@@ -11398,7 +11398,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4811              		.loc 1 2388 10 view .LVU1778
  4812 0092 08B1     		cbz	r0, .L519
 2390:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 191
+ARM GAS  /tmp/ccxHOabk.s 			page 191
 
 
  4813              		.loc 1 2390 9 is_stmt 1 view .LVU1779
@@ -11458,7 +11458,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4853              		.loc 1 2412 7 is_stmt 1 view .LVU1793
 2412:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  4854              		.loc 1 2412 39 is_stmt 0 view .LVU1794
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 192
+ARM GAS  /tmp/ccxHOabk.s 			page 192
 
 
  4855 00c8 0023     		movs	r3, #0
@@ -11518,7 +11518,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4896 00fe 0090     		str	r0, [sp]
  4897 0100 0022     		movs	r2, #0
  4898 0102 4FF4C061 		mov	r1, #1536
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 193
+ARM GAS  /tmp/ccxHOabk.s 			page 193
 
 
  4899 0106 2046     		mov	r0, r4
@@ -11578,7 +11578,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4938 0130 D168     		ldr	r1, [r2, #12]
  4939 0132 0491     		str	r1, [sp, #16]
  4940 0134 9168     		ldr	r1, [r2, #8]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 194
+ARM GAS  /tmp/ccxHOabk.s 			page 194
 
 
  4941 0136 0491     		str	r1, [sp, #16]
@@ -11638,7 +11638,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  4978 014a 0123     		movs	r3, #1
  4979 014c 84F85D30 		strb	r3, [r4, #93]
 2462:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 195
+ARM GAS  /tmp/ccxHOabk.s 			page 195
 
 
  4980              		.loc 1 2462 3 is_stmt 1 view .LVU1840
@@ -11698,7 +11698,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5023              		.cfi_endproc
  5024              	.LFE734:
  5026              		.section	.text.HAL_SPI_DMAPause,"ax",%progbits
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 196
+ARM GAS  /tmp/ccxHOabk.s 			page 196
 
 
  5027              		.align	1
@@ -11758,7 +11758,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5067 001c 08BF     		it	eq
  5068 001e 0220     		moveq	r0, #2
 2653:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 197
+ARM GAS  /tmp/ccxHOabk.s 			page 197
 
 
  5069              		.loc 1 2653 1 view .LVU1867
@@ -11818,7 +11818,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5112              		.loc 1 2670 3 view .LVU1880
 2672:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** }
  5113              		.loc 1 2672 3 view .LVU1881
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 198
+ARM GAS  /tmp/ccxHOabk.s 			page 198
 
 
 2664:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -11878,7 +11878,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2700:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  5159              		.loc 1 2700 11 is_stmt 0 view .LVU1893
  5160 000a A06D     		ldr	r0, [r4, #88]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 199
+ARM GAS  /tmp/ccxHOabk.s 			page 199
 
 
 2700:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -11938,7 +11938,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5200 0038 E6D0     		beq	.L572
 2695:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       errorcode = HAL_ERROR;
  5201              		.loc 1 2695 7 is_stmt 1 view .LVU1909
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 200
+ARM GAS  /tmp/ccxHOabk.s 			page 200
 
 
  5202 003a 236E     		ldr	r3, [r4, #96]
@@ -11998,7 +11998,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5260 0000 7047     		bx	lr
  5261              		.cfi_endproc
  5262              	.LFE790:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 201
+ARM GAS  /tmp/ccxHOabk.s 			page 201
 
 
  5264              		.section	.text.HAL_SPI_TxHalfCpltCallback,"ax",%progbits
@@ -12058,7 +12058,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5315              		.weak	HAL_SPI_RxHalfCpltCallback
  5316              		.syntax unified
  5317              		.thumb
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 202
+ARM GAS  /tmp/ccxHOabk.s 			page 202
 
 
  5318              		.thumb_func
@@ -12118,7 +12118,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5370              	.LFB796:
  5371              		.cfi_startproc
  5372              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 203
+ARM GAS  /tmp/ccxHOabk.s 			page 203
 
 
  5373              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -12178,7 +12178,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5424 0000 7047     		bx	lr
  5425              		.cfi_endproc
  5426              	.LFE798:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 204
+ARM GAS  /tmp/ccxHOabk.s 			page 204
 
 
  5428              		.section	.text.SPI_CloseTx_ISR,"ax",%progbits
@@ -12238,7 +12238,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 4277:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  5471              		.loc 1 4277 6 view .LVU1945
  5472 001c 18B1     		cbz	r0, .L594
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 205
+ARM GAS  /tmp/ccxHOabk.s 			page 205
 
 
 4279:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
@@ -12298,7 +12298,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5511 0044 FFF7FEFF 		bl	HAL_SPI_ErrorCallback
  5512              	.LVL280:
  5513              	.L593:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 206
+ARM GAS  /tmp/ccxHOabk.s 			page 206
 
 
 4307:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -12358,7 +12358,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5559 000a 0133     		adds	r3, r3, #1
  5560 000c 8363     		str	r3, [r0, #56]
 3864:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 207
+ARM GAS  /tmp/ccxHOabk.s 			page 207
 
 
  5561              		.loc 1 3864 3 is_stmt 1 view .LVU1973
@@ -12418,7 +12418,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5604              		.thumb
  5605              		.thumb_func
  5607              	SPI_TxISR_16BIT:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 208
+ARM GAS  /tmp/ccxHOabk.s 			page 208
 
 
  5608              	.LVL286:
@@ -12478,7 +12478,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5645 0020 02BF     		ittt	eq
  5646 0022 1368     		ldreq	r3, [r2]
  5647 0024 43F48053 		orreq	r3, r3, #4096
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 209
+ARM GAS  /tmp/ccxHOabk.s 			page 209
 
 
  5648 0028 1360     		streq	r3, [r2]
@@ -12538,7 +12538,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5694              	.LVL290:
 4215:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  5695              		.loc 1 4215 6 view .LVU2013
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 210
+ARM GAS  /tmp/ccxHOabk.s 			page 210
 
 
  5696 001c 18B1     		cbz	r0, .L608
@@ -12598,7 +12598,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5734              		.loc 1 4237 5 is_stmt 1 view .LVU2029
 4243:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
  5735              		.loc 1 4243 7 is_stmt 0 view .LVU2030
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 211
+ARM GAS  /tmp/ccxHOabk.s 			page 211
 
 
  5736 004c 2046     		mov	r0, r4
@@ -12658,7 +12658,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5779              		.loc 1 3775 3 is_stmt 1 view .LVU2043
 3775:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  5780              		.loc 1 3775 7 is_stmt 0 view .LVU2044
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 212
+ARM GAS  /tmp/ccxHOabk.s 			page 212
 
 
  5781 000e B0F84630 		ldrh	r3, [r0, #70]
@@ -12718,7 +12718,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3794:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
  5821              		.loc 1 3794 5 view .LVU2059
  5822 004c FFF7FEBF 		b	SPI_CloseRx_ISR
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 213
+ARM GAS  /tmp/ccxHOabk.s 			page 213
 
 
  5823              	.LVL296:
@@ -12778,7 +12778,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5867              		.loc 1 3752 11 view .LVU2071
  5868 000e 8DF80720 		strb	r2, [sp, #7]
 3754:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 214
+ARM GAS  /tmp/ccxHOabk.s 			page 214
 
 
  5869              		.loc 1 3754 3 is_stmt 1 view .LVU2072
@@ -12838,7 +12838,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5915              		.loc 1 3829 3 view .LVU2082
 3829:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->pRxBuffPtr += sizeof(uint16_t);
  5916              		.loc 1 3829 52 is_stmt 0 view .LVU2083
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 215
+ARM GAS  /tmp/ccxHOabk.s 			page 215
 
 
  5917 0000 0268     		ldr	r2, [r0]
@@ -12898,7 +12898,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  5955 0038 43B9     		cbnz	r3, .L623
 3844:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
  5956              		.loc 1 3844 5 is_stmt 1 view .LVU2100
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 216
+ARM GAS  /tmp/ccxHOabk.s 			page 216
 
 
 3844:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
@@ -12958,7 +12958,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3810:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* To avoid GCC warning */
  6003              		.loc 1 3810 3 is_stmt 1 view .LVU2111
 3810:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* To avoid GCC warning */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 217
+ARM GAS  /tmp/ccxHOabk.s 			page 217
 
 
  6004              		.loc 1 3810 12 is_stmt 0 view .LVU2112
@@ -13018,7 +13018,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 4133:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   uint32_t tickstart;
  6049              		.loc 1 4133 1 view .LVU2124
  6050 0002 0446     		mov	r4, r0
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 218
+ARM GAS  /tmp/ccxHOabk.s 			page 218
 
 
 4137:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -13078,7 +13078,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6090 0038 236E     		ldr	r3, [r4, #96]
  6091 003a 43F00203 		orr	r3, r3, #2
  6092 003e 2366     		str	r3, [r4, #96]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 219
+ARM GAS  /tmp/ccxHOabk.s 			page 219
 
 
 4154:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     /* Call user error callback */
@@ -13138,7 +13138,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6130              	.LVL313:
  6131              	.L635:
 4179:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         /* Call user TxRx complete callback */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 220
+ARM GAS  /tmp/ccxHOabk.s 			page 220
 
 
  6132              		.loc 1 4179 9 is_stmt 1 view .LVU2157
@@ -13198,7 +13198,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3608:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     hspi->pTxBuffPtr += sizeof(uint16_t);
  6175              		.loc 1 3608 24 view .LVU2171
  6176 0010 CA60     		str	r2, [r1, #12]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 221
+ARM GAS  /tmp/ccxHOabk.s 			page 221
 
 
 3609:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     hspi->TxXferCount -= 2U;
@@ -13258,7 +13258,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6214              		.loc 1 3615 45 is_stmt 0 view .LVU2188
  6215 003e 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
 3615:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     hspi->pTxBuffPtr++;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 222
+ARM GAS  /tmp/ccxHOabk.s 			page 222
 
 
  6216              		.loc 1 3615 42 view .LVU2189
@@ -13318,7 +13318,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6260              		@ args = 0, pretend = 0, frame = 0
  6261              		@ frame_needed = 0, uses_anonymous_args = 0
  6262              		@ link register save eliminated.
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 223
+ARM GAS  /tmp/ccxHOabk.s 			page 223
 
 
 3521:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -13378,7 +13378,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6300              	.L650:
 3541:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  6301              		.loc 1 3541 3 view .LVU2219
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 224
+ARM GAS  /tmp/ccxHOabk.s 			page 224
 
 
 3541:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -13438,7 +13438,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6338              		.loc 1 3537 5 is_stmt 1 view .LVU2237
 3537:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
  6339              		.loc 1 3537 9 is_stmt 0 view .LVU2238
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 225
+ARM GAS  /tmp/ccxHOabk.s 			page 225
 
 
  6340 005e B0F84630 		ldrh	r3, [r0, #70]
@@ -13498,7 +13498,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6385              		.loc 1 3570 1 is_stmt 0 view .LVU2249
  6386 0000 82B0     		sub	sp, sp, #8
  6387              	.LCFI57:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 226
+ARM GAS  /tmp/ccxHOabk.s 			page 226
 
 
  6388              		.cfi_def_cfa_offset 8
@@ -13558,7 +13558,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6424              		.loc 1 3594 1 is_stmt 0 view .LVU2267
  6425 002c 02B0     		add	sp, sp, #8
  6426              	.LCFI58:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 227
+ARM GAS  /tmp/ccxHOabk.s 			page 227
 
 
  6427              		.cfi_remember_state
@@ -13618,7 +13618,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6473              		.loc 1 3710 3 is_stmt 1 view .LVU2277
 3710:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->TxXferCount--;
  6474              		.loc 1 3710 20 is_stmt 0 view .LVU2278
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 228
+ARM GAS  /tmp/ccxHOabk.s 			page 228
 
 
  6475 000c 8163     		str	r1, [r0, #56]
@@ -13678,7 +13678,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6516 003a 21F08001 		bic	r1, r1, #128
  6517 003e 5160     		str	r1, [r2, #4]
 3730:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 229
+ARM GAS  /tmp/ccxHOabk.s 			page 229
 
 
  6518              		.loc 1 3730 5 view .LVU2292
@@ -13738,7 +13738,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6562              		.loc 1 3653 62 view .LVU2304
  6563 0006 CC68     		ldr	r4, [r1, #12]
 3653:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   hspi->pRxBuffPtr += sizeof(uint16_t);
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 230
+ARM GAS  /tmp/ccxHOabk.s 			page 230
 
 
  6564              		.loc 1 3653 37 view .LVU2305
@@ -13798,7 +13798,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6603              		.loc 1 3668 5 is_stmt 1 view .LVU2320
  6604 0032 4A68     		ldr	r2, [r1, #4]
  6605 0034 22F04002 		bic	r2, r2, #64
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 231
+ARM GAS  /tmp/ccxHOabk.s 			page 231
 
 
  6606 0038 4A60     		str	r2, [r1, #4]
@@ -13858,7 +13858,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6651 0002 0023     		movs	r3, #0
  6652 0004 0193     		str	r3, [sp, #4]
 3689:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   /* To avoid GCC warning */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 232
+ARM GAS  /tmp/ccxHOabk.s 			page 232
 
 
  6653              		.loc 1 3689 3 is_stmt 1 view .LVU2332
@@ -13918,7 +13918,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3343:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   SPI_HandleTypeDef *hspi = (SPI_HandleTypeDef *)(((DMA_HandleTypeDef *)hdma)->Parent); /* Derogati
  6697              		.loc 1 3343 1 is_stmt 0 view .LVU2345
  6698 0004 08B5     		push	{r3, lr}
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 233
+ARM GAS  /tmp/ccxHOabk.s 			page 233
 
 
  6699              	.LCFI71:
@@ -13978,7 +13978,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6745 0002 0546     		mov	r5, r0
 3016:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   uint32_t tickstart;
  6746              		.loc 1 3016 22 view .LVU2356
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 234
+ARM GAS  /tmp/ccxHOabk.s 			page 234
 
 
  6747 0004 846A     		ldr	r4, [r0, #40]
@@ -14038,7 +14038,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6785              		.loc 1 3034 7 is_stmt 1 view .LVU2372
  6786 0030 236E     		ldr	r3, [r4, #96]
  6787 0032 43F02003 		orr	r3, r3, #32
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 235
+ARM GAS  /tmp/ccxHOabk.s 			page 235
 
 
  6788 0036 2366     		str	r3, [r4, #96]
@@ -14098,7 +14098,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6826              	.LVL337:
 3054:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
  6827              		.loc 1 3054 7 view .LVU2389
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 236
+ARM GAS  /tmp/ccxHOabk.s 			page 236
 
 
  6828              	.L675:
@@ -14158,7 +14158,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6876 0008 846A     		ldr	r4, [r0, #40]
  6877              	.LVL341:
 3074:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 237
+ARM GAS  /tmp/ccxHOabk.s 			page 237
 
 
  6878              		.loc 1 3074 3 is_stmt 1 view .LVU2398
@@ -14218,7 +14218,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6915 0034 1146     		mov	r1, r2
  6916 0036 2046     		mov	r0, r4
  6917              	.LVL344:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 238
+ARM GAS  /tmp/ccxHOabk.s 			page 238
 
 
 3095:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       {
@@ -14278,7 +14278,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  6956 0064 3FD1     		bne	.L694
 3137:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
  6957              		.loc 1 3137 7 is_stmt 1 view .LVU2432
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 239
+ARM GAS  /tmp/ccxHOabk.s 			page 239
 
 
  6958 0066 5A68     		ldr	r2, [r3, #4]
@@ -14338,7 +14338,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3159:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
  6997              		.loc 1 3159 7 view .LVU2448
  6998 009a 4FF6EF73 		movw	r3, #65519
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 240
+ARM GAS  /tmp/ccxHOabk.s 			page 240
 
 
  6999 009e 9360     		str	r3, [r2, #8]
@@ -14398,7 +14398,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7038              		.loc 1 3119 15 is_stmt 0 view .LVU2463
  7039 00c0 0122     		movs	r2, #1
  7040 00c2 0095     		str	r5, [sp]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 241
+ARM GAS  /tmp/ccxHOabk.s 			page 241
 
 
  7041              	.LVL350:
@@ -14458,7 +14458,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7087              		.loc 1 3189 1 view -0
  7088              		.cfi_startproc
  7089              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 242
+ARM GAS  /tmp/ccxHOabk.s 			page 242
 
 
  7090              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -14518,7 +14518,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7127              		.loc 1 3202 3 is_stmt 1 view .LVU2490
 3202:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  7128              		.loc 1 3202 6 is_stmt 0 view .LVU2491
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 243
+ARM GAS  /tmp/ccxHOabk.s 			page 243
 
 
  7129 001a 5ED4     		bmi	.L716
@@ -14578,7 +14578,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7170              	.LVL359:
 3222:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         /* To avoid GCC warning */
  7171              		.loc 1 3222 9 is_stmt 1 view .LVU2505
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 244
+ARM GAS  /tmp/ccxHOabk.s 			page 244
 
 
 3222:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         /* To avoid GCC warning */
@@ -14638,7 +14638,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7211 008c 0122     		movs	r2, #1
  7212 008e 84F85D20 		strb	r2, [r4, #93]
 3256:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 245
+ARM GAS  /tmp/ccxHOabk.s 			page 245
 
 
  7213              		.loc 1 3256 5 is_stmt 1 view .LVU2521
@@ -14698,7 +14698,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7255 00c0 2046     		mov	r0, r4
  7256              	.LVL365:
 3228:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 246
+ARM GAS  /tmp/ccxHOabk.s 			page 246
 
 
  7257              		.loc 1 3228 13 view .LVU2534
@@ -14758,7 +14758,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7303              		.cfi_def_cfa_offset 20
  7304              		.cfi_offset 4, -20
  7305              		.cfi_offset 5, -16
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 247
+ARM GAS  /tmp/ccxHOabk.s 			page 247
 
 
  7306              		.cfi_offset 6, -12
@@ -14818,7 +14818,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7346              		@ sp needed
  7347 0024 BDE8F040 		pop	{r4, r5, r6, r7, lr}
  7348              	.LCFI84:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 248
+ARM GAS  /tmp/ccxHOabk.s 			page 248
 
 
  7349              		.cfi_restore 14
@@ -14878,7 +14878,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2743:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
  7390              		.loc 1 2743 60 discriminator 1 view .LVU2572
  7391 004c AA06     		lsls	r2, r5, #26
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 249
+ARM GAS  /tmp/ccxHOabk.s 			page 249
 
 
  7392 004e 55D5     		bpl	.L739
@@ -14938,7 +14938,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7430              		.loc 1 2764 7 view .LVU2588
  7431              	.LBB21:
 2764:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 250
+ARM GAS  /tmp/ccxHOabk.s 			page 250
 
 
  7432              		.loc 1 2764 7 view .LVU2589
@@ -14998,7 +14998,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7470              		.loc 1 2774 13 is_stmt 0 discriminator 1 view .LVU2605
  7471 00a4 226E     		ldr	r2, [r4, #96]
 2774:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 251
+ARM GAS  /tmp/ccxHOabk.s 			page 251
 
 
  7472              		.loc 1 2774 8 discriminator 1 view .LVU2606
@@ -15058,7 +15058,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7510              	.L751:
 2797:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         {
  7511              		.loc 1 2797 9 view .LVU2623
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 252
+ARM GAS  /tmp/ccxHOabk.s 			page 252
 
 
 2797:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****         {
@@ -15118,7 +15118,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7550              	.LCFI86:
  7551              		.cfi_remember_state
  7552              		.cfi_def_cfa_offset 20
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 253
+ARM GAS  /tmp/ccxHOabk.s 			page 253
 
 
  7553              		@ sp needed
@@ -15178,7 +15178,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7600 000a C387     		strh	r3, [r0, #62]	@ movhi
 3375:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
  7601              		.loc 1 3375 3 is_stmt 1 view .LVU2649
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 254
+ARM GAS  /tmp/ccxHOabk.s 			page 254
 
 
  7602 000c FFF7FEFF 		bl	HAL_SPI_ErrorCallback
@@ -15238,7 +15238,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7650              		.cfi_def_cfa_offset 12
  7651              		.cfi_offset 4, -12
  7652              		.cfi_offset 5, -8
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 255
+ARM GAS  /tmp/ccxHOabk.s 			page 255
 
 
  7653              		.cfi_offset 14, -4
@@ -15298,7 +15298,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7692              	.L798:
 2501:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
  7693              		.loc 1 2501 5 is_stmt 1 view .LVU2675
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 256
+ARM GAS  /tmp/ccxHOabk.s 			page 256
 
 
 2503:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       {
@@ -15358,7 +15358,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7731 0054 42F04002 		orr	r2, r2, #64
  7732 0058 2266     		str	r2, [r4, #96]
 2523:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****       }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 257
+ARM GAS  /tmp/ccxHOabk.s 			page 257
 
 
  7733              		.loc 1 2523 9 view .LVU2693
@@ -15418,7 +15418,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7768              		.loc 1 2554 7 is_stmt 1 view .LVU2712
 2554:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     }
  7769              		.loc 1 2554 39 is_stmt 0 view .LVU2713
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 258
+ARM GAS  /tmp/ccxHOabk.s 			page 258
 
 
  7770 0078 18BF     		it	ne
@@ -15478,7 +15478,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7807              		.loc 1 2581 7 is_stmt 0 view .LVU2730
  7808 009a 2368     		ldr	r3, [r4]
  7809 009c 5B68     		ldr	r3, [r3, #4]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 259
+ARM GAS  /tmp/ccxHOabk.s 			page 259
 
 
 2581:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -15538,7 +15538,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2509:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     /* Reset Timeout Counter */
  7850              		.loc 1 2509 5 view .LVU2745
  7851 00be 072A     		cmp	r2, #7
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 260
+ARM GAS  /tmp/ccxHOabk.s 			page 260
 
 
  7852 00c0 B6D1     		bne	.L798
@@ -15598,7 +15598,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 2606:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
  7891              		.loc 1 2606 5 is_stmt 1 view .LVU2761
 2606:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 261
+ARM GAS  /tmp/ccxHOabk.s 			page 261
 
 
  7892              		.loc 1 2606 13 is_stmt 0 view .LVU2762
@@ -15658,7 +15658,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7931              		.loc 1 2619 5 view .LVU2777
 2619:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  7932              		.loc 1 2619 5 view .LVU2778
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 262
+ARM GAS  /tmp/ccxHOabk.s 			page 262
 
 
  7933 0106 9368     		ldr	r3, [r2, #8]
@@ -15718,7 +15718,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  7980              		.loc 1 3455 22 view .LVU2787
  7981 0002 846A     		ldr	r4, [r0, #40]
  7982              	.LVL394:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 263
+ARM GAS  /tmp/ccxHOabk.s 			page 263
 
 
 3458:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -15778,7 +15778,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  8022 0034 2366     		str	r3, [r4, #96]
  8023              	.L840:
 3472:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 264
+ARM GAS  /tmp/ccxHOabk.s 			page 264
 
 
  8024              		.loc 1 3472 3 is_stmt 1 view .LVU2803
@@ -15838,7 +15838,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  8062              		.loc 1 3491 6 view .LVU2819
  8063 0062 402A     		cmp	r2, #64
 3494:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   }
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 265
+ARM GAS  /tmp/ccxHOabk.s 			page 265
 
 
  8064              		.loc 1 3494 5 is_stmt 1 view .LVU2820
@@ -15898,7 +15898,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  8102 0084 2046     		mov	r0, r4
  8103 0086 FFF7FEFF 		bl	HAL_SPI_AbortCpltCallback
  8104              	.LVL399:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 266
+ARM GAS  /tmp/ccxHOabk.s 			page 266
 
 
  8105              	.L839:
@@ -15958,7 +15958,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  8150              		.loc 1 3396 7 is_stmt 0 view .LVU2847
  8151 0014 FFF7FEFF 		bl	HAL_GetTick
  8152              	.LVL402:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 267
+ARM GAS  /tmp/ccxHOabk.s 			page 267
 
 
 3396:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****   {
@@ -16018,7 +16018,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3413:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
  8194              		.loc 1 3413 5 is_stmt 1 view .LVU2861
 3413:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c ****     {
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 268
+ARM GAS  /tmp/ccxHOabk.s 			page 268
 
 
  8195              		.loc 1 3413 8 is_stmt 0 view .LVU2862
@@ -16078,7 +16078,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
 3432:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
  8233              		.loc 1 3432 3 view .LVU2879
  8234              	.LBB34:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 269
+ARM GAS  /tmp/ccxHOabk.s 			page 269
 
 
 3432:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -16138,7 +16138,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  8279              		.loc 1 2980 14 is_stmt 0 view .LVU2891
  8280 0000 90F85D00 		ldrb	r0, [r0, #93]	@ zero_extendqisi2
  8281              	.LVL408:
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 270
+ARM GAS  /tmp/ccxHOabk.s 			page 270
 
 
 2981:hardware/mcu/st/stm32wlxx_hal_driver/Src/stm32wlxx_hal_spi.c **** 
@@ -16174,8 +16174,8 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  8309              	.LFE749:
  8311              		.text
  8312              	.Letext0:
- 8313              		.file 2 "/Applications/ARM/arm-none-eabi/include/machine/_default_types.h"
- 8314              		.file 3 "/Applications/ARM/arm-none-eabi/include/sys/_stdint.h"
+ 8313              		.file 2 "/opt/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h"
+ 8314              		.file 3 "/opt/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h"
  8315              		.file 4 "hardware/mcu/st/cmsis_device_wl/Include/stm32wle5xx.h"
  8316              		.file 5 "hardware/mcu/st/cmsis_device_wl/Include/stm32wlxx.h"
  8317              		.file 6 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_hal_def.h"
@@ -16184,154 +16184,154 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 1
  8320              		.file 9 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_ll_dma.h"
  8321              		.file 10 "hardware/mcu/st/cmsis_device_wl/Include/system_stm32wlxx.h"
  8322              		.file 11 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_hal.h"
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 271
+ARM GAS  /tmp/ccxHOabk.s 			page 271
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32wlxx_hal_spi.c
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:18     .text.SPI_WaitFlagStateUntilTimeout:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:23     .text.SPI_WaitFlagStateUntilTimeout:0000000000000000 SPI_WaitFlagStateUntilTimeout
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:195    .text.SPI_WaitFlagStateUntilTimeout:00000000000000b4 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:200    .text.SPI_WaitFifoStateUntilTimeout:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:205    .text.SPI_WaitFifoStateUntilTimeout:0000000000000000 SPI_WaitFifoStateUntilTimeout
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:403    .text.SPI_WaitFifoStateUntilTimeout:00000000000000d4 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:408    .text.SPI_EndRxTransaction:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:413    .text.SPI_EndRxTransaction:0000000000000000 SPI_EndRxTransaction
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:521    .text.SPI_AbortRx_ISR:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:526    .text.SPI_AbortRx_ISR:0000000000000000 SPI_AbortRx_ISR
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:644    .text.SPI_AbortRx_ISR:0000000000000080 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:649    .text.SPI_EndRxTxTransaction:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:654    .text.SPI_EndRxTxTransaction:0000000000000000 SPI_EndRxTxTransaction
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:747    .text.SPI_AbortTx_ISR:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:752    .text.SPI_AbortTx_ISR:0000000000000000 SPI_AbortTx_ISR
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:942    .text.SPI_AbortTx_ISR:00000000000000dc $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:947    .text.HAL_SPI_MspInit:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:953    .text.HAL_SPI_MspInit:0000000000000000 HAL_SPI_MspInit
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:968    .text.HAL_SPI_Init:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:974    .text.HAL_SPI_Init:0000000000000000 HAL_SPI_Init
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:1211   .text.HAL_SPI_MspDeInit:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:1217   .text.HAL_SPI_MspDeInit:0000000000000000 HAL_SPI_MspDeInit
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:1228   .text.HAL_SPI_DeInit:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:1234   .text.HAL_SPI_DeInit:0000000000000000 HAL_SPI_DeInit
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:1292   .text.HAL_SPI_Transmit:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:1298   .text.HAL_SPI_Transmit:0000000000000000 HAL_SPI_Transmit
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:1730   .text.HAL_SPI_TransmitReceive:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:1736   .text.HAL_SPI_TransmitReceive:0000000000000000 HAL_SPI_TransmitReceive
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:2525   .text.HAL_SPI_Receive:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:2531   .text.HAL_SPI_Receive:0000000000000000 HAL_SPI_Receive
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3029   .text.HAL_SPI_Transmit_IT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3035   .text.HAL_SPI_Transmit_IT:0000000000000000 HAL_SPI_Transmit_IT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3193   .text.HAL_SPI_Transmit_IT:00000000000000ac $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5539   .text.SPI_TxISR_8BIT:0000000000000000 SPI_TxISR_8BIT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5607   .text.SPI_TxISR_16BIT:0000000000000000 SPI_TxISR_16BIT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3199   .text.HAL_SPI_TransmitReceive_IT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3205   .text.HAL_SPI_TransmitReceive_IT:0000000000000000 HAL_SPI_TransmitReceive_IT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3446   .text.HAL_SPI_TransmitReceive_IT:00000000000000f0 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6544   .text.SPI_2linesRxISR_16BIT:0000000000000000 SPI_2linesRxISR_16BIT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6255   .text.SPI_2linesRxISR_8BIT:0000000000000000 SPI_2linesRxISR_8BIT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6451   .text.SPI_2linesTxISR_16BIT:0000000000000000 SPI_2linesTxISR_16BIT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6152   .text.SPI_2linesTxISR_8BIT:0000000000000000 SPI_2linesTxISR_8BIT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3454   .text.HAL_SPI_Receive_IT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3460   .text.HAL_SPI_Receive_IT:0000000000000000 HAL_SPI_Receive_IT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3706   .text.HAL_SPI_Receive_IT:00000000000000f4 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5907   .text.SPI_RxISR_16BIT:0000000000000000 SPI_RxISR_16BIT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5757   .text.SPI_RxISR_8BIT:0000000000000000 SPI_RxISR_8BIT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3712   .text.HAL_SPI_Transmit_DMA:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3718   .text.HAL_SPI_Transmit_DMA:0000000000000000 HAL_SPI_Transmit_DMA
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3965   .text.HAL_SPI_Transmit_DMA:0000000000000118 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5287   .text.SPI_DMAHalfTransmitCplt:0000000000000000 SPI_DMAHalfTransmitCplt
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6729   .text.SPI_DMATransmitCplt:0000000000000000 SPI_DMATransmitCplt
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6684   .text.SPI_DMAError:0000000000000000 SPI_DMAError
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3972   .text.HAL_SPI_TransmitReceive_DMA:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:3978   .text.HAL_SPI_TransmitReceive_DMA:0000000000000000 HAL_SPI_TransmitReceive_DMA
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 272
+     /tmp/ccxHOabk.s:18     .text.SPI_WaitFlagStateUntilTimeout:0000000000000000 $t
+     /tmp/ccxHOabk.s:23     .text.SPI_WaitFlagStateUntilTimeout:0000000000000000 SPI_WaitFlagStateUntilTimeout
+     /tmp/ccxHOabk.s:195    .text.SPI_WaitFlagStateUntilTimeout:00000000000000b4 $d
+     /tmp/ccxHOabk.s:200    .text.SPI_WaitFifoStateUntilTimeout:0000000000000000 $t
+     /tmp/ccxHOabk.s:205    .text.SPI_WaitFifoStateUntilTimeout:0000000000000000 SPI_WaitFifoStateUntilTimeout
+     /tmp/ccxHOabk.s:403    .text.SPI_WaitFifoStateUntilTimeout:00000000000000d4 $d
+     /tmp/ccxHOabk.s:408    .text.SPI_EndRxTransaction:0000000000000000 $t
+     /tmp/ccxHOabk.s:413    .text.SPI_EndRxTransaction:0000000000000000 SPI_EndRxTransaction
+     /tmp/ccxHOabk.s:521    .text.SPI_AbortRx_ISR:0000000000000000 $t
+     /tmp/ccxHOabk.s:526    .text.SPI_AbortRx_ISR:0000000000000000 SPI_AbortRx_ISR
+     /tmp/ccxHOabk.s:644    .text.SPI_AbortRx_ISR:0000000000000080 $d
+     /tmp/ccxHOabk.s:649    .text.SPI_EndRxTxTransaction:0000000000000000 $t
+     /tmp/ccxHOabk.s:654    .text.SPI_EndRxTxTransaction:0000000000000000 SPI_EndRxTxTransaction
+     /tmp/ccxHOabk.s:747    .text.SPI_AbortTx_ISR:0000000000000000 $t
+     /tmp/ccxHOabk.s:752    .text.SPI_AbortTx_ISR:0000000000000000 SPI_AbortTx_ISR
+     /tmp/ccxHOabk.s:942    .text.SPI_AbortTx_ISR:00000000000000dc $d
+     /tmp/ccxHOabk.s:947    .text.HAL_SPI_MspInit:0000000000000000 $t
+     /tmp/ccxHOabk.s:953    .text.HAL_SPI_MspInit:0000000000000000 HAL_SPI_MspInit
+     /tmp/ccxHOabk.s:968    .text.HAL_SPI_Init:0000000000000000 $t
+     /tmp/ccxHOabk.s:974    .text.HAL_SPI_Init:0000000000000000 HAL_SPI_Init
+     /tmp/ccxHOabk.s:1211   .text.HAL_SPI_MspDeInit:0000000000000000 $t
+     /tmp/ccxHOabk.s:1217   .text.HAL_SPI_MspDeInit:0000000000000000 HAL_SPI_MspDeInit
+     /tmp/ccxHOabk.s:1228   .text.HAL_SPI_DeInit:0000000000000000 $t
+     /tmp/ccxHOabk.s:1234   .text.HAL_SPI_DeInit:0000000000000000 HAL_SPI_DeInit
+     /tmp/ccxHOabk.s:1292   .text.HAL_SPI_Transmit:0000000000000000 $t
+     /tmp/ccxHOabk.s:1298   .text.HAL_SPI_Transmit:0000000000000000 HAL_SPI_Transmit
+     /tmp/ccxHOabk.s:1730   .text.HAL_SPI_TransmitReceive:0000000000000000 $t
+     /tmp/ccxHOabk.s:1736   .text.HAL_SPI_TransmitReceive:0000000000000000 HAL_SPI_TransmitReceive
+     /tmp/ccxHOabk.s:2525   .text.HAL_SPI_Receive:0000000000000000 $t
+     /tmp/ccxHOabk.s:2531   .text.HAL_SPI_Receive:0000000000000000 HAL_SPI_Receive
+     /tmp/ccxHOabk.s:3029   .text.HAL_SPI_Transmit_IT:0000000000000000 $t
+     /tmp/ccxHOabk.s:3035   .text.HAL_SPI_Transmit_IT:0000000000000000 HAL_SPI_Transmit_IT
+     /tmp/ccxHOabk.s:3193   .text.HAL_SPI_Transmit_IT:00000000000000ac $d
+     /tmp/ccxHOabk.s:5539   .text.SPI_TxISR_8BIT:0000000000000000 SPI_TxISR_8BIT
+     /tmp/ccxHOabk.s:5607   .text.SPI_TxISR_16BIT:0000000000000000 SPI_TxISR_16BIT
+     /tmp/ccxHOabk.s:3199   .text.HAL_SPI_TransmitReceive_IT:0000000000000000 $t
+     /tmp/ccxHOabk.s:3205   .text.HAL_SPI_TransmitReceive_IT:0000000000000000 HAL_SPI_TransmitReceive_IT
+     /tmp/ccxHOabk.s:3446   .text.HAL_SPI_TransmitReceive_IT:00000000000000f0 $d
+     /tmp/ccxHOabk.s:6544   .text.SPI_2linesRxISR_16BIT:0000000000000000 SPI_2linesRxISR_16BIT
+     /tmp/ccxHOabk.s:6255   .text.SPI_2linesRxISR_8BIT:0000000000000000 SPI_2linesRxISR_8BIT
+     /tmp/ccxHOabk.s:6451   .text.SPI_2linesTxISR_16BIT:0000000000000000 SPI_2linesTxISR_16BIT
+     /tmp/ccxHOabk.s:6152   .text.SPI_2linesTxISR_8BIT:0000000000000000 SPI_2linesTxISR_8BIT
+     /tmp/ccxHOabk.s:3454   .text.HAL_SPI_Receive_IT:0000000000000000 $t
+     /tmp/ccxHOabk.s:3460   .text.HAL_SPI_Receive_IT:0000000000000000 HAL_SPI_Receive_IT
+     /tmp/ccxHOabk.s:3706   .text.HAL_SPI_Receive_IT:00000000000000f4 $d
+     /tmp/ccxHOabk.s:5907   .text.SPI_RxISR_16BIT:0000000000000000 SPI_RxISR_16BIT
+     /tmp/ccxHOabk.s:5757   .text.SPI_RxISR_8BIT:0000000000000000 SPI_RxISR_8BIT
+     /tmp/ccxHOabk.s:3712   .text.HAL_SPI_Transmit_DMA:0000000000000000 $t
+     /tmp/ccxHOabk.s:3718   .text.HAL_SPI_Transmit_DMA:0000000000000000 HAL_SPI_Transmit_DMA
+     /tmp/ccxHOabk.s:3965   .text.HAL_SPI_Transmit_DMA:0000000000000118 $d
+     /tmp/ccxHOabk.s:5287   .text.SPI_DMAHalfTransmitCplt:0000000000000000 SPI_DMAHalfTransmitCplt
+     /tmp/ccxHOabk.s:6729   .text.SPI_DMATransmitCplt:0000000000000000 SPI_DMATransmitCplt
+     /tmp/ccxHOabk.s:6684   .text.SPI_DMAError:0000000000000000 SPI_DMAError
+     /tmp/ccxHOabk.s:3972   .text.HAL_SPI_TransmitReceive_DMA:0000000000000000 $t
+     /tmp/ccxHOabk.s:3978   .text.HAL_SPI_TransmitReceive_DMA:0000000000000000 HAL_SPI_TransmitReceive_DMA
+ARM GAS  /tmp/ccxHOabk.s 			page 272
 
 
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:4344   .text.HAL_SPI_TransmitReceive_DMA:00000000000001b8 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5336   .text.SPI_DMAHalfReceiveCplt:0000000000000000 SPI_DMAHalfReceiveCplt
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5385   .text.SPI_DMAHalfTransmitReceiveCplt:0000000000000000 SPI_DMAHalfTransmitReceiveCplt
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6854   .text.SPI_DMAReceiveCplt:0000000000000000 SPI_DMAReceiveCplt
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7084   .text.SPI_DMATransmitReceiveCplt:0000000000000000 SPI_DMATransmitReceiveCplt
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:4353   .text.HAL_SPI_Receive_DMA:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:4359   .text.HAL_SPI_Receive_DMA:0000000000000000 HAL_SPI_Receive_DMA
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:4654   .text.HAL_SPI_Receive_DMA:0000000000000160 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:4661   .text.HAL_SPI_Abort:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:4667   .text.HAL_SPI_Abort:0000000000000000 HAL_SPI_Abort
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5020   .text.HAL_SPI_Abort:0000000000000178 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5027   .text.HAL_SPI_DMAPause:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5033   .text.HAL_SPI_DMAPause:0000000000000000 HAL_SPI_DMAPause
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5075   .text.HAL_SPI_DMAResume:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5081   .text.HAL_SPI_DMAResume:0000000000000000 HAL_SPI_DMAResume
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5123   .text.HAL_SPI_DMAStop:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5129   .text.HAL_SPI_DMAStop:0000000000000000 HAL_SPI_DMAStop
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5214   .text.HAL_SPI_TxCpltCallback:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5220   .text.HAL_SPI_TxCpltCallback:0000000000000000 HAL_SPI_TxCpltCallback
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5231   .text.HAL_SPI_RxCpltCallback:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5237   .text.HAL_SPI_RxCpltCallback:0000000000000000 HAL_SPI_RxCpltCallback
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5248   .text.HAL_SPI_TxRxCpltCallback:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5254   .text.HAL_SPI_TxRxCpltCallback:0000000000000000 HAL_SPI_TxRxCpltCallback
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5265   .text.HAL_SPI_TxHalfCpltCallback:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5271   .text.HAL_SPI_TxHalfCpltCallback:0000000000000000 HAL_SPI_TxHalfCpltCallback
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5282   .text.SPI_DMAHalfTransmitCplt:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5314   .text.HAL_SPI_RxHalfCpltCallback:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5320   .text.HAL_SPI_RxHalfCpltCallback:0000000000000000 HAL_SPI_RxHalfCpltCallback
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5331   .text.SPI_DMAHalfReceiveCplt:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5363   .text.HAL_SPI_TxRxHalfCpltCallback:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5369   .text.HAL_SPI_TxRxHalfCpltCallback:0000000000000000 HAL_SPI_TxRxHalfCpltCallback
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5380   .text.SPI_DMAHalfTransmitReceiveCplt:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5412   .text.HAL_SPI_ErrorCallback:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5418   .text.HAL_SPI_ErrorCallback:0000000000000000 HAL_SPI_ErrorCallback
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5429   .text.SPI_CloseTx_ISR:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5434   .text.SPI_CloseTx_ISR:0000000000000000 SPI_CloseTx_ISR
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5534   .text.SPI_TxISR_8BIT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5602   .text.SPI_TxISR_16BIT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5659   .text.SPI_CloseRx_ISR:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5664   .text.SPI_CloseRx_ISR:0000000000000000 SPI_CloseRx_ISR
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5752   .text.SPI_RxISR_8BIT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5830   .text.SPI_RxISR_8BIT:0000000000000054 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5840   .text.SPI_RxISR_8BITCRC:0000000000000000 SPI_RxISR_8BITCRC
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5835   .text.SPI_RxISR_8BITCRC:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5902   .text.SPI_RxISR_16BIT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5977   .text.SPI_RxISR_16BIT:0000000000000050 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5987   .text.SPI_RxISR_16BITCRC:0000000000000000 SPI_RxISR_16BITCRC
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:5982   .text.SPI_RxISR_16BITCRC:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6029   .text.SPI_CloseRxTx_ISR:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6034   .text.SPI_CloseRxTx_ISR:0000000000000000 SPI_CloseRxTx_ISR
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6147   .text.SPI_2linesTxISR_8BIT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6250   .text.SPI_2linesRxISR_8BIT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6365   .text.SPI_2linesRxISR_8BIT:0000000000000080 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6375   .text.SPI_2linesRxISR_8BITCRC:0000000000000000 SPI_2linesRxISR_8BITCRC
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6370   .text.SPI_2linesRxISR_8BITCRC:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6446   .text.SPI_2linesTxISR_16BIT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6539   .text.SPI_2linesRxISR_16BIT:0000000000000000 $t
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s 			page 273
+     /tmp/ccxHOabk.s:4344   .text.HAL_SPI_TransmitReceive_DMA:00000000000001b8 $d
+     /tmp/ccxHOabk.s:5336   .text.SPI_DMAHalfReceiveCplt:0000000000000000 SPI_DMAHalfReceiveCplt
+     /tmp/ccxHOabk.s:5385   .text.SPI_DMAHalfTransmitReceiveCplt:0000000000000000 SPI_DMAHalfTransmitReceiveCplt
+     /tmp/ccxHOabk.s:6854   .text.SPI_DMAReceiveCplt:0000000000000000 SPI_DMAReceiveCplt
+     /tmp/ccxHOabk.s:7084   .text.SPI_DMATransmitReceiveCplt:0000000000000000 SPI_DMATransmitReceiveCplt
+     /tmp/ccxHOabk.s:4353   .text.HAL_SPI_Receive_DMA:0000000000000000 $t
+     /tmp/ccxHOabk.s:4359   .text.HAL_SPI_Receive_DMA:0000000000000000 HAL_SPI_Receive_DMA
+     /tmp/ccxHOabk.s:4654   .text.HAL_SPI_Receive_DMA:0000000000000160 $d
+     /tmp/ccxHOabk.s:4661   .text.HAL_SPI_Abort:0000000000000000 $t
+     /tmp/ccxHOabk.s:4667   .text.HAL_SPI_Abort:0000000000000000 HAL_SPI_Abort
+     /tmp/ccxHOabk.s:5020   .text.HAL_SPI_Abort:0000000000000178 $d
+     /tmp/ccxHOabk.s:5027   .text.HAL_SPI_DMAPause:0000000000000000 $t
+     /tmp/ccxHOabk.s:5033   .text.HAL_SPI_DMAPause:0000000000000000 HAL_SPI_DMAPause
+     /tmp/ccxHOabk.s:5075   .text.HAL_SPI_DMAResume:0000000000000000 $t
+     /tmp/ccxHOabk.s:5081   .text.HAL_SPI_DMAResume:0000000000000000 HAL_SPI_DMAResume
+     /tmp/ccxHOabk.s:5123   .text.HAL_SPI_DMAStop:0000000000000000 $t
+     /tmp/ccxHOabk.s:5129   .text.HAL_SPI_DMAStop:0000000000000000 HAL_SPI_DMAStop
+     /tmp/ccxHOabk.s:5214   .text.HAL_SPI_TxCpltCallback:0000000000000000 $t
+     /tmp/ccxHOabk.s:5220   .text.HAL_SPI_TxCpltCallback:0000000000000000 HAL_SPI_TxCpltCallback
+     /tmp/ccxHOabk.s:5231   .text.HAL_SPI_RxCpltCallback:0000000000000000 $t
+     /tmp/ccxHOabk.s:5237   .text.HAL_SPI_RxCpltCallback:0000000000000000 HAL_SPI_RxCpltCallback
+     /tmp/ccxHOabk.s:5248   .text.HAL_SPI_TxRxCpltCallback:0000000000000000 $t
+     /tmp/ccxHOabk.s:5254   .text.HAL_SPI_TxRxCpltCallback:0000000000000000 HAL_SPI_TxRxCpltCallback
+     /tmp/ccxHOabk.s:5265   .text.HAL_SPI_TxHalfCpltCallback:0000000000000000 $t
+     /tmp/ccxHOabk.s:5271   .text.HAL_SPI_TxHalfCpltCallback:0000000000000000 HAL_SPI_TxHalfCpltCallback
+     /tmp/ccxHOabk.s:5282   .text.SPI_DMAHalfTransmitCplt:0000000000000000 $t
+     /tmp/ccxHOabk.s:5314   .text.HAL_SPI_RxHalfCpltCallback:0000000000000000 $t
+     /tmp/ccxHOabk.s:5320   .text.HAL_SPI_RxHalfCpltCallback:0000000000000000 HAL_SPI_RxHalfCpltCallback
+     /tmp/ccxHOabk.s:5331   .text.SPI_DMAHalfReceiveCplt:0000000000000000 $t
+     /tmp/ccxHOabk.s:5363   .text.HAL_SPI_TxRxHalfCpltCallback:0000000000000000 $t
+     /tmp/ccxHOabk.s:5369   .text.HAL_SPI_TxRxHalfCpltCallback:0000000000000000 HAL_SPI_TxRxHalfCpltCallback
+     /tmp/ccxHOabk.s:5380   .text.SPI_DMAHalfTransmitReceiveCplt:0000000000000000 $t
+     /tmp/ccxHOabk.s:5412   .text.HAL_SPI_ErrorCallback:0000000000000000 $t
+     /tmp/ccxHOabk.s:5418   .text.HAL_SPI_ErrorCallback:0000000000000000 HAL_SPI_ErrorCallback
+     /tmp/ccxHOabk.s:5429   .text.SPI_CloseTx_ISR:0000000000000000 $t
+     /tmp/ccxHOabk.s:5434   .text.SPI_CloseTx_ISR:0000000000000000 SPI_CloseTx_ISR
+     /tmp/ccxHOabk.s:5534   .text.SPI_TxISR_8BIT:0000000000000000 $t
+     /tmp/ccxHOabk.s:5602   .text.SPI_TxISR_16BIT:0000000000000000 $t
+     /tmp/ccxHOabk.s:5659   .text.SPI_CloseRx_ISR:0000000000000000 $t
+     /tmp/ccxHOabk.s:5664   .text.SPI_CloseRx_ISR:0000000000000000 SPI_CloseRx_ISR
+     /tmp/ccxHOabk.s:5752   .text.SPI_RxISR_8BIT:0000000000000000 $t
+     /tmp/ccxHOabk.s:5830   .text.SPI_RxISR_8BIT:0000000000000054 $d
+     /tmp/ccxHOabk.s:5840   .text.SPI_RxISR_8BITCRC:0000000000000000 SPI_RxISR_8BITCRC
+     /tmp/ccxHOabk.s:5835   .text.SPI_RxISR_8BITCRC:0000000000000000 $t
+     /tmp/ccxHOabk.s:5902   .text.SPI_RxISR_16BIT:0000000000000000 $t
+     /tmp/ccxHOabk.s:5977   .text.SPI_RxISR_16BIT:0000000000000050 $d
+     /tmp/ccxHOabk.s:5987   .text.SPI_RxISR_16BITCRC:0000000000000000 SPI_RxISR_16BITCRC
+     /tmp/ccxHOabk.s:5982   .text.SPI_RxISR_16BITCRC:0000000000000000 $t
+     /tmp/ccxHOabk.s:6029   .text.SPI_CloseRxTx_ISR:0000000000000000 $t
+     /tmp/ccxHOabk.s:6034   .text.SPI_CloseRxTx_ISR:0000000000000000 SPI_CloseRxTx_ISR
+     /tmp/ccxHOabk.s:6147   .text.SPI_2linesTxISR_8BIT:0000000000000000 $t
+     /tmp/ccxHOabk.s:6250   .text.SPI_2linesRxISR_8BIT:0000000000000000 $t
+     /tmp/ccxHOabk.s:6365   .text.SPI_2linesRxISR_8BIT:0000000000000080 $d
+     /tmp/ccxHOabk.s:6375   .text.SPI_2linesRxISR_8BITCRC:0000000000000000 SPI_2linesRxISR_8BITCRC
+     /tmp/ccxHOabk.s:6370   .text.SPI_2linesRxISR_8BITCRC:0000000000000000 $t
+     /tmp/ccxHOabk.s:6446   .text.SPI_2linesTxISR_16BIT:0000000000000000 $t
+     /tmp/ccxHOabk.s:6539   .text.SPI_2linesRxISR_16BIT:0000000000000000 $t
+ARM GAS  /tmp/ccxHOabk.s 			page 273
 
 
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6627   .text.SPI_2linesRxISR_16BIT:0000000000000048 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6637   .text.SPI_2linesRxISR_16BITCRC:0000000000000000 SPI_2linesRxISR_16BITCRC
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6632   .text.SPI_2linesRxISR_16BITCRC:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6679   .text.SPI_DMAError:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6724   .text.SPI_DMATransmitCplt:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:6849   .text.SPI_DMAReceiveCplt:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7079   .text.SPI_DMATransmitReceiveCplt:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7286   .text.HAL_SPI_IRQHandler:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7292   .text.HAL_SPI_IRQHandler:0000000000000000 HAL_SPI_IRQHandler
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7567   .text.HAL_SPI_IRQHandler:0000000000000108 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7577   .text.SPI_DMAAbortOnError:0000000000000000 SPI_DMAAbortOnError
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7572   .text.SPI_DMAAbortOnError:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7610   .text.HAL_SPI_AbortCpltCallback:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7616   .text.HAL_SPI_AbortCpltCallback:0000000000000000 HAL_SPI_AbortCpltCallback
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7627   .text.HAL_SPI_Abort_IT:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7633   .text.HAL_SPI_Abort_IT:0000000000000000 HAL_SPI_Abort_IT
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7951   .text.HAL_SPI_Abort_IT:000000000000011c $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:8122   .text.SPI_DMATxAbortCallback:0000000000000000 SPI_DMATxAbortCallback
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7965   .text.SPI_DMARxAbortCallback:0000000000000000 SPI_DMARxAbortCallback
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:7960   .text.SPI_DMARxAbortCallback:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:8117   .text.SPI_DMATxAbortCallback:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:8264   .text.HAL_SPI_GetState:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:8270   .text.HAL_SPI_GetState:0000000000000000 HAL_SPI_GetState
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:8288   .text.HAL_SPI_GetError:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccVAa3x8.s:8294   .text.HAL_SPI_GetError:0000000000000000 HAL_SPI_GetError
+     /tmp/ccxHOabk.s:6627   .text.SPI_2linesRxISR_16BIT:0000000000000048 $d
+     /tmp/ccxHOabk.s:6637   .text.SPI_2linesRxISR_16BITCRC:0000000000000000 SPI_2linesRxISR_16BITCRC
+     /tmp/ccxHOabk.s:6632   .text.SPI_2linesRxISR_16BITCRC:0000000000000000 $t
+     /tmp/ccxHOabk.s:6679   .text.SPI_DMAError:0000000000000000 $t
+     /tmp/ccxHOabk.s:6724   .text.SPI_DMATransmitCplt:0000000000000000 $t
+     /tmp/ccxHOabk.s:6849   .text.SPI_DMAReceiveCplt:0000000000000000 $t
+     /tmp/ccxHOabk.s:7079   .text.SPI_DMATransmitReceiveCplt:0000000000000000 $t
+     /tmp/ccxHOabk.s:7286   .text.HAL_SPI_IRQHandler:0000000000000000 $t
+     /tmp/ccxHOabk.s:7292   .text.HAL_SPI_IRQHandler:0000000000000000 HAL_SPI_IRQHandler
+     /tmp/ccxHOabk.s:7567   .text.HAL_SPI_IRQHandler:0000000000000108 $d
+     /tmp/ccxHOabk.s:7577   .text.SPI_DMAAbortOnError:0000000000000000 SPI_DMAAbortOnError
+     /tmp/ccxHOabk.s:7572   .text.SPI_DMAAbortOnError:0000000000000000 $t
+     /tmp/ccxHOabk.s:7610   .text.HAL_SPI_AbortCpltCallback:0000000000000000 $t
+     /tmp/ccxHOabk.s:7616   .text.HAL_SPI_AbortCpltCallback:0000000000000000 HAL_SPI_AbortCpltCallback
+     /tmp/ccxHOabk.s:7627   .text.HAL_SPI_Abort_IT:0000000000000000 $t
+     /tmp/ccxHOabk.s:7633   .text.HAL_SPI_Abort_IT:0000000000000000 HAL_SPI_Abort_IT
+     /tmp/ccxHOabk.s:7951   .text.HAL_SPI_Abort_IT:000000000000011c $d
+     /tmp/ccxHOabk.s:8122   .text.SPI_DMATxAbortCallback:0000000000000000 SPI_DMATxAbortCallback
+     /tmp/ccxHOabk.s:7965   .text.SPI_DMARxAbortCallback:0000000000000000 SPI_DMARxAbortCallback
+     /tmp/ccxHOabk.s:7960   .text.SPI_DMARxAbortCallback:0000000000000000 $t
+     /tmp/ccxHOabk.s:8117   .text.SPI_DMATxAbortCallback:0000000000000000 $t
+     /tmp/ccxHOabk.s:8264   .text.HAL_SPI_GetState:0000000000000000 $t
+     /tmp/ccxHOabk.s:8270   .text.HAL_SPI_GetState:0000000000000000 HAL_SPI_GetState
+     /tmp/ccxHOabk.s:8288   .text.HAL_SPI_GetError:0000000000000000 $t
+     /tmp/ccxHOabk.s:8294   .text.HAL_SPI_GetError:0000000000000000 HAL_SPI_GetError
 
 UNDEFINED SYMBOLS
 HAL_GetTick

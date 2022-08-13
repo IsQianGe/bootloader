@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s 			page 1
+ARM GAS  /tmp/cc2erx8a.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -28,20 +28,21 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s 			page 1
   26              		.file 1 "hardware/bsp/stm32wlxx/system.c"
    1:hardware/bsp/stm32wlxx/system.c **** #include "stm32wlxx_hal.h"
    2:hardware/bsp/stm32wlxx/system.c **** #include "system.h"
-   3:hardware/bsp/stm32wlxx/system.c **** /**
-   4:hardware/bsp/stm32wlxx/system.c ****   * @brief System Clock Configuration
-   5:hardware/bsp/stm32wlxx/system.c ****   * @retval None
-   6:hardware/bsp/stm32wlxx/system.c ****   */
-   7:hardware/bsp/stm32wlxx/system.c **** void SystemClock_Config(void)
-   8:hardware/bsp/stm32wlxx/system.c **** {
-  27              		.loc 1 8 1 view -0
+   3:hardware/bsp/stm32wlxx/system.c **** 
+   4:hardware/bsp/stm32wlxx/system.c **** /**
+   5:hardware/bsp/stm32wlxx/system.c ****  * @brief System Clock Configuration
+   6:hardware/bsp/stm32wlxx/system.c ****  * @retval None
+   7:hardware/bsp/stm32wlxx/system.c ****  */
+   8:hardware/bsp/stm32wlxx/system.c **** void SystemClock_Config(void)
+   9:hardware/bsp/stm32wlxx/system.c **** {
+  27              		.loc 1 9 1 view -0
   28              		.cfi_startproc
   29              		@ args = 0, pretend = 0, frame = 104
   30              		@ frame_needed = 0, uses_anonymous_args = 0
+  10:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  31              		.loc 1 10 3 view .LVU1
    9:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
-  31              		.loc 1 9 3 view .LVU1
-   8:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
-  32              		.loc 1 8 1 is_stmt 0 view .LVU2
+  32              		.loc 1 9 1 is_stmt 0 view .LVU2
   33 0000 00B5     		push	{lr}
   34              	.LCFI0:
   35              		.cfi_def_cfa_offset 4
@@ -49,173 +50,171 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s 			page 1
   37 0002 9BB0     		sub	sp, sp, #108
   38              	.LCFI1:
   39              		.cfi_def_cfa_offset 112
-  40              		.loc 1 9 22 view .LVU3
+  40              		.loc 1 10 22 view .LVU3
   41 0004 2822     		movs	r2, #40
   42 0006 0021     		movs	r1, #0
   43 0008 09A8     		add	r0, sp, #36
   44 000a FFF7FEFF 		bl	memset
   45              	.LVL0:
-  10:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
-  46              		.loc 1 10 3 is_stmt 1 view .LVU4
-  47              		.loc 1 10 22 is_stmt 0 view .LVU5
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s 			page 2
+  11:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+  46              		.loc 1 11 3 is_stmt 1 view .LVU4
+ARM GAS  /tmp/cc2erx8a.s 			page 2
 
 
+  47              		.loc 1 11 22 is_stmt 0 view .LVU5
   48 000e 1822     		movs	r2, #24
   49 0010 0021     		movs	r1, #0
   50 0012 02A8     		add	r0, sp, #8
   51 0014 FFF7FEFF 		bl	memset
   52              	.LVL1:
-  11:hardware/bsp/stm32wlxx/system.c **** 
-  12:hardware/bsp/stm32wlxx/system.c ****   /** Configure the main internal regulator output voltage
-  13:hardware/bsp/stm32wlxx/system.c ****   */
-  14:hardware/bsp/stm32wlxx/system.c ****   __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
-  53              		.loc 1 14 3 is_stmt 1 view .LVU6
+  12:hardware/bsp/stm32wlxx/system.c **** 
+  13:hardware/bsp/stm32wlxx/system.c ****   /** Configure the main internal regulator output voltage
+  14:hardware/bsp/stm32wlxx/system.c ****    */
+  15:hardware/bsp/stm32wlxx/system.c ****   __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+  53              		.loc 1 15 3 is_stmt 1 view .LVU6
   54              	.LBB2:
-  55              		.loc 1 14 3 view .LVU7
-  56              		.loc 1 14 3 view .LVU8
+  55              		.loc 1 15 3 view .LVU7
+  56              		.loc 1 15 3 view .LVU8
   57 0018 1D4A     		ldr	r2, .L10
   58 001a 1368     		ldr	r3, [r2]
   59 001c 23F4C063 		bic	r3, r3, #1536
   60 0020 43F40073 		orr	r3, r3, #512
   61 0024 1360     		str	r3, [r2]
-  62              		.loc 1 14 3 view .LVU9
+  62              		.loc 1 15 3 view .LVU9
   63 0026 1368     		ldr	r3, [r2]
   64 0028 03F4C063 		and	r3, r3, #1536
   65 002c 0193     		str	r3, [sp, #4]
-  66              		.loc 1 14 3 view .LVU10
+  66              		.loc 1 15 3 view .LVU10
   67 002e 019B     		ldr	r3, [sp, #4]
   68              	.LBE2:
-  69              		.loc 1 14 3 view .LVU11
-  15:hardware/bsp/stm32wlxx/system.c **** 
-  16:hardware/bsp/stm32wlxx/system.c ****   /** Initializes the CPU, AHB and APB buses clocks
-  17:hardware/bsp/stm32wlxx/system.c ****   */
-  18:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
-  70              		.loc 1 18 3 view .LVU12
-  71              		.loc 1 18 36 is_stmt 0 view .LVU13
+  69              		.loc 1 15 3 view .LVU11
+  16:hardware/bsp/stm32wlxx/system.c **** 
+  17:hardware/bsp/stm32wlxx/system.c ****   /** Initializes the CPU, AHB and APB buses clocks
+  18:hardware/bsp/stm32wlxx/system.c ****    */
+  19:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+  70              		.loc 1 19 3 view .LVU12
+  71              		.loc 1 19 36 is_stmt 0 view .LVU13
   72 0030 0223     		movs	r3, #2
-  19:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  20:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  21:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  22:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
-  23:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLM = RCC_PLLM_DIV1;
-  24:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLN = 6;
-  73              		.loc 1 24 30 view .LVU14
+  20:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  21:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  22:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  23:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  24:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLM = RCC_PLLM_DIV1;
+  25:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLN = 6;
+  73              		.loc 1 25 30 view .LVU14
   74 0032 0020     		movs	r0, #0
-  22:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLM = RCC_PLLM_DIV1;
-  75              		.loc 1 22 35 view .LVU15
+  23:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLM = RCC_PLLM_DIV1;
+  75              		.loc 1 23 35 view .LVU15
   76 0034 CDE91333 		strd	r3, r3, [sp, #76]
-  18:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  77              		.loc 1 18 36 view .LVU16
-  78 0038 0893     		str	r3, [sp, #32]
   19:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  79              		.loc 1 19 3 is_stmt 1 view .LVU17
-  80              		.loc 1 24 30 is_stmt 0 view .LVU18
+  77              		.loc 1 19 36 view .LVU16
+  78 0038 0893     		str	r3, [sp, #32]
+  20:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  79              		.loc 1 20 3 is_stmt 1 view .LVU17
+  80              		.loc 1 25 30 is_stmt 0 view .LVU18
   81 003a 0623     		movs	r3, #6
   82 003c CDE91503 		strd	r0, r3, [sp, #84]
-  25:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
-  83              		.loc 1 25 30 view .LVU19
+  26:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  83              		.loc 1 26 30 view .LVU19
   84 0040 4FF40033 		mov	r3, #131072
-  20:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  85              		.loc 1 20 41 view .LVU20
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s 			page 3
+  21:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+ARM GAS  /tmp/cc2erx8a.s 			page 3
 
 
+  85              		.loc 1 21 41 view .LVU20
   86 0044 4FF48071 		mov	r1, #256
   87 0048 4022     		movs	r2, #64
-  88              		.loc 1 25 30 view .LVU21
+  88              		.loc 1 26 30 view .LVU21
   89 004a 1793     		str	r3, [sp, #92]
-  26:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
-  27:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLQ = RCC_PLLQ_DIV2;
-  90              		.loc 1 27 30 view .LVU22
+  27:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
+  28:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLQ = RCC_PLLQ_DIV2;
+  90              		.loc 1 28 30 view .LVU22
   91 004c 4FF0005E 		mov	lr, #536870912
   92 0050 4FF00073 		mov	r3, #33554432
-  28:hardware/bsp/stm32wlxx/system.c ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-  93              		.loc 1 28 7 view .LVU23
+  29:hardware/bsp/stm32wlxx/system.c ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  93              		.loc 1 29 7 view .LVU23
   94 0054 08A8     		add	r0, sp, #32
-  20:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  95              		.loc 1 20 41 view .LVU24
+  21:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  95              		.loc 1 21 41 view .LVU24
   96 0056 CDE90C12 		strd	r1, r2, [sp, #48]
-  21:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
-  97              		.loc 1 21 3 is_stmt 1 view .LVU25
-  23:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLN = 6;
-  98              		.loc 1 23 3 view .LVU26
-  25:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
-  99              		.loc 1 25 3 view .LVU27
-  26:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLQ = RCC_PLLQ_DIV2;
- 100              		.loc 1 26 3 view .LVU28
-  27:hardware/bsp/stm32wlxx/system.c ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
- 101              		.loc 1 27 30 is_stmt 0 view .LVU29
+  22:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  97              		.loc 1 22 3 is_stmt 1 view .LVU25
+  24:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLN = 6;
+  98              		.loc 1 24 3 view .LVU26
+  26:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
+  99              		.loc 1 26 3 view .LVU27
+  27:hardware/bsp/stm32wlxx/system.c ****   RCC_OscInitStruct.PLL.PLLQ = RCC_PLLQ_DIV2;
+ 100              		.loc 1 27 3 view .LVU28
+  28:hardware/bsp/stm32wlxx/system.c ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+ 101              		.loc 1 28 30 is_stmt 0 view .LVU29
  102 005a CDE9183E 		strd	r3, lr, [sp, #96]
- 103              		.loc 1 28 3 is_stmt 1 view .LVU30
- 104              		.loc 1 28 7 is_stmt 0 view .LVU31
+ 103              		.loc 1 29 3 is_stmt 1 view .LVU30
+ 104              		.loc 1 29 7 is_stmt 0 view .LVU31
  105 005e FFF7FEFF 		bl	HAL_RCC_OscConfig
  106              	.LVL2:
- 107              		.loc 1 28 6 view .LVU32
+ 107              		.loc 1 29 6 view .LVU32
  108 0062 08B1     		cbz	r0, .L2
  109              	.LBB3:
-  29:hardware/bsp/stm32wlxx/system.c ****   {
-  30:hardware/bsp/stm32wlxx/system.c ****     Error_Handler();
- 110              		.loc 1 30 5 is_stmt 1 view .LVU33
+  30:hardware/bsp/stm32wlxx/system.c ****   {
+  31:hardware/bsp/stm32wlxx/system.c ****     Error_Handler();
+ 110              		.loc 1 31 5 is_stmt 1 view .LVU33
  111 0064 FFF7FEFF 		bl	Error_Handler
  112              	.LVL3:
  113              	.L2:
  114              	.LBE3:
-  31:hardware/bsp/stm32wlxx/system.c ****   }
-  32:hardware/bsp/stm32wlxx/system.c **** 
-  33:hardware/bsp/stm32wlxx/system.c ****   /** Configure the SYSCLKSource, HCLK, PCLK1 and PCLK2 clocks dividers
-  34:hardware/bsp/stm32wlxx/system.c ****   */
-  35:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK3|RCC_CLOCKTYPE_HCLK
- 115              		.loc 1 35 3 view .LVU34
-  36:hardware/bsp/stm32wlxx/system.c ****                               |RCC_CLOCKTYPE_SYSCLK|RCC_CLOCKTYPE_PCLK1
-  37:hardware/bsp/stm32wlxx/system.c ****                               |RCC_CLOCKTYPE_PCLK2;
-  38:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
- 116              		.loc 1 38 34 is_stmt 0 view .LVU35
+  32:hardware/bsp/stm32wlxx/system.c ****   }
+  33:hardware/bsp/stm32wlxx/system.c **** 
+  34:hardware/bsp/stm32wlxx/system.c ****   /** Configure the SYSCLKSource, HCLK, PCLK1 and PCLK2 clocks dividers
+  35:hardware/bsp/stm32wlxx/system.c ****    */
+  36:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK3 | RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_SYSCLK | R
+ 115              		.loc 1 36 3 view .LVU34
+  37:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+ 116              		.loc 1 37 34 is_stmt 0 view .LVU35
  117 0068 0323     		movs	r3, #3
  118 006a 4F22     		movs	r2, #79
  119 006c CDE90223 		strd	r2, r3, [sp, #8]
-  39:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
- 120              		.loc 1 39 3 is_stmt 1 view .LVU36
-  40:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
-  41:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s 			page 4
-
-
-  42:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.AHBCLK3Divider = RCC_SYSCLK_DIV1;
-  43:hardware/bsp/stm32wlxx/system.c **** 
-  44:hardware/bsp/stm32wlxx/system.c ****   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
- 121              		.loc 1 44 7 is_stmt 0 view .LVU37
- 122 0070 0221     		movs	r1, #2
-  39:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
- 123              		.loc 1 39 35 view .LVU38
- 124 0072 0023     		movs	r3, #0
- 125              		.loc 1 44 7 view .LVU39
- 126 0074 02A8     		add	r0, sp, #8
-  40:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
- 127              		.loc 1 40 36 view .LVU40
- 128 0076 CDE90433 		strd	r3, r3, [sp, #16]
+  38:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+ 120              		.loc 1 38 3 is_stmt 1 view .LVU36
+  39:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+  40:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
   41:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.AHBCLK3Divider = RCC_SYSCLK_DIV1;
- 129              		.loc 1 41 3 is_stmt 1 view .LVU41
+ARM GAS  /tmp/cc2erx8a.s 			page 4
+
+
   42:hardware/bsp/stm32wlxx/system.c **** 
- 130              		.loc 1 42 36 is_stmt 0 view .LVU42
+  43:hardware/bsp/stm32wlxx/system.c ****   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+ 121              		.loc 1 43 7 is_stmt 0 view .LVU37
+ 122 0070 0221     		movs	r1, #2
+  38:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+ 123              		.loc 1 38 35 view .LVU38
+ 124 0072 0023     		movs	r3, #0
+ 125              		.loc 1 43 7 view .LVU39
+ 126 0074 02A8     		add	r0, sp, #8
+  39:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+ 127              		.loc 1 39 36 view .LVU40
+ 128 0076 CDE90433 		strd	r3, r3, [sp, #16]
+  40:hardware/bsp/stm32wlxx/system.c ****   RCC_ClkInitStruct.AHBCLK3Divider = RCC_SYSCLK_DIV1;
+ 129              		.loc 1 40 3 is_stmt 1 view .LVU41
+  41:hardware/bsp/stm32wlxx/system.c **** 
+ 130              		.loc 1 41 36 is_stmt 0 view .LVU42
  131 007a CDE90633 		strd	r3, r3, [sp, #24]
- 132              		.loc 1 44 3 is_stmt 1 view .LVU43
- 133              		.loc 1 44 7 is_stmt 0 view .LVU44
+ 132              		.loc 1 43 3 is_stmt 1 view .LVU43
+ 133              		.loc 1 43 7 is_stmt 0 view .LVU44
  134 007e FFF7FEFF 		bl	HAL_RCC_ClockConfig
  135              	.LVL4:
- 136              		.loc 1 44 6 view .LVU45
+ 136              		.loc 1 43 6 view .LVU45
  137 0082 08B1     		cbz	r0, .L1
  138              	.LBB4:
-  45:hardware/bsp/stm32wlxx/system.c ****   {
-  46:hardware/bsp/stm32wlxx/system.c ****     Error_Handler();
- 139              		.loc 1 46 5 is_stmt 1 view .LVU46
+  44:hardware/bsp/stm32wlxx/system.c ****   {
+  45:hardware/bsp/stm32wlxx/system.c ****     Error_Handler();
+ 139              		.loc 1 45 5 is_stmt 1 view .LVU46
  140 0084 FFF7FEFF 		bl	Error_Handler
  141              	.LVL5:
  142              	.L1:
  143              	.LBE4:
-  47:hardware/bsp/stm32wlxx/system.c ****   }
-  48:hardware/bsp/stm32wlxx/system.c **** }
- 144              		.loc 1 48 1 is_stmt 0 view .LVU47
+  46:hardware/bsp/stm32wlxx/system.c ****   }
+  47:hardware/bsp/stm32wlxx/system.c **** }
+ 144              		.loc 1 47 1 is_stmt 0 view .LVU47
  145 0088 1BB0     		add	sp, sp, #108
  146              	.LCFI2:
  147              		.cfi_def_cfa_offset 4
@@ -235,42 +234,41 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s 			page 1
  162              		.thumb_func
  164              	HAL_MspInit:
  165              	.LFB722:
-  49:hardware/bsp/stm32wlxx/system.c **** 
-  50:hardware/bsp/stm32wlxx/system.c **** 
-  51:hardware/bsp/stm32wlxx/system.c **** void HAL_MspInit(void)
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s 			page 5
+  48:hardware/bsp/stm32wlxx/system.c **** 
+  49:hardware/bsp/stm32wlxx/system.c **** void HAL_MspInit(void)
+  50:hardware/bsp/stm32wlxx/system.c **** {
+ 166              		.loc 1 50 1 is_stmt 1 view -0
+ARM GAS  /tmp/cc2erx8a.s 			page 5
 
 
-  52:hardware/bsp/stm32wlxx/system.c **** {
- 166              		.loc 1 52 1 is_stmt 1 view -0
  167              		.cfi_startproc
  168              		@ args = 0, pretend = 0, frame = 0
  169              		@ frame_needed = 0, uses_anonymous_args = 0
  170              		@ link register save eliminated.
-  53:hardware/bsp/stm32wlxx/system.c **** }...
- 171              		.loc 1 53 1 view .LVU49
+  51:hardware/bsp/stm32wlxx/system.c **** }...
+ 171              		.loc 1 51 1 view .LVU49
  172 0000 7047     		bx	lr
  173              		.cfi_endproc
  174              	.LFE722:
  176              		.text
  177              	.Letext0:
- 178              		.file 2 "/Applications/ARM/arm-none-eabi/include/machine/_default_types.h"
- 179              		.file 3 "/Applications/ARM/arm-none-eabi/include/sys/_stdint.h"
+ 178              		.file 2 "/opt/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h"
+ 179              		.file 3 "/opt/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h"
  180              		.file 4 "hardware/mcu/st/cmsis_device_wl/Include/stm32wle5xx.h"
  181              		.file 5 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_hal_rcc.h"
  182              		.file 6 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_ll_dma.h"
  183              		.file 7 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_hal_def.h"
  184              		.file 8 "<built-in>"
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s 			page 6
+ARM GAS  /tmp/cc2erx8a.s 			page 6
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 system.c
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s:18     .text.SystemClock_Config:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s:24     .text.SystemClock_Config:0000000000000000 SystemClock_Config
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s:153    .text.SystemClock_Config:0000000000000090 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s:158    .text.HAL_MspInit:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccHwEL1v.s:164    .text.HAL_MspInit:0000000000000000 HAL_MspInit
+     /tmp/cc2erx8a.s:18     .text.SystemClock_Config:0000000000000000 $t
+     /tmp/cc2erx8a.s:24     .text.SystemClock_Config:0000000000000000 SystemClock_Config
+     /tmp/cc2erx8a.s:153    .text.SystemClock_Config:0000000000000090 $d
+     /tmp/cc2erx8a.s:158    .text.HAL_MspInit:0000000000000000 $t
+     /tmp/cc2erx8a.s:164    .text.HAL_MspInit:0000000000000000 HAL_MspInit
 
 UNDEFINED SYMBOLS
 memset

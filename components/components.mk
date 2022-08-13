@@ -1,5 +1,4 @@
 
-C_INCLUDES += -Ilibraries/SFUD/sfud/inc
 C_INCLUDES += -Icomponents/sfud
 
 C_SOURCES += $(wildcard libraries/SFUD/sfud/src/*.c)

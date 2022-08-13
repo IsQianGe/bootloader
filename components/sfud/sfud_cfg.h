@@ -36,12 +36,12 @@
 #define SFUD_USING_FLASH_INFO_TABLE
 
 enum {
-    SFUD_SST25_DEVICE_INDEX = 0,
+    SFUD_ZD25_DEVICE_INDEX = 0,
 };
 
 #define SFUD_FLASH_DEVICE_TABLE                                                \
 {                                                                              \
-    [SFUD_SST25_DEVICE_INDEX] = {.name = "SST25VF016B", .spi.name = "SPI1"},       \
+    {.name = "ZD25Q16", .spi.name = "spi2"}  \
 }
 
 #endif /* _SFUD_CFG_H_ */

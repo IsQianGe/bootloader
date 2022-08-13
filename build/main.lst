@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s 			page 1
+ARM GAS  /tmp/ccjlf6fH.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -17,95 +17,113 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s 			page 1
   14              		.text
   15              	.Ltext0:
   16              		.cfi_sections	.debug_frame
-  17              		.section	.text.jump_app,"ax",%progbits
+  17              		.section	.text.startup.main,"ax",%progbits
   18              		.align	1
-  19              		.global	jump_app
+  19              		.global	main
   20              		.syntax unified
   21              		.thumb
   22              		.thumb_func
-  24              	jump_app:
-  25              	.LFB738:
+  24              	main:
+  25              	.LFB739:
   26              		.file 1 "app/src/main.c"
-   1:app/src/main.c **** #include "stm32wlxx_hal.h"
-   2:app/src/main.c **** #include "lfs_port.h"
-   3:app/src/main.c **** 
-   4:app/src/main.c **** void jump_app(void)
-   5:app/src/main.c **** {
-  27              		.loc 1 5 1 view -0
+   1:app/src/main.c **** #include "lfs_port.h"
+   2:app/src/main.c **** #include "sfud.h"
+   3:app/src/main.c **** #include "main.h"
+   4:app/src/main.c **** 
+   5:app/src/main.c **** static BOOT_ErrorStatus jump_app(void)
+   6:app/src/main.c **** {
+   7:app/src/main.c ****   BOOT_ErrorStatus e_ret_status = BOOT_ERROR;
+   8:app/src/main.c ****   uint32_t jump_address;
+   9:app/src/main.c ****   typedef void (*Function_Pointer)(void);
+  10:app/src/main.c ****   Function_Pointer p_jump_to_function;
+  11:app/src/main.c **** 
+  12:app/src/main.c ****   if (e_ret_status == BOOT_SUCCESS)
+  13:app/src/main.c ****   {
+  14:app/src/main.c ****     /* Initialize address to jump */
+  15:app/src/main.c ****     jump_address = *(__IO uint32_t *)(((uint32_t)LOADER_REGION_ROM_START + 4));
+  16:app/src/main.c ****     p_jump_to_function = (Function_Pointer)jump_address;
+  17:app/src/main.c **** 
+  18:app/src/main.c ****     /* Initialize loader's Stack Pointer */
+  19:app/src/main.c ****     __set_MSP(*(__IO uint32_t *)(LOADER_REGION_ROM_START));
+  20:app/src/main.c **** 
+  21:app/src/main.c ****     /* Jump into loader */
+  22:app/src/main.c ****     p_jump_to_function();
+  23:app/src/main.c ****   }
+  24:app/src/main.c **** 
+  25:app/src/main.c ****   /* The point below should NOT be reached */
+  26:app/src/main.c ****   return e_ret_status;
+  27:app/src/main.c **** }
+  28:app/src/main.c **** 
+  29:app/src/main.c **** int main(void)
+  30:app/src/main.c **** {
+  27              		.loc 1 30 1 view -0
   28              		.cfi_startproc
+ARM GAS  /tmp/ccjlf6fH.s 			page 2
+
+
   29              		@ args = 0, pretend = 0, frame = 0
   30              		@ frame_needed = 0, uses_anonymous_args = 0
-  31              		@ link register save eliminated.
-   6:app/src/main.c **** 
-   7:app/src/main.c **** }
-  32              		.loc 1 7 1 view .LVU1
-  33 0000 7047     		bx	lr
-  34              		.cfi_endproc
-  35              	.LFE738:
-  37              		.section	.text.startup.main,"ax",%progbits
-  38              		.align	1
-  39              		.global	main
-  40              		.syntax unified
-  41              		.thumb
-  42              		.thumb_func
-  44              	main:
-  45              	.LFB739:
-   8:app/src/main.c **** int main(void)
-   9:app/src/main.c **** {
-  46              		.loc 1 9 1 view -0
-  47              		.cfi_startproc
-  48              		@ Volatile: function does not return.
-  49              		@ args = 0, pretend = 0, frame = 0
-  50              		@ frame_needed = 0, uses_anonymous_args = 0
-  10:app/src/main.c **** // HAL_Init();
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s 			page 2
-
-
-  11:app/src/main.c **** // SystemClock_Config();
-  12:app/src/main.c **** //   MX_GPIO_Init();
-  13:app/src/main.c **** //   MX_SPI1_Init();
-  14:app/src/main.c **** 
-  15:app/src/main.c **** LFS_Init();
-  51              		.loc 1 15 1 view .LVU3
-   9:app/src/main.c **** // HAL_Init();
-  52              		.loc 1 9 1 is_stmt 0 view .LVU4
-  53 0000 08B5     		push	{r3, lr}
-  54              	.LCFI0:
-  55              		.cfi_def_cfa_offset 8
-  56              		.cfi_offset 3, -8
-  57              		.cfi_offset 14, -4
-  58              		.loc 1 15 1 view .LVU5
-  59 0002 FFF7FEFF 		bl	LFS_Init
-  60              	.LVL0:
-  61              	.L3:
-  16:app/src/main.c ****   while (1)
-  62              		.loc 1 16 3 is_stmt 1 discriminator 1 view .LVU6
-  17:app/src/main.c ****   {
-  18:app/src/main.c ****     /* USER CODE END WHILE */
-  19:app/src/main.c **** 
-  20:app/src/main.c ****     /* USER CODE BEGIN 3 */
-  21:app/src/main.c ****   }
-  63              		.loc 1 21 3 discriminator 1 view .LVU7
-  16:app/src/main.c ****   while (1)
-  64              		.loc 1 16 9 discriminator 1 view .LVU8
-  65 0006 FEE7     		b	.L3
-  66              		.cfi_endproc
-  67              	.LFE739:
-  69              		.text
-  70              	.Letext0:
-  71              		.file 2 "/Applications/ARM/arm-none-eabi/include/machine/_default_types.h"
-  72              		.file 3 "/Applications/ARM/arm-none-eabi/include/sys/_stdint.h"
-  73              		.file 4 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_ll_dma.h"
-  74              		.file 5 "components/littlefs/lfs_port.h"
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s 			page 3
+  31:app/src/main.c ****   boot_init();
+  31              		.loc 1 31 3 view .LVU1
+  30:app/src/main.c ****   boot_init();
+  32              		.loc 1 30 1 is_stmt 0 view .LVU2
+  33 0000 08B5     		push	{r3, lr}
+  34              	.LCFI0:
+  35              		.cfi_def_cfa_offset 8
+  36              		.cfi_offset 3, -8
+  37              		.cfi_offset 14, -4
+  38              		.loc 1 31 3 view .LVU3
+  39 0002 FFF7FEFF 		bl	boot_init
+  40              	.LVL0:
+  32:app/src/main.c ****   LFS_Init();
+  41              		.loc 1 32 3 is_stmt 1 view .LVU4
+  42 0006 FFF7FEFF 		bl	LFS_Init
+  43              	.LVL1:
+  33:app/src/main.c ****   sfud_init();
+  44              		.loc 1 33 3 view .LVU5
+  45 000a FFF7FEFF 		bl	sfud_init
+  46              	.LVL2:
+  34:app/src/main.c ****   jump_app();
+  47              		.loc 1 34 3 view .LVU6
+   7:app/src/main.c ****   uint32_t jump_address;
+  48              		.loc 1 7 3 view .LVU7
+   8:app/src/main.c ****   typedef void (*Function_Pointer)(void);
+  49              		.loc 1 8 3 view .LVU8
+   9:app/src/main.c ****   Function_Pointer p_jump_to_function;
+  50              		.loc 1 9 3 view .LVU9
+  10:app/src/main.c **** 
+  51              		.loc 1 10 3 view .LVU10
+  12:app/src/main.c ****   {
+  52              		.loc 1 12 3 view .LVU11
+  26:app/src/main.c **** }
+  53              		.loc 1 26 3 view .LVU12
+  35:app/src/main.c ****   return 0;
+  54              		.loc 1 35 3 view .LVU13
+  36:app/src/main.c **** }...
+  55              		.loc 1 36 1 is_stmt 0 view .LVU14
+  56 000e 0020     		movs	r0, #0
+  57 0010 08BD     		pop	{r3, pc}
+  58              		.cfi_endproc
+  59              	.LFE739:
+  61              		.text
+  62              	.Letext0:
+  63              		.file 2 "/opt/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h"
+  64              		.file 3 "/opt/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h"
+  65              		.file 4 "app/inc/main.h"
+  66              		.file 5 "hardware/bsp/stm32wlxx/board.h"
+  67              		.file 6 "components/littlefs/lfs_port.h"
+  68              		.file 7 "components/sfud/sfud.h"
+  69              		.file 8 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_ll_dma.h"
+  70              		.file 9 "hardware/mcu/st/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h"
+ARM GAS  /tmp/ccjlf6fH.s 			page 3
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s:18     .text.jump_app:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s:24     .text.jump_app:0000000000000000 jump_app
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s:38     .text.startup.main:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccOtHbzQ.s:44     .text.startup.main:0000000000000000 main
+     /tmp/ccjlf6fH.s:18     .text.startup.main:0000000000000000 $t
+     /tmp/ccjlf6fH.s:24     .text.startup.main:0000000000000000 main
 
 UNDEFINED SYMBOLS
+boot_init
 LFS_Init
+sfud_init

@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
+ARM GAS  /tmp/cca1VyQZ.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
   30:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   *                                 during program execution.
   31:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   *
   32:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   *   After each device reset the MSI (4 MHz) is used as system clock source.
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 2
+ARM GAS  /tmp/cca1VyQZ.s 			page 2
 
 
   33:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   *   Then SystemInit() function is called, in "startup_stm32wlxx.s" file, to
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
   87:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c **** #if !defined  (HSE_VALUE)
   88:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   #define HSE_VALUE    (32000000UL) /*!< Value of the External oscillator in Hz */
   89:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c **** #endif /* HSE_VALUE */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 3
+ARM GAS  /tmp/cca1VyQZ.s 			page 3
 
 
   90:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c **** 
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
  144:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c **** #endif
  145:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c **** #else /* CORE_CM4 */
  146:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****  /*!< Uncomment this line for user vector table remap in Sram else user remap
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 4
+ARM GAS  /tmp/cca1VyQZ.s 			page 4
 
 
  147:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****       will be done in Flash. */
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
  201:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c **** 
  202:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c **** /** @addtogroup STM32WLxx_System_Private_Functions
  203:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   * @{
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 5
+ARM GAS  /tmp/cca1VyQZ.s 			page 5
 
 
  204:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   */
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
  241:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   *
  242:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   *           - If SYSCLK source is HSE, SystemCoreClock will contain the HSE_VALUE(***)
  243:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   *
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 6
+ARM GAS  /tmp/cca1VyQZ.s 			page 6
 
 
  244:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   *           - If SYSCLK source is PLL, SystemCoreClock will contain the HSE_VALUE(***)
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
  273:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****    { /* MSISRANGE from RCC_CSR applies */
   56              		.loc 1 273 11 view .LVU7
   57 0008 1A68     		ldr	r2, [r3]
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 7
+ARM GAS  /tmp/cca1VyQZ.s 			page 7
 
 
   58 000a 2549     		ldr	r1, .L16
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
  291:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****       break;
  292:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c **** 
  293:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****     case 0x04:  /* HSI used as system clock source */
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 8
+ARM GAS  /tmp/cca1VyQZ.s 			page 8
 
 
  294:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****       /* HSI used as system clock source */
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
  340:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   /* Get HCLK1 prescaler */
  341:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c ****   tmp = AHBPrescTable[((RCC->CFGR & RCC_CFGR_HPRE) >> RCC_CFGR_HPRE_Pos)];
  106              		.loc 1 341 3 view .LVU27
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 9
+ARM GAS  /tmp/cca1VyQZ.s 			page 9
 
 
  107              		.loc 1 341 28 is_stmt 0 view .LVU28
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
  307:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c **** 
  146              		.loc 1 307 12 view .LVU45
  147 006a 03F10103 		add	r3, r3, #1
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 10
+ARM GAS  /tmp/cca1VyQZ.s 			page 10
 
 
  148              	.LVL6:
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
  186              		.loc 1 325 50 view .LVU61
  187 008e 420F     		lsrs	r2, r0, #29
  325:hardware/mcu/st/cmsis_device_wl/Source/Templates/system_stm32wlxx.c **** 
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 11
+ARM GAS  /tmp/cca1VyQZ.s 			page 11
 
 
  188              		.loc 1 325 12 view .LVU62
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
  240 000c 01000000 		.word	1
  241 0010 01000000 		.word	1
  242 0014 06000000 		.word	6
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 12
+ARM GAS  /tmp/cca1VyQZ.s 			page 12
 
 
  243 0018 0A000000 		.word	10
@@ -704,28 +704,28 @@ ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 1
  287 003c 00000000 		.word	0
  288              		.text
  289              	.Letext0:
- 290              		.file 2 "/Applications/ARM/arm-none-eabi/include/machine/_default_types.h"
- 291              		.file 3 "/Applications/ARM/arm-none-eabi/include/sys/_stdint.h"
+ 290              		.file 2 "/opt/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h"
+ 291              		.file 3 "/opt/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h"
  292              		.file 4 "hardware/mcu/st/cmsis_device_wl/Include/system_stm32wlxx.h"
  293              		.file 5 "hardware/mcu/st/cmsis_device_wl/Include/stm32wle5xx.h"
  294              		.file 6 "hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_ll_dma.h"
-ARM GAS  /var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s 			page 13
+ARM GAS  /tmp/cca1VyQZ.s 			page 13
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 system_stm32wlxx.c
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:18     .text.SystemInit:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:24     .text.SystemInit:0000000000000000 SystemInit
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:38     .text.SystemCoreClockUpdate:0000000000000000 $t
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:44     .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:212    .text.SystemCoreClockUpdate:00000000000000a0 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:271    .rodata.MSIRangeTable:0000000000000000 MSIRangeTable
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:257    .rodata.APBPrescTable:0000000000000000 APBPrescTable
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:236    .rodata.AHBPrescTable:0000000000000000 AHBPrescTable
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:229    .data.SystemCoreClock:0000000000000000 SystemCoreClock
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:225    .data.SystemCoreClock:0000000000000000 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:232    .rodata.AHBPrescTable:0000000000000000 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:254    .rodata.APBPrescTable:0000000000000000 $d
-/var/folders/b4/k4jbz0ms4wg23jtq0w6p483m0000gn/T//ccXwesUx.s:267    .rodata.MSIRangeTable:0000000000000000 $d
+     /tmp/cca1VyQZ.s:18     .text.SystemInit:0000000000000000 $t
+     /tmp/cca1VyQZ.s:24     .text.SystemInit:0000000000000000 SystemInit
+     /tmp/cca1VyQZ.s:38     .text.SystemCoreClockUpdate:0000000000000000 $t
+     /tmp/cca1VyQZ.s:44     .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
+     /tmp/cca1VyQZ.s:212    .text.SystemCoreClockUpdate:00000000000000a0 $d
+     /tmp/cca1VyQZ.s:271    .rodata.MSIRangeTable:0000000000000000 MSIRangeTable
+     /tmp/cca1VyQZ.s:257    .rodata.APBPrescTable:0000000000000000 APBPrescTable
+     /tmp/cca1VyQZ.s:236    .rodata.AHBPrescTable:0000000000000000 AHBPrescTable
+     /tmp/cca1VyQZ.s:229    .data.SystemCoreClock:0000000000000000 SystemCoreClock
+     /tmp/cca1VyQZ.s:225    .data.SystemCoreClock:0000000000000000 $d
+     /tmp/cca1VyQZ.s:232    .rodata.AHBPrescTable:0000000000000000 $d
+     /tmp/cca1VyQZ.s:254    .rodata.APBPrescTable:0000000000000000 $d
+     /tmp/cca1VyQZ.s:267    .rodata.MSIRangeTable:0000000000000000 $d
 
 NO UNDEFINED SYMBOLS
