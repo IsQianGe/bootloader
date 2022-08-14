@@ -7,7 +7,13 @@
         "lfs_util.h": "c",
         "stm32wle5xx.h": "c",
         "system_stm32wlxx.h": "c",
-        "lfs_port.h": "c"
+        "lfs_port.h": "c",
+        "board.h": "c",
+        "string.h": "c",
+        "stdlib.h": "c",
+        "stdint.h": "c",
+        "main.h": "c",
+        "spi.h": "c"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }
