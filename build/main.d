@@ -35,9 +35,7 @@ build/main.o: app/src/main.c components/littlefs/lfs_port.h \
  hardware/mcu/st/stm32wlxx_hal_driver/Inc/stm32wlxx_ll_system.h \
  hardware/bsp/stm32wlxx/spi.h hardware/bsp/stm32wlxx/flash.h \
  hardware/bsp/stm32wlxx/gpio.h hardware/bsp/stm32wlxx/system.h \
- libraries/littlefs/lfs.h libraries/littlefs/lfs_util.h \
- components/sfud/sfud.h components/sfud/sfud_def.h \
- components/sfud/sfud_cfg.h components/sfud/sfud_flash_def.h
+ libraries/littlefs/lfs.h libraries/littlefs/lfs_util.h
 components/littlefs/lfs_port.h:
 app/inc/main.h:
 hardware/bsp/stm32wlxx/board.h:
@@ -80,7 +78,3 @@ hardware/bsp/stm32wlxx/gpio.h:
 hardware/bsp/stm32wlxx/system.h:
 libraries/littlefs/lfs.h:
 libraries/littlefs/lfs_util.h:
-components/sfud/sfud.h:
-components/sfud/sfud_def.h:
-components/sfud/sfud_cfg.h:
-components/sfud/sfud_flash_def.h:

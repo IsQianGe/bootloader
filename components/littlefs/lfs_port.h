@@ -12,9 +12,10 @@
 #include "main.h"
 #include "lfs.h"
 
+#define CAPACITY  16 * 1024
+
 extern lfs_t lfs;
 
-void LFS_Init(void);
-extern void app_init(void);
+BOOT_ErrorStatus lfs_Init(void);
 
 #endif /*  __LFS_PORT_H__ */

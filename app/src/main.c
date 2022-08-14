@@ -1,8 +1,7 @@
 #include "lfs_port.h"
-#include "sfud.h"
 #include "main.h"
 
-static BOOT_ErrorStatus jump_app(void)
+static BOOT_ErrorStatus jump_to_app(void)
 {
   BOOT_ErrorStatus e_ret_status = BOOT_ERROR;
   uint32_t jump_address;
@@ -26,11 +25,35 @@ static BOOT_ErrorStatus jump_app(void)
   return e_ret_status;
 }
 
+static BOOT_ErrorStatus app_updata(void)
+{
+  lfs_file_t file;
+  uint8_t app_status;
+  if (lfs_file_open(&lfs, &file, "APP_STATUS", LFS_O_RDWR | LFS_O_CREAT) == LFS_ERR_OK)
+  {
+    lfs_file_read(&lfs, &file, &app_status, 1);
+    lfs_file_close(&lfs, &file);
+  }
+  if (app_status != 1)
+  {
+    if (lfs_file_open(&lfs, &file, "APP_STATUS", LFS_O_RDWR | LFS_O_CREAT) == LFS_ERR_OK)
+    {
+      app_status = 1;
+      lfs_file_write(&lfs, &file, &app_status, 1);
+      lfs_file_close(&lfs, &file);
+    }
+  }
+  return BOOT_SUCCESS;
+}
 int main(void)
 {
   boot_init();
-  LFS_Init();
-  sfud_init();
-  jump_app();
+  if (BOOT_SUCCESS != lfs_Init())
+  {
+    goto jump;
+  }
+  app_updata();
+jump:
+  jump_to_app();
   return 0;
 }

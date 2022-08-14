@@ -29,11 +29,13 @@
 #ifndef _SFUD_CFG_H_
 #define _SFUD_CFG_H_
 
-#define SFUD_DEBUG_MODE
+// #define SFUD_DEBUG_MODE
 
-#define SFUD_USING_SFDP
+// #define SFUD_USING_SFDP
 
-#define SFUD_USING_FLASH_INFO_TABLE
+// #define SFUD_USING_FLASH_INFO_TABLE
+
+#define SFUD_INFO(...)
 
 enum {
     SFUD_ZD25_DEVICE_INDEX = 0,

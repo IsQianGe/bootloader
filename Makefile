@@ -22,7 +22,7 @@ INC = app/inc
 # building variables
 ######################################
 # debug build?
-DEBUG = 1
+NDEBUG = 1
 # optimization
 OPT = -Os
 

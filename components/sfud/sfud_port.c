@@ -26,7 +26,7 @@
  * Created on: 2016-04-23
  */
 
-#include <sfud.h>
+#include "sfud.h"
 #include <stdarg.h>
 #include <stdio.h>
 #include "stm32wlxx_hal.h"
@@ -74,7 +74,7 @@ static sfud_err spi_write_read(const sfud_spi *spi, const uint8_t *write_buf, si
     }
 
     HAL_GPIO_WritePin(spi_dev->cs_gpiox, spi_dev->cs_gpio_pin, GPIO_PIN_RESET);
-    /* ¿ªÊ¼¶ÁÐ´Êý¾Ý */
+    /* ï¿½ï¿½Ê¼ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ */
     if (HAL_OK != HAL_SPI_Transmit(spi_dev->spix, write_buf, write_size, SPI_TIME_OUT))
     {
         result = SFUD_ERR_WRITE;
@@ -108,7 +108,7 @@ sfud_err sfud_spi_port_init(sfud_flash *flash)
     {
     case SFUD_ZD25_DEVICE_INDEX:
     {
-        /* Í¬²½ Flash ÒÆÖ²ËùÐèµÄ½Ó¿Ú¼°Êý¾Ý */
+        /* Í¬ï¿½ï¿½ Flash ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½Ä½Ó¿Ú¼ï¿½ï¿½ï¿½ï¿½ï¿½ */
         flash->spi.wr = spi_write_read;
         flash->spi.lock = spi_lock;
         flash->spi.unlock = spi_unlock;
