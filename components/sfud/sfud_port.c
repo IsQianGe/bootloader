@@ -33,6 +33,11 @@
 
 #define SPI_TIME_OUT  100
 
+#define SPI_CS_GPIOX GPIOB
+#define SPI_CS_PIN GPIO_PIN_9
+
+extern SPI_HandleTypeDef hspi1;
+
 typedef struct
 {
     SPI_HandleTypeDef *spix;
@@ -61,7 +66,6 @@ static sfud_err spi_write_read(const sfud_spi *spi, const uint8_t *write_buf, si
                                size_t read_size)
 {
     sfud_err result = SFUD_SUCCESS;
-    uint8_t send_data, read_data;
     spi_user_data_t spi_dev = (spi_user_data_t)spi->user_data;
 
     if (write_size)
@@ -74,7 +78,6 @@ static sfud_err spi_write_read(const sfud_spi *spi, const uint8_t *write_buf, si
     }
 
     HAL_GPIO_WritePin(spi_dev->cs_gpiox, spi_dev->cs_gpio_pin, GPIO_PIN_RESET);
-    /* ��ʼ��д���� */
     if (HAL_OK != HAL_SPI_Transmit(spi_dev->spix, write_buf, write_size, SPI_TIME_OUT))
     {
         result = SFUD_ERR_WRITE;
@@ -99,7 +102,7 @@ static void retry_delay_100us(void)
     while (delay--)
         ;
 }
-static spi_user_data spi1 = { .spix = SPI1, .cs_gpiox = GPIOC, .cs_gpio_pin = GPIO_PIN_4 };
+static spi_user_data spi1 = { .spix = &hspi1, .cs_gpiox = SPI_CS_GPIOX, .cs_gpio_pin = SPI_CS_PIN };
 sfud_err sfud_spi_port_init(sfud_flash *flash)
 {
     sfud_err result = SFUD_SUCCESS;
@@ -108,7 +111,6 @@ sfud_err sfud_spi_port_init(sfud_flash *flash)
     {
     case SFUD_ZD25_DEVICE_INDEX:
     {
-        /* ͬ�� Flash ��ֲ����Ľӿڼ����� */
         flash->spi.wr = spi_write_read;
         flash->spi.lock = spi_lock;
         flash->spi.unlock = spi_unlock;

@@ -1,5 +1,6 @@
 #include "lfs_port.h"
 #include "board.h"
+#include "boot_load.h"
 #include "main.h"
 
 static BOOT_ErrorStatus jump_to_app(void)
@@ -85,7 +86,9 @@ static BOOT_ErrorStatus progarm_app(UPDATA_STATUS status)
     }
     // BSP_LED_On(LED_RED);
   }
+  return BOOT_SUCCESS;
 }
+
 static BOOT_ErrorStatus app_updata(void)
 {
   lfs_file_t file;
@@ -100,7 +103,7 @@ static BOOT_ErrorStatus app_updata(void)
     progarm_app(app_status);
     if (lfs_file_open(&lfs, &file, "APP_STATUS", LFS_O_RDWR | LFS_O_CREAT) == LFS_ERR_OK)
     {
-      app_status = 1;
+      app_status = APP_READY;
       lfs_file_write(&lfs, &file, &app_status, 1);
       lfs_file_close(&lfs, &file);
     }

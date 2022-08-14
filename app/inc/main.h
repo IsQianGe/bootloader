@@ -11,6 +11,8 @@ extern "C" {
 #define PACKET_1K_SIZE          ((uint32_t)1024U) /*!<Packet 1K Size*/
 
 #define LOADER_REGION_ROM_START 0x80200000
+#define LOADER_REGION_ROM_SIZE 0x80400000 - LOADER_REGION_ROM_START
+
 typedef enum
 {
   BOOT_ERROR = 0x01U,

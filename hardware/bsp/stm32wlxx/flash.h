@@ -29,7 +29,7 @@ typedef uint64_t BOOT_FLASH_write_t;
 /* Exported functions ------------------------------------------------------- */
 BOOT_ErrorStatus BOOT_FLASH_Init(void);
 BOOT_ErrorStatus BOOT_FLASH_Erase_Size(BOOT_FLASH_StatusTypeDef *pxFlashStatus, uint8_t *pStart, uint32_t Length);
-BOOT_ErrorStatus BOOT_FLASH_IWrite(BOOT_FLASH_StatusTypeDef *pxFlashStatus, uint8_t *pDestination,
+BOOT_ErrorStatus BOOT_FLASH_Write(BOOT_FLASH_StatusTypeDef *pxFlashStatus, uint8_t *pDestination,
                                        const uint8_t *pSource, uint32_t Length);
 BOOT_ErrorStatus BOOT_FLASH_Read(uint8_t *pDestination, const uint8_t *pSource, uint32_t Length);
 BOOT_ErrorStatus BOOT_FLASH_Compare(const uint8_t *pFlash, const uint32_t Pattern1, const uint32_t Pattern2, uint32_t Length);

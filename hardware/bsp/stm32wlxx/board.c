@@ -1,6 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include "stm32wlxx_hal.h"
+#include "board.h"
 
 void boot_init(void)
 {

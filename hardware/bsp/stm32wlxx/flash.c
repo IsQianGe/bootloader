@@ -153,9 +153,6 @@ BOOT_ErrorStatus BOOT_FLASH_Read(uint8_t *pDestination, const uint8_t *pSource, 
 {
     BOOT_ErrorStatus e_ret_status = BOOT_ERROR;
     uint32_t i;
-    uint32_t source = (uint32_t)pSource;
-
-    /* Reading operation executed by SBSFU */
 
     DoubleECC_Error_Counter = 0U;
     /* Do not use memcpy from lib : ECC error should be checked at each loop */
