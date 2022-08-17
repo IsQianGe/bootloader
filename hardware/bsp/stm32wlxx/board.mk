@@ -29,7 +29,7 @@ CFLAGS += \
  -Wno-error=sign-compare
 
 # link script
-LDSCRIPT =  $(ST_CMSIS)/Source/Templates/gcc/linker/STM32WLE5XX_FLASH.ld
+LDSCRIPT =  $(BOARD_PATH)/STM32WLE5JCIX_FLASH.ld
 
 # ASM sources
 ASM_SOURCES +=  $(ST_CMSIS)/Source/Templates/gcc/startup_stm32wle5xx.s

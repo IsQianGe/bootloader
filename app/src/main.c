@@ -5,7 +5,7 @@
 
 static BOOT_ErrorStatus jump_to_app(void)
 {
-  BOOT_ErrorStatus e_ret_status = BOOT_ERROR;
+  BOOT_ErrorStatus e_ret_status = BOOT_SUCCESS;
   uint32_t jump_address;
   typedef void (*Function_Pointer)(void);
   Function_Pointer p_jump_to_function;

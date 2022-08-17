@@ -13,7 +13,9 @@
         "stdlib.h": "c",
         "stdint.h": "c",
         "main.h": "c",
-        "spi.h": "c"
+        "spi.h": "c",
+        "stm32wlxx_ll_system.h": "c",
+        "stm32wlxx_hal_conf.h": "c"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }

@@ -36,7 +36,7 @@
 #define SPI_CS_GPIOX GPIOB
 #define SPI_CS_PIN GPIO_PIN_9
 
-extern SPI_HandleTypeDef hspi1;
+extern SPI_HandleTypeDef hspi2;
 
 typedef struct
 {
@@ -102,7 +102,7 @@ static void retry_delay_100us(void)
     while (delay--)
         ;
 }
-static spi_user_data spi1 = { .spix = &hspi1, .cs_gpiox = SPI_CS_GPIOX, .cs_gpio_pin = SPI_CS_PIN };
+static spi_user_data spi1 = { .spix = &hspi2, .cs_gpiox = SPI_CS_GPIOX, .cs_gpio_pin = SPI_CS_PIN };
 sfud_err sfud_spi_port_init(sfud_flash *flash)
 {
     sfud_err result = SFUD_SUCCESS;
